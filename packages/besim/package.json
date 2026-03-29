@@ -1,0 +1,32 @@
+{
+  "name": "besim",
+  "description": "besim",
+  "homepage": "https://github.com/drgona/BeSim",
+  "authors": [
+    "jan.drgona@kuleuven.be"
+  ],
+  "versions": {
+    "1.0.2": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "https://github.com/drgona/BeSim/archive/1.0.2.zip",
+          "sha256": null
+        }
+      },
+      "released": "2019-02-28"
+    },
+    "v1.0.1": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "https://github.com/drgona/BuiSim/archive/v1.0.zip",
+          "sha256": null
+        }
+      },
+      "released": "2019-01-16"
+    }
+  }
+}

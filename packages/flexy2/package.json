@@ -1,0 +1,20 @@
+{
+  "name": "flexy2",
+  "description": "flexy2",
+  "authors": [
+    "martin.kaluz@stuba.sk"
+  ],
+  "versions": {
+    "2.0": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "https://www.uiam.sk/~kaluz/Flexy2.zip",
+          "sha256": null
+        }
+      },
+      "released": "2021-10-05"
+    }
+  }
+}

@@ -11,15 +11,15 @@
       "dependencies": {},
       "platforms": {
         "glnxa64": {
-          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/espresso/1_0/espresso_linux.tgz",
+          "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/espresso/1_0/espresso_linux.tgz",
           "sha256": null
         },
         "maci64": {
-          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/espresso/1_0/espresso_mac.tgz",
+          "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/espresso/1_0/espresso_mac.tgz",
           "sha256": null
         },
         "win64": {
-          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/espresso/1_0/espresso_win.tgz",
+          "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/espresso/1_0/espresso_win.tgz",
           "sha256": null
         }
       },

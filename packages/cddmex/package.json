@@ -3,9 +3,7 @@
   "description": "Mex interface to CDD",
   "homepage": "http://control.ee.ethz.ch/~hybrid/cdd.php",
   "authors": [
-    "Michal Kvasnica <michal.kvasnica@stuba.sk>",
-    "Martin Herceg <herceg@control.ee.ethz.ch>",
-    "Colin Jones <colin.jones@epfl.ch>"
+    "mpt@control.ee.ethz.ch"
   ],
   "versions": {
     "1.0.1": {
@@ -13,15 +11,15 @@
       "dependencies": {},
       "platforms": {
         "glnxa64": {
-          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/cddmex/1_0_1/cddmex_1_0_1_GLNXA64.tgz",
+          "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/cddmex/1_0_1/cddmex_1_0_1_GLNXA64.tgz",
           "sha256": null
         },
         "maci64": {
-          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/cddmex/1_0_1/cddmex_1_0_1_MACI64.tgz",
+          "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/cddmex/1_0_1/cddmex_1_0_1_MACI64.tgz",
           "sha256": null
         },
         "win64": {
-          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/cddmex/1_0_1/cddmex_1_0_1_PCWIN64.tgz",
+          "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/cddmex/1_0_1/cddmex_1_0_1_PCWIN64.tgz",
           "sha256": null
         }
       },

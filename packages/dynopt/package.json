@@ -1,0 +1,76 @@
+{
+  "name": "dynopt",
+  "description": "dynopt",
+  "homepage": "https://www.uiam.sk/~fikar/research/dynopt/dynopt.htm",
+  "authors": [
+    "miroslav.fikar@stuba.sk"
+  ],
+  "versions": {
+    "5.0.6": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "https://github.com/miroslavfikar/dynopt_code/archive/master.zip",
+          "sha256": null
+        }
+      },
+      "released": "2023-12-10"
+    },
+    "5.0.5": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "https://github.com/miroslavfikar/dynopt_code/archive/master.zip",
+          "sha256": null
+        }
+      },
+      "released": "2021-04-04"
+    },
+    "5.0.4": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "https://www.uiam.sk/~fikar/dynopt_5.0.4.zip",
+          "sha256": null
+        }
+      },
+      "released": "2021-01-05"
+    },
+    "5.0.3": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "https://www.uiam.sk/~fikar/dynopt_5.0.3.zip",
+          "sha256": null
+        }
+      },
+      "released": "2020-10-02"
+    },
+    "5.0.2": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "https://www.uiam.sk/~fikar/dynopt_5.0.2.zip",
+          "sha256": null
+        }
+      },
+      "released": "2020-05-12"
+    },
+    "5.0.1": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "https://www.uiam.sk/~fikar/dynopt_5.0.1.zip",
+          "sha256": null
+        }
+      },
+      "released": "2020-04-29"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "paillier_crypto",
+  "description": "paillier_crypto",
+  "homepage": "https://github.com/martin-kaluz/PaillierCrypto-matlab",
+  "authors": [
+    "martin.kaluz@stuba.sk"
+  ],
+  "versions": {
+    "v1.0": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "https://github.com/martin-kaluz/PaillierCrypto-matlab/archive/master.zip",
+          "sha256": null
+        }
+      },
+      "released": "2019-10-21"
+    }
+  }
+}

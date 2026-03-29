@@ -3,9 +3,7 @@
   "description": "Multi-Parametric Toolbox 3.0",
   "homepage": "http://control.ee.ethz.ch/~mpt/",
   "authors": [
-    "Michal Kvasnica <michal.kvasnica@stuba.sk>",
-    "Martin Herceg <herceg@control.ee.ethz.ch>",
-    "Colin Jones <colin.jones@epfl.ch>"
+    "mpt@control.ee.ethz.ch"
   ],
   "versions": {
     "3.0.17": {
@@ -205,6 +203,17 @@
         }
       },
       "released": "2012-10-02"
+    },
+    "3.2.1": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/mpt3/3_2_1/mpt3-3_2_1.tgz",
+          "sha256": null
+        }
+      },
+      "released": "2018-06-07"
     }
   }
 }

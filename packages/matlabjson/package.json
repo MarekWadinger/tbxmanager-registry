@@ -1,0 +1,21 @@
+{
+  "name": "matlabjson",
+  "description": "matlabjson",
+  "homepage": "https://github.com/kvasnica/matlabjson",
+  "authors": [
+    "michal.kvasnica@stuba.sk"
+  ],
+  "versions": {
+    "1.0": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "http://www.uiam.sk/~kvasnica/tbxpool/matlabjson/matlabjson_1_0_all.zip",
+          "sha256": null
+        }
+      },
+      "released": "2016-12-02"
+    }
+  }
+}

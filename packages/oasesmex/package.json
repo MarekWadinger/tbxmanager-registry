@@ -1,11 +1,9 @@
 {
   "name": "oasesmex",
   "description": "Mex interface to qpOASES",
-  "homepage": "http://www.kuleuven.be/optec/software/qpOASES",
+  "homepage": "https://projects.coin-or.org/qpOASES",
   "authors": [
-    "Michal Kvasnica <michal.kvasnica@stuba.sk>",
-    "Martin Herceg <herceg@control.ee.ethz.ch>",
-    "Colin Jones <colin.jones@epfl.ch>"
+    "mpt@control.ee.ethz.ch"
   ],
   "versions": {
     "1.0": {
@@ -26,6 +24,78 @@
         }
       },
       "released": "2012-10-02"
+    },
+    "3.2.0": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "glnxa64": {
+          "url": "http://www.qpoases.org/tbxmanager/3.2.0/qpOASES_3_2_0_linux64.zip",
+          "sha256": null
+        },
+        "maci64": {
+          "url": "http://www.qpoases.org/tbxmanager/3.2.0/qpOASES_3_2_0_mac64.zip",
+          "sha256": null
+        },
+        "win64": {
+          "url": "http://www.qpoases.org/tbxmanager/3.2.0/qpOASES_3_2_0_win64.zip",
+          "sha256": null
+        }
+      },
+      "released": "2015-09-07"
+    },
+    "3.1.0": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "glnxa64": {
+          "url": "http://www.qpoases.org/tbxmanager/3.1.0/qpOASES_3_1_0_linux64.zip",
+          "sha256": null
+        },
+        "maci64": {
+          "url": "http://www.qpoases.org/tbxmanager/3.1.0/qpOASES_3_1_0_mac64.zip",
+          "sha256": null
+        },
+        "win64": {
+          "url": "http://www.qpoases.org/tbxmanager/3.1.0/qpOASES_3_1_0_win64.zip",
+          "sha256": null
+        }
+      },
+      "released": "2015-02-23"
+    },
+    "3.0.1": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "glnxa64": {
+          "url": "http://www.qpOASES.org/tbxmanager/3.0.1/qpOASES_3_0_1_linux64.zip",
+          "sha256": null
+        },
+        "maci64": {
+          "url": "http://www.qpOASES.org/tbxmanager/3.0.1/qpOASES_3_0_1_mac64.zip",
+          "sha256": null
+        },
+        "win64": {
+          "url": "http://www.qpOASES.org/tbxmanager/3.0.1/qpOASES_3_0_1_win64.zip",
+          "sha256": null
+        }
+      },
+      "released": "2014-12-18"
+    },
+    "3.0.0": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "glnxa64": {
+          "url": "http://www.qpOASES.org/tbxmanager/3.0.0/qpOASES_3_0_0_linux64.zip",
+          "sha256": null
+        },
+        "win64": {
+          "url": "http://www.qpOASES.org/tbxmanager/3.0.0/qpOASES_3_0_0_win64.zip",
+          "sha256": null
+        }
+      },
+      "released": "2014-12-18"
     }
   }
 }

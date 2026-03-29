@@ -3,7 +3,7 @@
   "description": "Low-complexity control design module for MPT3",
   "homepage": "https://bitbucket.org/kvasnica/mpt3lowcom/wiki",
   "authors": [
-    "Michal Kvasnica <michal.kvasnica@stuba.sk>"
+    "mpt@control.ee.ethz.ch"
   ],
   "versions": {
     "1.0.3": {
@@ -11,7 +11,7 @@
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3lowcom/1_0_3/mpt3lowcom-1_0_3.tgz",
+          "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/mpt3lowcom/1_0_3/mpt3lowcom-1_0_3.tgz",
           "sha256": null
         }
       },

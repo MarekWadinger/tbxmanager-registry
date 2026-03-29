@@ -2,7 +2,7 @@
   "name": "tbxcli",
   "description": "Matlab command line interface to tbxmanager's REST API",
   "authors": [
-    "Michal Kvasnica <michal.kvasnica@stuba.sk>"
+    "michal@tbxmanager.com"
   ],
   "versions": {
     "1.1": {
@@ -10,7 +10,7 @@
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "http://www.kirp.chtf.stuba.sk/~kvasnica/tbxpool/tbxcli/tbxcli_1_1_all.zip",
+          "url": "http://www.uiam.sk/~kvasnica/tbxpool/tbxcli/tbxcli_1_1_all.zip",
           "sha256": null
         }
       },

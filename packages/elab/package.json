@@ -1,0 +1,20 @@
+{
+  "name": "elab",
+  "description": "elab",
+  "authors": [
+    "martin.kaluz@stuba.sk"
+  ],
+  "versions": {
+    "2.0.0": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "https://github.com/martin-kaluz/elab2-matlab/archive/master.zip",
+          "sha256": null
+        }
+      },
+      "released": "2019-10-14"
+    }
+  }
+}

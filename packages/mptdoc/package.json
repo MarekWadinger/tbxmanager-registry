@@ -3,9 +3,7 @@
   "description": "Multi-Parametric Toolbox documentation",
   "homepage": "http://control.ee.ethz.ch/~mpt/redmine/projects/mpt3/wiki",
   "authors": [
-    "Michal Kvasnica <michal.kvasnica@stuba.sk>",
-    "Martin Herceg <herceg@control.ee.ethz.ch>",
-    "Colin Jones <colin.jones@epfl.ch>"
+    "mpt@control.ee.ethz.ch"
   ],
   "versions": {
     "3.0.4": {
@@ -13,7 +11,7 @@
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3doc/3_0_4/mpt3doc-3_0_4.tgz",
+          "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/mpt3doc/3_0_4/mpt3doc-3_0_4.tgz",
           "sha256": null
         }
       },

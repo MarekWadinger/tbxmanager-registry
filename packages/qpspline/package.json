@@ -2,9 +2,7 @@
   "name": "qpspline",
   "description": "The QPspline solver is an implementation of a spline algorithm to solve strictly convex feasible QP. The solver requires HashTable class to be installed.",
   "authors": [
-    "Michal Kvasnica <michal.kvasnica@stuba.sk>",
-    "Martin Herceg <herceg@control.ee.ethz.ch>",
-    "Colin Jones <colin.jones@epfl.ch>"
+    "mpt@control.ee.ethz.ch"
   ],
   "versions": {
     "1.0": {
@@ -12,7 +10,7 @@
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/qpspline/1_0/QPspline.m",
+          "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/qpspline/1_0/QPspline.m",
           "sha256": null
         }
       },

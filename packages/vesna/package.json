@@ -1,0 +1,43 @@
+{
+  "name": "vesna",
+  "description": "vesna",
+  "homepage": "https://github.com/oravec-juraj/vesna/wiki/How-to-use-VESNA-CODE",
+  "authors": [
+    "juraj.oravec@stuba.sk"
+  ],
+  "versions": {
+    "R20240424": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "https://github.com/oravec-juraj/vesna/releases/download/R20240424/vesna_code_R20240424.zip",
+          "sha256": null
+        }
+      },
+      "released": "2024-04-24"
+    },
+    "R20240322": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "https://github.com/oravec-juraj/vesna/releases/download/R20240322/vesna_code_R20240322.zip",
+          "sha256": null
+        }
+      },
+      "released": "2024-03-22"
+    },
+    "R20231117": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "https://github.com/oravec-juraj/vesna/releases/download/R20231117/vesna_code_R20231117.zip",
+          "sha256": null
+        }
+      },
+      "released": "2023-11-19"
+    }
+  }
+}

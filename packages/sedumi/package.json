@@ -3,9 +3,7 @@
   "description": "SeDuMi",
   "homepage": "http://sedumi.ie.lehigh.edu/",
   "authors": [
-    "Michal Kvasnica <michal.kvasnica@stuba.sk>",
-    "Martin Herceg <herceg@control.ee.ethz.ch>",
-    "Colin Jones <colin.jones@epfl.ch>"
+    "mpt@control.ee.ethz.ch"
   ],
   "versions": {
     "1.3": {
@@ -13,15 +11,15 @@
       "dependencies": {},
       "platforms": {
         "glnxa64": {
-          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/sedumi/1_3/sedumi_1_3_glnxa64.zip",
+          "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/sedumi/1_3/sedumi_1_3_glnxa64.zip",
           "sha256": null
         },
         "maci64": {
-          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/sedumi/1_3/sedumi_1_3_maci64.zip",
+          "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/sedumi/1_3/sedumi_1_3_maci64.zip",
           "sha256": null
         },
         "win64": {
-          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/sedumi/1_3/sedumi_1_3_pcwin64.zip",
+          "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/sedumi/1_3/sedumi_1_3_pcwin64.zip",
           "sha256": null
         }
       },

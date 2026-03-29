@@ -3,7 +3,7 @@
   "description": "MPT2",
   "homepage": "http://control.ee.ethz.ch/~mpt/2/",
   "authors": [
-    "Michal Kvasnica <michal.kvasnica@stuba.sk>"
+    "mpt@control.ee.ethz.ch"
   ],
   "versions": {
     "2.6.3": {
@@ -11,7 +11,7 @@
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt2/261/mpt.zip",
+          "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/mpt2/261/mpt.zip",
           "sha256": null
         }
       },

@@ -2,9 +2,7 @@
   "name": "lcp",
   "description": "LCP solver",
   "authors": [
-    "Michal Kvasnica <michal.kvasnica@stuba.sk>",
-    "Martin Herceg <herceg@control.ee.ethz.ch>",
-    "Colin Jones <colin.jones@epfl.ch>"
+    "mpt@control.ee.ethz.ch"
   ],
   "versions": {
     "1.0.3": {
@@ -12,15 +10,15 @@
       "dependencies": {},
       "platforms": {
         "glnxa64": {
-          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/lcp/1_0_3/lcp_1_0_3_GLNXA64.tgz",
+          "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/lcp/1_0_3/lcp_1_0_3_GLNXA64.tgz",
           "sha256": null
         },
         "maci64": {
-          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/lcp/1_0_3/lcp_1_0_3_MACI64.tgz",
+          "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/lcp/1_0_3/lcp_1_0_3_MACI64.tgz",
           "sha256": null
         },
         "win64": {
-          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/lcp/1_0_3/lcp_1_0_3_PCWIN64.tgz",
+          "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/lcp/1_0_3/lcp_1_0_3_PCWIN64.tgz",
           "sha256": null
         }
       },

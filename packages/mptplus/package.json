@@ -1,0 +1,65 @@
+{
+  "name": "mptplus",
+  "description": "mptplus",
+  "homepage": "https://github.com/holaza/mptplus/wiki",
+  "authors": [
+    "juraj.oravec@stuba.sk"
+  ],
+  "versions": {
+    "R20241004": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "https://github.com/holaza/mptplus/releases/download/R20241004/mptplus_R20241004.zip",
+          "sha256": null
+        }
+      },
+      "released": "2024-10-04"
+    },
+    "R20240424": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "https://github.com/holaza/mptplus/releases/download/R20240424/mptplus_R20240424.zip",
+          "sha256": null
+        }
+      },
+      "released": "2024-04-24"
+    },
+    "R20230614": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "https://github.com/holaza/mptplus/releases/download/R20230614/mptplus_R20230614.zip",
+          "sha256": null
+        }
+      },
+      "released": "2023-06-14"
+    },
+    "R20230331": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "https://github.com/holaza/mptplus/releases/download/R20230331/mptplus_R20230331.zip",
+          "sha256": null
+        }
+      },
+      "released": "2023-03-31"
+    },
+    "R20230314": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "https://github.com/holaza/mptplus/releases/download/R20230314/mptplus_R20230314.zip",
+          "sha256": null
+        }
+      },
+      "released": "2023-03-18"
+    }
+  }
+}

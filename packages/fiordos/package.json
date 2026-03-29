@@ -4,8 +4,7 @@
   "homepage": "http://fiordos.ethz.ch",
   "license": "The copyright is with the Automatic Control Lab, ETH Zurich.\r\n\r\nFiOrdOs is licensed under the GPL 3.0.\r\nIn order to promote the Open Source idea under which this software is licensed,\r\nthe resulting output from this software or modified output shall also be published\r\nunder the GPL 3.0. For your convenience, a respective comment line is added\r\nto any output that this software generates.\r\n\r\nIf you are interested in using the generated output commercially,\r\nplease contact the Automatic Control Lab, ETH Zurich.",
   "authors": [
-    "Fabian Ullmann <ullmannf@control.ee.ethz.ch>",
-    "Stefan Richter <richters@ee.ethz.ch>"
+    "fiordos@control.ee.ethz.ch"
   ],
   "versions": {
     "R20121210": {
@@ -51,6 +50,28 @@
         }
       },
       "released": "2012-10-19"
+    },
+    "R20141208": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "http://fiordos.ethz.ch/data/fiordosR20141208.zip",
+          "sha256": null
+        }
+      },
+      "released": "2014-12-08"
+    },
+    "R20140930": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "http://fiordos.ethz.ch/dwnldf/fiordosR20140930.zip",
+          "sha256": null
+        }
+      },
+      "released": "2014-09-30"
     }
   }
 }

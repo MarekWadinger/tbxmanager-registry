@@ -1,0 +1,21 @@
+{
+  "name": "carbeval",
+  "description": "carbeval",
+  "homepage": "https://github.com/oravec-juraj/CarbEval",
+  "authors": [
+    "juraj.oravec@stuba.sk"
+  ],
+  "versions": {
+    "R20251112": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "https://github.com/oravec-juraj/CarbEval/archive/refs/tags/R20251112.zip",
+          "sha256": null
+        }
+      },
+      "released": "2025-11-17"
+    }
+  }
+}

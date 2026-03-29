@@ -1,0 +1,65 @@
+{
+  "name": "piddesign",
+  "description": "piddesign",
+  "homepage": "https://github.com/oravec-juraj/piddesign/wiki",
+  "authors": [
+    "juraj.oravec@stuba.sk"
+  ],
+  "versions": {
+    "R20251117": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "https://github.com/oravec-juraj/piddesign/archive/refs/tags/R20251117.zip",
+          "sha256": null
+        }
+      },
+      "released": "2025-11-17"
+    },
+    "R20240723": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "https://github.com/oravec-juraj/piddesign/releases/download/R20240723/piddesign_R20240723.zip",
+          "sha256": null
+        }
+      },
+      "released": "2024-07-23"
+    },
+    "R20230918": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "https://github.com/oravec-juraj/piddesign/releases/download/20230918/piddesign.zip",
+          "sha256": null
+        }
+      },
+      "released": "2023-09-18"
+    },
+    "R20210621": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "https://github.com/oravec-juraj/piddesign/releases/download/R20210621/piddesign.zip",
+          "sha256": null
+        }
+      },
+      "released": "2021-06-21"
+    },
+    "R20200224": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "https://github.com/oravec-juraj/piddesign/releases/download/R20200424/piddesign.zip",
+          "sha256": null
+        }
+      },
+      "released": "2020-02-24"
+    }
+  }
+}

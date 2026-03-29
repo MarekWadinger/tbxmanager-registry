@@ -1,0 +1,21 @@
+{
+  "name": "elab_crypto",
+  "description": "elab_crypto",
+  "homepage": "https://github.com/martin-kaluz/elab-crypto-matlab",
+  "authors": [
+    "martin.kaluz@stuba.sk"
+  ],
+  "versions": {
+    "v0.1": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "https://github.com/martin-kaluz/elab-crypto-matlab/archive/master.zip",
+          "sha256": null
+        }
+      },
+      "released": "2019-10-21"
+    }
+  }
+}

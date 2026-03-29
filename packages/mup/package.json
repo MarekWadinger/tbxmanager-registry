@@ -1,0 +1,76 @@
+{
+  "name": "mup",
+  "description": "mup",
+  "homepage": "https://github.com/oravec-juraj/mup/wiki",
+  "authors": [
+    "juraj.oravec@stuba.sk"
+  ],
+  "versions": {
+    "R20250924": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "https://github.com/oravec-juraj/mup/releases/download/R20250924/mup.zip",
+          "sha256": null
+        }
+      },
+      "released": "2025-09-24"
+    },
+    "R20240813": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "https://github.com/oravec-juraj/mup/releases/download/R20240813/mup.zip",
+          "sha256": null
+        }
+      },
+      "released": "2024-08-13"
+    },
+    "R20230727": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "https://github.com/oravec-juraj/mup/releases/download/R20210708/mup.zip",
+          "sha256": null
+        }
+      },
+      "released": "2023-07-27"
+    },
+    "R20210708": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "https://github.com/oravec-juraj/mup/releases/download/R20210708/mup.zip",
+          "sha256": null
+        }
+      },
+      "released": "2021-07-08"
+    },
+    "20210621": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "https://github.com/oravec-juraj/mup/releases/download/R20210621/mup.zip",
+          "sha256": null
+        }
+      },
+      "released": "2021-06-21"
+    },
+    "20200224": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "https://github.com/oravec-juraj/mup/releases/download/R20200224/mup.zip",
+          "sha256": null
+        }
+      },
+      "released": "2020-02-24"
+    }
+  }
+}

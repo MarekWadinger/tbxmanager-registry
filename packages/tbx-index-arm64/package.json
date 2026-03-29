@@ -1,0 +1,21 @@
+{
+  "name": "tbx-index-arm64",
+  "description": "tbx-index-arm64",
+  "homepage": "https://github.com/MarekWadinger/tbx-index-arm64",
+  "authors": [
+    "marek.wadinger@stuba.sk"
+  ],
+  "versions": {
+    "R20260323": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "maci64": {
+          "url": "https://github.com/MarekWadinger/tbx-index-arm64/archive/refs/heads/main.zip",
+          "sha256": null
+        }
+      },
+      "released": "2026-03-23"
+    }
+  }
+}

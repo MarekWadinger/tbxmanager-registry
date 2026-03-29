@@ -1,0 +1,20 @@
+{
+  "name": "elab_manager",
+  "description": "elab_manager",
+  "authors": [
+    "martin.kaluz@stuba.sk"
+  ],
+  "versions": {
+    "1.0": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "https://github.com/martin-kaluz/elab-matlab/archive/master.zip",
+          "sha256": null
+        }
+      },
+      "released": "2016-11-18"
+    }
+  }
+}

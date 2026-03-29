@@ -1,9 +1,9 @@
 {
   "name": "wsclient",
   "description": "Requires the \"matwebsocks\" package",
-  "homepage": "https://bitbucket.org/kvasnica/wsclient",
+  "homepage": "https://github.com/kvasnica/wsclient",
   "authors": [
-    "Michal Kvasnica <michal.kvasnica@stuba.sk>"
+    "michal.kvasnica@stuba.sk"
   ],
   "versions": {
     "1.2": {
@@ -38,6 +38,17 @@
         }
       },
       "released": "2014-04-15"
+    },
+    "1.6": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "http://www.uiam.sk/~kvasnica/tbxpool/wsclient/wsclient_1_6_all.zip",
+          "sha256": null
+        }
+      },
+      "released": "2017-09-21"
     }
   }
 }

@@ -1,7 +1,40 @@
 {
   "index_version": 1,
-  "generated": "2026-03-29T15:56:12Z",
+  "generated": "2026-03-29T16:35:06Z",
   "packages": {
+    "besim": {
+      "name": "besim",
+      "description": "besim",
+      "latest": "1.0.2",
+      "versions": {
+        "1.0.2": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/drgona/BeSim/archive/1.0.2.zip",
+              "sha256": null
+            }
+          },
+          "released": "2019-02-28"
+        },
+        "v1.0.1": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/drgona/BuiSim/archive/v1.0.zip",
+              "sha256": null
+            }
+          },
+          "released": "2019-01-16"
+        }
+      },
+      "homepage": "https://github.com/drgona/BeSim",
+      "authors": [
+        "jan.drgona@kuleuven.be"
+      ]
+    },
     "brcm": {
       "name": "brcm",
       "description": "The Building Resistance-Capacitance Modeling (BRCM) Matlab Toolbox facilitates the physical modeling of buildings for MPC. The Toolbox provides a means for the fast generation of (bi-)linear resistance-capacitance type models from basic geometry, construction and building systems data and also supports the generation of appropriate costs and constraints. The Toolbox is based on previously validated modeling principles.\r\n",
@@ -80,6 +113,28 @@
         "David Sturzenegger <stdavid@ethz.ch>"
       ]
     },
+    "carbeval": {
+      "name": "carbeval",
+      "description": "carbeval",
+      "latest": "R20251112",
+      "versions": {
+        "R20251112": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/oravec-juraj/CarbEval/archive/refs/tags/R20251112.zip",
+              "sha256": null
+            }
+          },
+          "released": "2025-11-17"
+        }
+      },
+      "homepage": "https://github.com/oravec-juraj/CarbEval",
+      "authors": [
+        "juraj.oravec@stuba.sk"
+      ]
+    },
     "cddmex": {
       "name": "cddmex",
       "description": "Mex interface to CDD",
@@ -90,15 +145,15 @@
           "dependencies": {},
           "platforms": {
             "glnxa64": {
-              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/cddmex/1_0_1/cddmex_1_0_1_GLNXA64.tgz",
+              "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/cddmex/1_0_1/cddmex_1_0_1_GLNXA64.tgz",
               "sha256": null
             },
             "maci64": {
-              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/cddmex/1_0_1/cddmex_1_0_1_MACI64.tgz",
+              "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/cddmex/1_0_1/cddmex_1_0_1_MACI64.tgz",
               "sha256": null
             },
             "win64": {
-              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/cddmex/1_0_1/cddmex_1_0_1_PCWIN64.tgz",
+              "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/cddmex/1_0_1/cddmex_1_0_1_PCWIN64.tgz",
               "sha256": null
             }
           },
@@ -126,9 +181,7 @@
       },
       "homepage": "http://control.ee.ethz.ch/~hybrid/cdd.php",
       "authors": [
-        "Michal Kvasnica <michal.kvasnica@stuba.sk>",
-        "Martin Herceg <herceg@control.ee.ethz.ch>",
-        "Colin Jones <colin.jones@epfl.ch>"
+        "mpt@control.ee.ethz.ch"
       ]
     },
     "clpmex": {
@@ -141,15 +194,15 @@
           "dependencies": {},
           "platforms": {
             "glnxa64": {
-              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/clpmex/1_0/clpmex_1_0_glnxa64.zip",
+              "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/clpmex/1_0/clpmex_1_0_glnxa64.zip",
               "sha256": null
             },
             "maci64": {
-              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/clpmex/1_0/clpmex_1_0_maci64.zip",
+              "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/clpmex/1_0/clpmex_1_0_maci64.zip",
               "sha256": null
             },
             "win64": {
-              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/clpmex/1_0/clpmex_1_0_pcwin64.zip",
+              "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/clpmex/1_0/clpmex_1_0_pcwin64.zip",
               "sha256": null
             }
           },
@@ -157,9 +210,148 @@
         }
       },
       "authors": [
-        "Michal Kvasnica <michal.kvasnica@stuba.sk>",
-        "Martin Herceg <herceg@control.ee.ethz.ch>",
-        "Colin Jones <colin.jones@epfl.ch>"
+        "mpt@control.ee.ethz.ch"
+      ]
+    },
+    "dynopt": {
+      "name": "dynopt",
+      "description": "dynopt",
+      "latest": "5.0.6",
+      "versions": {
+        "5.0.6": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/miroslavfikar/dynopt_code/archive/master.zip",
+              "sha256": null
+            }
+          },
+          "released": "2023-12-10"
+        },
+        "5.0.5": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/miroslavfikar/dynopt_code/archive/master.zip",
+              "sha256": null
+            }
+          },
+          "released": "2021-04-04"
+        },
+        "5.0.4": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://www.uiam.sk/~fikar/dynopt_5.0.4.zip",
+              "sha256": null
+            }
+          },
+          "released": "2021-01-05"
+        },
+        "5.0.3": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://www.uiam.sk/~fikar/dynopt_5.0.3.zip",
+              "sha256": null
+            }
+          },
+          "released": "2020-10-02"
+        },
+        "5.0.2": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://www.uiam.sk/~fikar/dynopt_5.0.2.zip",
+              "sha256": null
+            }
+          },
+          "released": "2020-05-12"
+        },
+        "5.0.1": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://www.uiam.sk/~fikar/dynopt_5.0.1.zip",
+              "sha256": null
+            }
+          },
+          "released": "2020-04-29"
+        }
+      },
+      "homepage": "https://www.uiam.sk/~fikar/research/dynopt/dynopt.htm",
+      "authors": [
+        "miroslav.fikar@stuba.sk"
+      ]
+    },
+    "elab": {
+      "name": "elab",
+      "description": "elab",
+      "latest": "2.0.0",
+      "versions": {
+        "2.0.0": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/martin-kaluz/elab2-matlab/archive/master.zip",
+              "sha256": null
+            }
+          },
+          "released": "2019-10-14"
+        }
+      },
+      "authors": [
+        "martin.kaluz@stuba.sk"
+      ]
+    },
+    "elab_crypto": {
+      "name": "elab_crypto",
+      "description": "elab_crypto",
+      "latest": "v0.1",
+      "versions": {
+        "v0.1": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/martin-kaluz/elab-crypto-matlab/archive/master.zip",
+              "sha256": null
+            }
+          },
+          "released": "2019-10-21"
+        }
+      },
+      "homepage": "https://github.com/martin-kaluz/elab-crypto-matlab",
+      "authors": [
+        "martin.kaluz@stuba.sk"
+      ]
+    },
+    "elab_manager": {
+      "name": "elab_manager",
+      "description": "elab_manager",
+      "latest": "1.0",
+      "versions": {
+        "1.0": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/martin-kaluz/elab-matlab/archive/master.zip",
+              "sha256": null
+            }
+          },
+          "released": "2016-11-18"
+        }
+      },
+      "authors": [
+        "martin.kaluz@stuba.sk"
       ]
     },
     "espresso": {
@@ -172,15 +364,15 @@
           "dependencies": {},
           "platforms": {
             "glnxa64": {
-              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/espresso/1_0/espresso_linux.tgz",
+              "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/espresso/1_0/espresso_linux.tgz",
               "sha256": null
             },
             "maci64": {
-              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/espresso/1_0/espresso_mac.tgz",
+              "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/espresso/1_0/espresso_mac.tgz",
               "sha256": null
             },
             "win64": {
-              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/espresso/1_0/espresso_win.tgz",
+              "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/espresso/1_0/espresso_win.tgz",
               "sha256": null
             }
           },
@@ -217,7 +409,7 @@
     "fiordos": {
       "name": "fiordos",
       "description": "FiOrdOs",
-      "latest": "R20120525",
+      "latest": "R20140930",
       "versions": {
         "R20121210": {
           "matlab": ">=R2014a",
@@ -262,13 +454,77 @@
             }
           },
           "released": "2012-10-19"
+        },
+        "R20141208": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://fiordos.ethz.ch/data/fiordosR20141208.zip",
+              "sha256": null
+            }
+          },
+          "released": "2014-12-08"
+        },
+        "R20140930": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://fiordos.ethz.ch/dwnldf/fiordosR20140930.zip",
+              "sha256": null
+            }
+          },
+          "released": "2014-09-30"
         }
       },
       "homepage": "http://fiordos.ethz.ch",
       "license": "The copyright is with the Automatic Control Lab, ETH Zurich.\r\n\r\nFiOrdOs is licensed under the GPL 3.0.\r\nIn order to promote the Open Source idea under which this software is licensed,\r\nthe resulting output from this software or modified output shall also be published\r\nunder the GPL 3.0. For your convenience, a respective comment line is added\r\nto any output that this software generates.\r\n\r\nIf you are interested in using the generated output commercially,\r\nplease contact the Automatic Control Lab, ETH Zurich.",
       "authors": [
-        "Fabian Ullmann <ullmannf@control.ee.ethz.ch>",
-        "Stefan Richter <richters@ee.ethz.ch>"
+        "fiordos@control.ee.ethz.ch"
+      ]
+    },
+    "flexy": {
+      "name": "flexy",
+      "description": "flexy",
+      "latest": "1.0",
+      "versions": {
+        "1.0": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://www.uiam.sk/~kaluz/flexy/Flexy.zip",
+              "sha256": null
+            }
+          },
+          "released": "2017-11-20"
+        }
+      },
+      "homepage": "https://github.com/martin-kaluz/flexy-arduino/wiki",
+      "authors": [
+        "martin.kaluz@stuba.sk"
+      ]
+    },
+    "flexy2": {
+      "name": "flexy2",
+      "description": "flexy2",
+      "latest": "2.0",
+      "versions": {
+        "2.0": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://www.uiam.sk/~kaluz/Flexy2.zip",
+              "sha256": null
+            }
+          },
+          "released": "2021-10-05"
+        }
+      },
+      "authors": [
+        "martin.kaluz@stuba.sk"
       ]
     },
     "fourier": {
@@ -281,15 +537,15 @@
           "dependencies": {},
           "platforms": {
             "glnxa64": {
-              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/fourier/1_0/fourier_1_0_glnxa64.zip",
+              "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/fourier/1_0/fourier_1_0_glnxa64.zip",
               "sha256": null
             },
             "maci64": {
-              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/fourier/1_0/fourier_1_0_maci64.zip",
+              "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/fourier/1_0/fourier_1_0_maci64.zip",
               "sha256": null
             },
             "win64": {
-              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/fourier/1_0/fourier_1_0_pcwin64.zip",
+              "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/fourier/1_0/fourier_1_0_pcwin64.zip",
               "sha256": null
             }
           },
@@ -297,9 +553,7 @@
         }
       },
       "authors": [
-        "Michal Kvasnica <michal.kvasnica@stuba.sk>",
-        "Martin Herceg <herceg@control.ee.ethz.ch>",
-        "Colin Jones <colin.jones@epfl.ch>"
+        "mpt@control.ee.ethz.ch"
       ]
     },
     "glpkmex": {
@@ -312,15 +566,15 @@
           "dependencies": {},
           "platforms": {
             "glnxa64": {
-              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/glpkmex/1_0/glpkmex_1_0_glnxa64.zip",
+              "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/glpkmex/1_0/glpkmex_1_0_glnxa64.zip",
               "sha256": null
             },
             "maci64": {
-              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/glpkmex/1_0/glpkmex_1_0_maci64.zip",
+              "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/glpkmex/1_0/glpkmex_1_0_maci64.zip",
               "sha256": null
             },
             "win64": {
-              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/glpkmex/1_0/glpkmex_1_0_pcwin64.zip",
+              "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/glpkmex/1_0/glpkmex_1_0_pcwin64.zip",
               "sha256": null
             }
           },
@@ -328,9 +582,7 @@
         }
       },
       "authors": [
-        "Michal Kvasnica <michal.kvasnica@stuba.sk>",
-        "Martin Herceg <herceg@control.ee.ethz.ch>",
-        "Colin Jones <colin.jones@epfl.ch>"
+        "mpt@control.ee.ethz.ch"
       ]
     },
     "hashtable": {
@@ -365,15 +617,15 @@
           "dependencies": {},
           "platforms": {
             "glnxa64": {
-              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/hysdel2/2_0_6/GLNXA64/hysdel.zip",
+              "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/hysdel2/2_0_6/GLNXA64/hysdel.zip",
               "sha256": null
             },
             "maci64": {
-              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/hysdel2/2_0_6/MACI64/hysdel.zip",
+              "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/hysdel2/2_0_6/MACI64/hysdel.zip",
               "sha256": null
             },
             "win64": {
-              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/hysdel2/2_0_6/PCWIN64/hysdel.zip",
+              "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/hysdel2/2_0_6/PCWIN64/hysdel.zip",
               "sha256": null
             }
           },
@@ -382,8 +634,7 @@
       },
       "homepage": "http://control.ee.ethz.ch/~hybrid/hysdel/",
       "authors": [
-        "Michal Kvasnica <michal.kvasnica@stuba.sk>",
-        "Martin Herceg <herceg@control.ee.ethz.ch>"
+        "mpt@control.ee.ethz.ch"
       ]
     },
     "lcp": {
@@ -396,15 +647,15 @@
           "dependencies": {},
           "platforms": {
             "glnxa64": {
-              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/lcp/1_0_3/lcp_1_0_3_GLNXA64.tgz",
+              "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/lcp/1_0_3/lcp_1_0_3_GLNXA64.tgz",
               "sha256": null
             },
             "maci64": {
-              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/lcp/1_0_3/lcp_1_0_3_MACI64.tgz",
+              "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/lcp/1_0_3/lcp_1_0_3_MACI64.tgz",
               "sha256": null
             },
             "win64": {
-              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/lcp/1_0_3/lcp_1_0_3_PCWIN64.tgz",
+              "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/lcp/1_0_3/lcp_1_0_3_PCWIN64.tgz",
               "sha256": null
             }
           },
@@ -469,15 +720,35 @@
         }
       },
       "authors": [
-        "Michal Kvasnica <michal.kvasnica@stuba.sk>",
-        "Martin Herceg <herceg@control.ee.ethz.ch>",
-        "Colin Jones <colin.jones@epfl.ch>"
+        "mpt@control.ee.ethz.ch"
+      ]
+    },
+    "matlabjson": {
+      "name": "matlabjson",
+      "description": "matlabjson",
+      "latest": "1.0",
+      "versions": {
+        "1.0": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://www.uiam.sk/~kvasnica/tbxpool/matlabjson/matlabjson_1_0_all.zip",
+              "sha256": null
+            }
+          },
+          "released": "2016-12-02"
+        }
+      },
+      "homepage": "https://github.com/kvasnica/matlabjson",
+      "authors": [
+        "michal.kvasnica@stuba.sk"
       ]
     },
     "matwebsocks": {
       "name": "matwebsocks",
       "description": "Run \"matws_install\" to put the necessary libraries to the static Java path. Then restart matlab.",
-      "latest": "1.1",
+      "latest": "1.3",
       "versions": {
         "1.1": {
           "matlab": ">=R2014a",
@@ -500,17 +771,39 @@
             }
           },
           "released": "2014-04-15"
+        },
+        "1.3": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://www.uiam.sk/~kvasnica/tbxpool/matwebsocks/matwebsocks_1_3_all.zip",
+              "sha256": null
+            }
+          },
+          "released": "2019-01-08"
+        },
+        "1.2": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://www.uiam.sk/~kvasnica/tbxpool/matwebsocks/matwebsocks_1_2_all.zip",
+              "sha256": null
+            }
+          },
+          "released": "2016-11-22"
         }
       },
       "homepage": "https://bitbucket.org/kvasnica/matwebsocks",
       "authors": [
-        "Michal Kvasnica <michal.kvasnica@stuba.sk>"
+        "michal.kvasnica@stuba.sk"
       ]
     },
     "mpt": {
       "name": "mpt",
       "description": "Multi-Parametric Toolbox 3.0",
-      "latest": "3.0.17",
+      "latest": "3.2.1",
       "versions": {
         "3.0.17": {
           "matlab": ">=R2014a",
@@ -709,13 +1002,22 @@
             }
           },
           "released": "2012-10-02"
+        },
+        "3.2.1": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/mpt3/3_2_1/mpt3-3_2_1.tgz",
+              "sha256": null
+            }
+          },
+          "released": "2018-06-07"
         }
       },
       "homepage": "http://control.ee.ethz.ch/~mpt/",
       "authors": [
-        "Michal Kvasnica <michal.kvasnica@stuba.sk>",
-        "Martin Herceg <herceg@control.ee.ethz.ch>",
-        "Colin Jones <colin.jones@epfl.ch>"
+        "mpt@control.ee.ethz.ch"
       ]
     },
     "mpt2": {
@@ -728,7 +1030,7 @@
           "dependencies": {},
           "platforms": {
             "all": {
-              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt2/261/mpt.zip",
+              "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/mpt2/261/mpt.zip",
               "sha256": null
             }
           },
@@ -737,7 +1039,7 @@
       },
       "homepage": "http://control.ee.ethz.ch/~mpt/2/",
       "authors": [
-        "Michal Kvasnica <michal.kvasnica@stuba.sk>"
+        "mpt@control.ee.ethz.ch"
       ]
     },
     "mpt3lowcom": {
@@ -750,7 +1052,7 @@
           "dependencies": {},
           "platforms": {
             "all": {
-              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3lowcom/1_0_3/mpt3lowcom-1_0_3.tgz",
+              "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/mpt3lowcom/1_0_3/mpt3lowcom-1_0_3.tgz",
               "sha256": null
             }
           },
@@ -792,7 +1094,7 @@
       },
       "homepage": "https://bitbucket.org/kvasnica/mpt3lowcom/wiki",
       "authors": [
-        "Michal Kvasnica <michal.kvasnica@stuba.sk>"
+        "mpt@control.ee.ethz.ch"
       ]
     },
     "mptdoc": {
@@ -805,7 +1107,7 @@
           "dependencies": {},
           "platforms": {
             "all": {
-              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3doc/3_0_4/mpt3doc-3_0_4.tgz",
+              "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/mpt3doc/3_0_4/mpt3doc-3_0_4.tgz",
               "sha256": null
             }
           },
@@ -858,15 +1160,156 @@
       },
       "homepage": "http://control.ee.ethz.ch/~mpt/redmine/projects/mpt3/wiki",
       "authors": [
-        "Michal Kvasnica <michal.kvasnica@stuba.sk>",
-        "Martin Herceg <herceg@control.ee.ethz.ch>",
-        "Colin Jones <colin.jones@epfl.ch>"
+        "mpt@control.ee.ethz.ch"
+      ]
+    },
+    "mptplus": {
+      "name": "mptplus",
+      "description": "mptplus",
+      "latest": "R20230314",
+      "versions": {
+        "R20241004": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/holaza/mptplus/releases/download/R20241004/mptplus_R20241004.zip",
+              "sha256": null
+            }
+          },
+          "released": "2024-10-04"
+        },
+        "R20240424": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/holaza/mptplus/releases/download/R20240424/mptplus_R20240424.zip",
+              "sha256": null
+            }
+          },
+          "released": "2024-04-24"
+        },
+        "R20230614": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/holaza/mptplus/releases/download/R20230614/mptplus_R20230614.zip",
+              "sha256": null
+            }
+          },
+          "released": "2023-06-14"
+        },
+        "R20230331": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/holaza/mptplus/releases/download/R20230331/mptplus_R20230331.zip",
+              "sha256": null
+            }
+          },
+          "released": "2023-03-31"
+        },
+        "R20230314": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/holaza/mptplus/releases/download/R20230314/mptplus_R20230314.zip",
+              "sha256": null
+            }
+          },
+          "released": "2023-03-18"
+        }
+      },
+      "homepage": "https://github.com/holaza/mptplus/wiki",
+      "authors": [
+        "juraj.oravec@stuba.sk"
+      ]
+    },
+    "mup": {
+      "name": "mup",
+      "description": "mup",
+      "latest": "20210621",
+      "versions": {
+        "R20250924": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/oravec-juraj/mup/releases/download/R20250924/mup.zip",
+              "sha256": null
+            }
+          },
+          "released": "2025-09-24"
+        },
+        "R20240813": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/oravec-juraj/mup/releases/download/R20240813/mup.zip",
+              "sha256": null
+            }
+          },
+          "released": "2024-08-13"
+        },
+        "R20230727": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/oravec-juraj/mup/releases/download/R20210708/mup.zip",
+              "sha256": null
+            }
+          },
+          "released": "2023-07-27"
+        },
+        "R20210708": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/oravec-juraj/mup/releases/download/R20210708/mup.zip",
+              "sha256": null
+            }
+          },
+          "released": "2021-07-08"
+        },
+        "20210621": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/oravec-juraj/mup/releases/download/R20210621/mup.zip",
+              "sha256": null
+            }
+          },
+          "released": "2021-06-21"
+        },
+        "20200224": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/oravec-juraj/mup/releases/download/R20200224/mup.zip",
+              "sha256": null
+            }
+          },
+          "released": "2020-02-24"
+        }
+      },
+      "homepage": "https://github.com/oravec-juraj/mup/wiki",
+      "authors": [
+        "juraj.oravec@stuba.sk"
       ]
     },
     "oasesmex": {
       "name": "oasesmex",
       "description": "Mex interface to qpOASES",
-      "latest": "1.0",
+      "latest": "3.2.0",
       "versions": {
         "1.0": {
           "matlab": ">=R2014a",
@@ -886,13 +1329,204 @@
             }
           },
           "released": "2012-10-02"
+        },
+        "3.2.0": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "glnxa64": {
+              "url": "http://www.qpoases.org/tbxmanager/3.2.0/qpOASES_3_2_0_linux64.zip",
+              "sha256": null
+            },
+            "maci64": {
+              "url": "http://www.qpoases.org/tbxmanager/3.2.0/qpOASES_3_2_0_mac64.zip",
+              "sha256": null
+            },
+            "win64": {
+              "url": "http://www.qpoases.org/tbxmanager/3.2.0/qpOASES_3_2_0_win64.zip",
+              "sha256": null
+            }
+          },
+          "released": "2015-09-07"
+        },
+        "3.1.0": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "glnxa64": {
+              "url": "http://www.qpoases.org/tbxmanager/3.1.0/qpOASES_3_1_0_linux64.zip",
+              "sha256": null
+            },
+            "maci64": {
+              "url": "http://www.qpoases.org/tbxmanager/3.1.0/qpOASES_3_1_0_mac64.zip",
+              "sha256": null
+            },
+            "win64": {
+              "url": "http://www.qpoases.org/tbxmanager/3.1.0/qpOASES_3_1_0_win64.zip",
+              "sha256": null
+            }
+          },
+          "released": "2015-02-23"
+        },
+        "3.0.1": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "glnxa64": {
+              "url": "http://www.qpOASES.org/tbxmanager/3.0.1/qpOASES_3_0_1_linux64.zip",
+              "sha256": null
+            },
+            "maci64": {
+              "url": "http://www.qpOASES.org/tbxmanager/3.0.1/qpOASES_3_0_1_mac64.zip",
+              "sha256": null
+            },
+            "win64": {
+              "url": "http://www.qpOASES.org/tbxmanager/3.0.1/qpOASES_3_0_1_win64.zip",
+              "sha256": null
+            }
+          },
+          "released": "2014-12-18"
+        },
+        "3.0.0": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "glnxa64": {
+              "url": "http://www.qpOASES.org/tbxmanager/3.0.0/qpOASES_3_0_0_linux64.zip",
+              "sha256": null
+            },
+            "win64": {
+              "url": "http://www.qpOASES.org/tbxmanager/3.0.0/qpOASES_3_0_0_win64.zip",
+              "sha256": null
+            }
+          },
+          "released": "2014-12-18"
         }
       },
-      "homepage": "http://www.kuleuven.be/optec/software/qpOASES",
+      "homepage": "https://projects.coin-or.org/qpOASES",
       "authors": [
-        "Michal Kvasnica <michal.kvasnica@stuba.sk>",
-        "Martin Herceg <herceg@control.ee.ethz.ch>",
-        "Colin Jones <colin.jones@epfl.ch>"
+        "mpt@control.ee.ethz.ch"
+      ]
+    },
+    "paillier_crypto": {
+      "name": "paillier_crypto",
+      "description": "paillier_crypto",
+      "latest": "v1.0",
+      "versions": {
+        "v1.0": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/martin-kaluz/PaillierCrypto-matlab/archive/master.zip",
+              "sha256": null
+            }
+          },
+          "released": "2019-10-21"
+        }
+      },
+      "homepage": "https://github.com/martin-kaluz/PaillierCrypto-matlab",
+      "authors": [
+        "martin.kaluz@stuba.sk"
+      ]
+    },
+    "parexmpc": {
+      "name": "parexmpc",
+      "description": "parexmpc",
+      "latest": "R20231203",
+      "versions": {
+        "R20240820": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/sujunyan/ParExMPC/archive/refs/tags/R20240820.zip",
+              "sha256": null
+            }
+          },
+          "released": "2024-08-20"
+        },
+        "R20231203": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/sujunyan/ParExMPC/archive/refs/tags/R20231203.zip",
+              "sha256": null
+            }
+          },
+          "released": "2023-12-02"
+        }
+      },
+      "homepage": "https://github.com/sujunyan/ParExMPC/wiki",
+      "authors": [
+        "yuning.jiang@epfl.ch"
+      ]
+    },
+    "piddesign": {
+      "name": "piddesign",
+      "description": "piddesign",
+      "latest": "R20200224",
+      "versions": {
+        "R20251117": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/oravec-juraj/piddesign/archive/refs/tags/R20251117.zip",
+              "sha256": null
+            }
+          },
+          "released": "2025-11-17"
+        },
+        "R20240723": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/oravec-juraj/piddesign/releases/download/R20240723/piddesign_R20240723.zip",
+              "sha256": null
+            }
+          },
+          "released": "2024-07-23"
+        },
+        "R20230918": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/oravec-juraj/piddesign/releases/download/20230918/piddesign.zip",
+              "sha256": null
+            }
+          },
+          "released": "2023-09-18"
+        },
+        "R20210621": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/oravec-juraj/piddesign/releases/download/R20210621/piddesign.zip",
+              "sha256": null
+            }
+          },
+          "released": "2021-06-21"
+        },
+        "R20200224": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/oravec-juraj/piddesign/releases/download/R20200424/piddesign.zip",
+              "sha256": null
+            }
+          },
+          "released": "2020-02-24"
+        }
+      },
+      "homepage": "https://github.com/oravec-juraj/piddesign/wiki",
+      "authors": [
+        "juraj.oravec@stuba.sk"
       ]
     },
     "qpspline": {
@@ -905,7 +1539,7 @@
           "dependencies": {},
           "platforms": {
             "all": {
-              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/qpspline/1_0/QPspline.m",
+              "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/qpspline/1_0/QPspline.m",
               "sha256": null
             }
           },
@@ -913,9 +1547,7 @@
         }
       },
       "authors": [
-        "Michal Kvasnica <michal.kvasnica@stuba.sk>",
-        "Martin Herceg <herceg@control.ee.ethz.ch>",
-        "Colin Jones <colin.jones@epfl.ch>"
+        "mpt@control.ee.ethz.ch"
       ]
     },
     "sedumi": {
@@ -928,15 +1560,15 @@
           "dependencies": {},
           "platforms": {
             "glnxa64": {
-              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/sedumi/1_3/sedumi_1_3_glnxa64.zip",
+              "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/sedumi/1_3/sedumi_1_3_glnxa64.zip",
               "sha256": null
             },
             "maci64": {
-              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/sedumi/1_3/sedumi_1_3_maci64.zip",
+              "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/sedumi/1_3/sedumi_1_3_maci64.zip",
               "sha256": null
             },
             "win64": {
-              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/sedumi/1_3/sedumi_1_3_pcwin64.zip",
+              "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/sedumi/1_3/sedumi_1_3_pcwin64.zip",
               "sha256": null
             }
           },
@@ -945,9 +1577,29 @@
       },
       "homepage": "http://sedumi.ie.lehigh.edu/",
       "authors": [
-        "Michal Kvasnica <michal.kvasnica@stuba.sk>",
-        "Martin Herceg <herceg@control.ee.ethz.ch>",
-        "Colin Jones <colin.jones@epfl.ch>"
+        "mpt@control.ee.ethz.ch"
+      ]
+    },
+    "tbx-index-arm64": {
+      "name": "tbx-index-arm64",
+      "description": "tbx-index-arm64",
+      "latest": "R20260323",
+      "versions": {
+        "R20260323": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "maci64": {
+              "url": "https://github.com/MarekWadinger/tbx-index-arm64/archive/refs/heads/main.zip",
+              "sha256": null
+            }
+          },
+          "released": "2026-03-23"
+        }
+      },
+      "homepage": "https://github.com/MarekWadinger/tbx-index-arm64",
+      "authors": [
+        "marek.wadinger@stuba.sk"
       ]
     },
     "tbxcli": {
@@ -960,7 +1612,7 @@
           "dependencies": {},
           "platforms": {
             "all": {
-              "url": "http://www.kirp.chtf.stuba.sk/~kvasnica/tbxpool/tbxcli/tbxcli_1_1_all.zip",
+              "url": "http://www.uiam.sk/~kvasnica/tbxpool/tbxcli/tbxcli_1_1_all.zip",
               "sha256": null
             }
           },
@@ -979,13 +1631,57 @@
         }
       },
       "authors": [
-        "Michal Kvasnica <michal.kvasnica@stuba.sk>"
+        "michal@tbxmanager.com"
+      ]
+    },
+    "vesna": {
+      "name": "vesna",
+      "description": "vesna",
+      "latest": "R20231117",
+      "versions": {
+        "R20240424": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/oravec-juraj/vesna/releases/download/R20240424/vesna_code_R20240424.zip",
+              "sha256": null
+            }
+          },
+          "released": "2024-04-24"
+        },
+        "R20240322": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/oravec-juraj/vesna/releases/download/R20240322/vesna_code_R20240322.zip",
+              "sha256": null
+            }
+          },
+          "released": "2024-03-22"
+        },
+        "R20231117": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/oravec-juraj/vesna/releases/download/R20231117/vesna_code_R20231117.zip",
+              "sha256": null
+            }
+          },
+          "released": "2023-11-19"
+        }
+      },
+      "homepage": "https://github.com/oravec-juraj/vesna/wiki/How-to-use-VESNA-CODE",
+      "authors": [
+        "juraj.oravec@stuba.sk"
       ]
     },
     "wsclient": {
       "name": "wsclient",
       "description": "Requires the \"matwebsocks\" package",
-      "latest": "1.2",
+      "latest": "1.6",
       "versions": {
         "1.2": {
           "matlab": ">=R2014a",
@@ -1019,17 +1715,28 @@
             }
           },
           "released": "2014-04-15"
+        },
+        "1.6": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://www.uiam.sk/~kvasnica/tbxpool/wsclient/wsclient_1_6_all.zip",
+              "sha256": null
+            }
+          },
+          "released": "2017-09-21"
         }
       },
-      "homepage": "https://bitbucket.org/kvasnica/wsclient",
+      "homepage": "https://github.com/kvasnica/wsclient",
       "authors": [
-        "Michal Kvasnica <michal.kvasnica@stuba.sk>"
+        "michal.kvasnica@stuba.sk"
       ]
     },
     "yalmip": {
       "name": "yalmip",
       "description": "YALMIP",
-      "latest": "R20120830",
+      "latest": "R20160923",
       "versions": {
         "R20140221": {
           "matlab": ">=R2014a",
@@ -1184,13 +1891,243 @@
             }
           },
           "released": "2012-10-02"
+        },
+        "R20230609": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+              "sha256": null
+            }
+          },
+          "released": "2023-06-09"
+        },
+        "R20210331": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+              "sha256": null
+            }
+          },
+          "released": "2021-06-28"
+        },
+        "R20201001": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+              "sha256": null
+            }
+          },
+          "released": "2020-10-01"
+        },
+        "R20200116": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+              "sha256": null
+            }
+          },
+          "released": "2020-01-16"
+        },
+        "R20190425": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+              "sha256": null
+            }
+          },
+          "released": "2019-04-25"
+        },
+        "R20181012": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+              "sha256": null
+            }
+          },
+          "released": "2018-10-12"
+        },
+        "R20180926": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+              "sha256": null
+            }
+          },
+          "released": "2018-09-27"
+        },
+        "R20180817": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+              "sha256": null
+            }
+          },
+          "released": "2018-08-17"
+        },
+        "R20180612": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+              "sha256": null
+            }
+          },
+          "released": "2018-06-12"
+        },
+        "R20180413": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+              "sha256": null
+            }
+          },
+          "released": "2018-04-13"
+        },
+        "R20180209": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+              "sha256": null
+            }
+          },
+          "released": "2018-02-09"
+        },
+        "R20171121": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+              "sha256": null
+            }
+          },
+          "released": "2017-11-21"
+        },
+        "R20171018": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+              "sha256": null
+            }
+          },
+          "released": "2017-10-18"
+        },
+        "R20170921": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+              "sha256": null
+            }
+          },
+          "released": "2017-09-21"
+        },
+        "R20170915": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+              "sha256": null
+            }
+          },
+          "released": "2017-09-15"
+        },
+        "R20170818": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+              "sha256": null
+            }
+          },
+          "released": "2017-08-18"
+        },
+        "R20170626": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+              "sha256": null
+            }
+          },
+          "released": "2017-08-09"
+        },
+        "R20170624": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+              "sha256": null
+            }
+          },
+          "released": "2017-06-24"
+        },
+        "R20170622": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+              "sha256": null
+            }
+          },
+          "released": "2017-06-22"
+        },
+        "R20160930": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+              "sha256": null
+            }
+          },
+          "released": "2016-09-30"
+        },
+        "R20160923": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+              "sha256": null
+            }
+          },
+          "released": "2016-09-23"
         }
       },
-      "homepage": "http://users.isy.liu.se/johanl/yalmip/",
+      "homepage": "https://yalmip.github.io",
       "license": "YALMIP is free of charge to use and is openly distributed, but note that\r\n1. Copyright owned by Johan Lofberg.\r\n2. YALMIP must be referenced when used in a published work (give me some credit for saving your valuable time!)\r\n3. YALMIP, or forks or versions of YALMIP, may not be re-distributed as a part of a commercial product unless agreed upon with the copyright owner (if you make money from YALMIP, let me in first!)\r\n4. YALMIP is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE (if your satellite crash or you fail your Phd due to a bug in YALMIP, your loss!).\r\n5. Forks or versions of YALMIP must include, and follow, this license in any distribution.\r\n",
       "authors": [
-        "Michal Kvasnica <michal.kvasnica@stuba.sk>",
-        "Johan Lofberg <johanl@isy.liu.se>"
+        "johanl@isy.liu.se"
       ]
     }
   }

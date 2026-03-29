@@ -3,8 +3,7 @@
   "description": "Hybrid Systems Description Language",
   "homepage": "http://control.ee.ethz.ch/~hybrid/hysdel/",
   "authors": [
-    "Michal Kvasnica <michal.kvasnica@stuba.sk>",
-    "Martin Herceg <herceg@control.ee.ethz.ch>"
+    "mpt@control.ee.ethz.ch"
   ],
   "versions": {
     "2.0.6": {
@@ -12,15 +11,15 @@
       "dependencies": {},
       "platforms": {
         "glnxa64": {
-          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/hysdel2/2_0_6/GLNXA64/hysdel.zip",
+          "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/hysdel2/2_0_6/GLNXA64/hysdel.zip",
           "sha256": null
         },
         "maci64": {
-          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/hysdel2/2_0_6/MACI64/hysdel.zip",
+          "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/hysdel2/2_0_6/MACI64/hysdel.zip",
           "sha256": null
         },
         "win64": {
-          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/hysdel2/2_0_6/PCWIN64/hysdel.zip",
+          "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/hysdel2/2_0_6/PCWIN64/hysdel.zip",
           "sha256": null
         }
       },
