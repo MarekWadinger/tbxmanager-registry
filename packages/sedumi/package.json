@@ -12,15 +12,15 @@
       "platforms": {
         "glnxa64": {
           "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/sedumi/1_3/sedumi_1_3_glnxa64.zip",
-          "sha256": null
+          "sha256": "b55122fd642db62110aa2452d9acfe0c9f96778daf282fe736d2df43145d02b1"
         },
         "maci64": {
           "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/sedumi/1_3/sedumi_1_3_maci64.zip",
-          "sha256": null
+          "sha256": "b41e5e06522a6e09d5ca2726e7a3aff5c9f92920c4770ac910b82e7fcf9f475f"
         },
         "win64": {
           "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/sedumi/1_3/sedumi_1_3_pcwin64.zip",
-          "sha256": null
+          "sha256": "0ac0b154d109797faf988a16c774f77af75699543630cfa4fc6bc133548538f7"
         }
       },
       "released": "2012-10-02"

@@ -12,7 +12,7 @@
       "platforms": {
         "all": {
           "url": "https://github.com/oravec-juraj/CarbEval/archive/refs/tags/R20251112.zip",
-          "sha256": null
+          "sha256": "54eb0be2997c5ed410e6730fbe767c0cd54c1ddbf86a16522cbcc94c3eff7c2b"
         }
       },
       "released": "2025-11-17"

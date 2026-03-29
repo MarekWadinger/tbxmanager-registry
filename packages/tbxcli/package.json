@@ -11,7 +11,7 @@
       "platforms": {
         "all": {
           "url": "http://www.uiam.sk/~kvasnica/tbxpool/tbxcli/tbxcli_1_1_all.zip",
-          "sha256": null
+          "sha256": "bf9710a37e1d62686a5ff1621e8d3b73ad72ad730ff7d94744e62ddacb9f04a1"
         }
       },
       "released": "2014-04-12"
@@ -22,7 +22,7 @@
       "platforms": {
         "all": {
           "url": "http://www.tbxmanager.com/tbxcli.m",
-          "sha256": null
+          "sha256": "7e432823ce16e65253b08af1b40c5615489be3db92dd68a2e3007065f9270f4e"
         }
       },
       "released": "2013-09-02"

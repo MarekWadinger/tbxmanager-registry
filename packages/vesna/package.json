@@ -12,7 +12,7 @@
       "platforms": {
         "all": {
           "url": "https://github.com/oravec-juraj/vesna/releases/download/R20240424/vesna_code_R20240424.zip",
-          "sha256": null
+          "sha256": "a21fe2379f4da250e19c486997a17eb51e3f60d8aae5336b58e0ceefbdcd2ce3"
         }
       },
       "released": "2024-04-24"
@@ -23,7 +23,7 @@
       "platforms": {
         "all": {
           "url": "https://github.com/oravec-juraj/vesna/releases/download/R20240322/vesna_code_R20240322.zip",
-          "sha256": null
+          "sha256": "96b89eb1d6b5076f345835c5e6a0e8acda27d953b73b4ced060634411a4c5ec7"
         }
       },
       "released": "2024-03-22"
@@ -34,7 +34,7 @@
       "platforms": {
         "all": {
           "url": "https://github.com/oravec-juraj/vesna/releases/download/R20231117/vesna_code_R20231117.zip",
-          "sha256": null
+          "sha256": "e32133cc28edea741d5b553bc1788cb405db309542356b34df9dc4b6650c50a3"
         }
       },
       "released": "2023-11-19"

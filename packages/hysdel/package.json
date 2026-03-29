@@ -12,15 +12,15 @@
       "platforms": {
         "glnxa64": {
           "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/hysdel2/2_0_6/GLNXA64/hysdel.zip",
-          "sha256": null
+          "sha256": "6555c5a5fac345861f8b262f5fa4d23821ce17fceb603998782a612e1fcc42bd"
         },
         "maci64": {
           "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/hysdel2/2_0_6/MACI64/hysdel.zip",
-          "sha256": null
+          "sha256": "e63638794d71ecc753957fb5cdc57229c25982d657897ad6db2794eb4068f183"
         },
         "win64": {
           "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/hysdel2/2_0_6/PCWIN64/hysdel.zip",
-          "sha256": null
+          "sha256": "7e84cfe1e7e27b0c21d93328f9a531ed5f8ad08cb36c96b39e63fda7398f47da"
         }
       },
       "released": "2012-10-02"

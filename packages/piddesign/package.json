@@ -12,7 +12,7 @@
       "platforms": {
         "all": {
           "url": "https://github.com/oravec-juraj/piddesign/archive/refs/tags/R20251117.zip",
-          "sha256": null
+          "sha256": "713a1bde2640938671377746e951f7f387bc00666b319f6a426fb33247de34ac"
         }
       },
       "released": "2025-11-17"
@@ -23,7 +23,7 @@
       "platforms": {
         "all": {
           "url": "https://github.com/oravec-juraj/piddesign/releases/download/R20240723/piddesign_R20240723.zip",
-          "sha256": null
+          "sha256": "cd2e97f8d11b86f1747c97d8c9a5eefd132fa4e94d2563baaaeefcc4770bb3f1"
         }
       },
       "released": "2024-07-23"
@@ -34,7 +34,7 @@
       "platforms": {
         "all": {
           "url": "https://github.com/oravec-juraj/piddesign/releases/download/20230918/piddesign.zip",
-          "sha256": null
+          "sha256": "8afcab59f4adfe7d371a0b4f71871c71a871b5a4d3287298f95bfb4f6dc9703f"
         }
       },
       "released": "2023-09-18"
@@ -45,7 +45,7 @@
       "platforms": {
         "all": {
           "url": "https://github.com/oravec-juraj/piddesign/releases/download/R20210621/piddesign.zip",
-          "sha256": null
+          "sha256": "89dedc68fac96e1a76877dc464c051625bd6c22cc9883a3fcf8849ca763d1476"
         }
       },
       "released": "2021-06-21"
@@ -56,7 +56,7 @@
       "platforms": {
         "all": {
           "url": "https://github.com/oravec-juraj/piddesign/releases/download/R20200424/piddesign.zip",
-          "sha256": null
+          "sha256": "a9f64f2994994e5a95e4763bd5f62fc4a68b84b0b847b2b84f0bb1e433641a2a"
         }
       },
       "released": "2020-02-24"

@@ -11,15 +11,15 @@
       "platforms": {
         "glnxa64": {
           "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/fourier/1_0/fourier_1_0_glnxa64.zip",
-          "sha256": null
+          "sha256": "7af2042ba9509ef35678e5a2faca6608f885316a90566189c435c8ea0fe25388"
         },
         "maci64": {
           "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/fourier/1_0/fourier_1_0_maci64.zip",
-          "sha256": null
+          "sha256": "0b88d3792d58e0bc89c28618928bd2b8e665bfb0abe164b22a6287210ea302b9"
         },
         "win64": {
           "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/fourier/1_0/fourier_1_0_pcwin64.zip",
-          "sha256": null
+          "sha256": "dcc700c119e4a1aa39d837f0cbcf81af4d130f4e485f8a253b65af15cabf6752"
         }
       },
       "released": "2012-10-02"

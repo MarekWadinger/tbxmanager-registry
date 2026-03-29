@@ -11,7 +11,7 @@
       "platforms": {
         "all": {
           "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/qpspline/1_0/QPspline.m",
-          "sha256": null
+          "sha256": "ea0502c52a76787bef85c435fbc7bdf14075e5955a91214f36ccda166a65d72e"
         }
       },
       "released": "2012-10-02"

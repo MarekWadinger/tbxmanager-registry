@@ -12,15 +12,15 @@
       "platforms": {
         "glnxa64": {
           "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/espresso/1_0/espresso_linux.tgz",
-          "sha256": null
+          "sha256": "0792c559599d7a62c40d10db32c8269b1bea625ed03bedae3532b215e160f853"
         },
         "maci64": {
           "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/espresso/1_0/espresso_mac.tgz",
-          "sha256": null
+          "sha256": "5661ec4eccf675dde9be1a99e241c7d876933d5b72bf7028b44011e03d96459c"
         },
         "win64": {
           "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/espresso/1_0/espresso_win.tgz",
-          "sha256": null
+          "sha256": "0681b46d59e4ea139a8553bb3cd2d0791e2a237fb52f13637abf3d1aa6913d0d"
         }
       },
       "released": "2013-07-15"

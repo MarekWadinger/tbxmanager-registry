@@ -12,7 +12,7 @@
       "platforms": {
         "all": {
           "url": "https://github.com/martin-kaluz/elab-crypto-matlab/archive/master.zip",
-          "sha256": null
+          "sha256": "e126d1682420e73cb4374121af79c47c0659d4732bf143b6c75ea13e61715252"
         }
       },
       "released": "2019-10-21"

@@ -12,7 +12,7 @@
       "platforms": {
         "all": {
           "url": "https://github.com/miroslavfikar/dynopt_code/archive/master.zip",
-          "sha256": null
+          "sha256": "ec7b1852021131008616c3f94ca1be53e0a3d474d6e8569a8a268cad8d603ef8"
         }
       },
       "released": "2023-12-10"
@@ -23,7 +23,7 @@
       "platforms": {
         "all": {
           "url": "https://github.com/miroslavfikar/dynopt_code/archive/master.zip",
-          "sha256": null
+          "sha256": "ec7b1852021131008616c3f94ca1be53e0a3d474d6e8569a8a268cad8d603ef8"
         }
       },
       "released": "2021-04-04"
@@ -34,7 +34,7 @@
       "platforms": {
         "all": {
           "url": "https://www.uiam.sk/~fikar/dynopt_5.0.4.zip",
-          "sha256": null
+          "sha256": "e2827cef1c1898b22ff41de1dd0b10e787f93a5a72ca8e9bc242c2b9ef097b74"
         }
       },
       "released": "2021-01-05"
@@ -45,7 +45,7 @@
       "platforms": {
         "all": {
           "url": "https://www.uiam.sk/~fikar/dynopt_5.0.3.zip",
-          "sha256": null
+          "sha256": "460d044bc6e854188c19f5d8769ca728870619a2bfac4f8c7ca5f72f3cc0eb89"
         }
       },
       "released": "2020-10-02"
@@ -56,7 +56,7 @@
       "platforms": {
         "all": {
           "url": "https://www.uiam.sk/~fikar/dynopt_5.0.2.zip",
-          "sha256": null
+          "sha256": "82a2e56df0d88dc3a89910b968b78fc9788dad433e86bab225906e5e03fbe062"
         }
       },
       "released": "2020-05-12"
@@ -67,7 +67,7 @@
       "platforms": {
         "all": {
           "url": "https://www.uiam.sk/~fikar/dynopt_5.0.1.zip",
-          "sha256": null
+          "sha256": "6faf129a56d15114d738303bfe47bf30ee7764b4b4008de9a9f424672e8a62e2"
         }
       },
       "released": "2020-04-29"

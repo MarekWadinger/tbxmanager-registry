@@ -31,15 +31,15 @@
       "platforms": {
         "glnxa64": {
           "url": "http://www.qpoases.org/tbxmanager/3.2.0/qpOASES_3_2_0_linux64.zip",
-          "sha256": null
+          "sha256": "de739a4d73e1514a233fe72b9d94e45ce81360a7cc5437c5b4d69cbb147a1d24"
         },
         "maci64": {
           "url": "http://www.qpoases.org/tbxmanager/3.2.0/qpOASES_3_2_0_mac64.zip",
-          "sha256": null
+          "sha256": "b3f6ddaac29b43f200607ac781bd5dd9de715fc532d43d578da45972ee1cadcd"
         },
         "win64": {
           "url": "http://www.qpoases.org/tbxmanager/3.2.0/qpOASES_3_2_0_win64.zip",
-          "sha256": null
+          "sha256": "8a2e72dea70ad1926f498671137c13ce4be3c42a9279575d4d73e5d0698e355c"
         }
       },
       "released": "2015-09-07"
@@ -50,15 +50,15 @@
       "platforms": {
         "glnxa64": {
           "url": "http://www.qpoases.org/tbxmanager/3.1.0/qpOASES_3_1_0_linux64.zip",
-          "sha256": null
+          "sha256": "65bbf5627b0b2ca9180ef200acfd502ea395e70252f39e94a79d277b09bbfd8c"
         },
         "maci64": {
           "url": "http://www.qpoases.org/tbxmanager/3.1.0/qpOASES_3_1_0_mac64.zip",
-          "sha256": null
+          "sha256": "cf918863648983df140a01f65ea021a1fb015fb4f30b9e448b3dc5e86bbac538"
         },
         "win64": {
           "url": "http://www.qpoases.org/tbxmanager/3.1.0/qpOASES_3_1_0_win64.zip",
-          "sha256": null
+          "sha256": "d5f64b7f1694e20b4e9e2c9381ebf6d896772b7c039f98fd1ee22ac320fd641a"
         }
       },
       "released": "2015-02-23"
@@ -69,15 +69,15 @@
       "platforms": {
         "glnxa64": {
           "url": "http://www.qpOASES.org/tbxmanager/3.0.1/qpOASES_3_0_1_linux64.zip",
-          "sha256": null
+          "sha256": "8a6f02717241b21645fbeeddf53473591e30cfbbfbec46f9a0e44ca4b4d78a2f"
         },
         "maci64": {
           "url": "http://www.qpOASES.org/tbxmanager/3.0.1/qpOASES_3_0_1_mac64.zip",
-          "sha256": null
+          "sha256": "1dda131982ae4b54b2f4bb61115a406f5b8958355c32d854e706539770cd4921"
         },
         "win64": {
           "url": "http://www.qpOASES.org/tbxmanager/3.0.1/qpOASES_3_0_1_win64.zip",
-          "sha256": null
+          "sha256": "17e0f066527267817e6abb3e99494ebfc37dd00f4657fe0a9226171ddbff7da1"
         }
       },
       "released": "2014-12-18"
@@ -88,11 +88,11 @@
       "platforms": {
         "glnxa64": {
           "url": "http://www.qpOASES.org/tbxmanager/3.0.0/qpOASES_3_0_0_linux64.zip",
-          "sha256": null
+          "sha256": "230e76963efc7b36fecef0c793a471c953d03ca5d6e848ca04285cf8d6db6d5b"
         },
         "win64": {
           "url": "http://www.qpOASES.org/tbxmanager/3.0.0/qpOASES_3_0_0_win64.zip",
-          "sha256": null
+          "sha256": "6b013d8f0a7ce53e2ce492f4a0ed77b1fc891cf90b5447bd118a81dc02629b21"
         }
       },
       "released": "2014-12-18"

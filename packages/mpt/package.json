@@ -210,7 +210,7 @@
       "platforms": {
         "all": {
           "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/mpt3/3_2_1/mpt3-3_2_1.tgz",
-          "sha256": null
+          "sha256": "d64b09c1df707c2ab802f78d82d446ae9d436f68fe3afe5b5f5e6bea53530f5d"
         }
       },
       "released": "2018-06-07"

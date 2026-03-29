@@ -12,7 +12,7 @@
       "platforms": {
         "maci64": {
           "url": "https://github.com/MarekWadinger/tbx-index-arm64/archive/refs/heads/main.zip",
-          "sha256": null
+          "sha256": "e899953b3a74c14f17f4c2c76eeab7826b0b43c2313cb708ce3ec267e1701777"
         }
       },
       "released": "2026-03-23"

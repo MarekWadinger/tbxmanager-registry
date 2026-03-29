@@ -12,7 +12,7 @@
       "platforms": {
         "all": {
           "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/mpt2/261/mpt.zip",
-          "sha256": null
+          "sha256": "816a3df7907cc21e4d374845ad201007f2d5b8add8af1ab8de4efc72b45abf49"
         }
       },
       "released": "2013-07-01"

@@ -1,6 +1,6 @@
 {
   "index_version": 1,
-  "generated": "2026-03-29T16:35:20Z",
+  "generated": "2026-03-29T18:18:33Z",
   "packages": {
     "besim": {
       "name": "besim",
@@ -124,7 +124,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/oravec-juraj/CarbEval/archive/refs/tags/R20251112.zip",
-              "sha256": null
+              "sha256": "54eb0be2997c5ed410e6730fbe767c0cd54c1ddbf86a16522cbcc94c3eff7c2b"
             }
           },
           "released": "2025-11-17"
@@ -146,15 +146,15 @@
           "platforms": {
             "glnxa64": {
               "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/cddmex/1_0_1/cddmex_1_0_1_GLNXA64.tgz",
-              "sha256": null
+              "sha256": "aa936c2203bd1eac6606f93200062a5e1513bcc6a19313b6570f9f5319524315"
             },
             "maci64": {
               "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/cddmex/1_0_1/cddmex_1_0_1_MACI64.tgz",
-              "sha256": null
+              "sha256": "0f6cfd4b94435c26a50065d0b5400e1e3fc60397693af2ea434b8ab771607bc8"
             },
             "win64": {
               "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/cddmex/1_0_1/cddmex_1_0_1_PCWIN64.tgz",
-              "sha256": null
+              "sha256": "7d27a21ee6a36f107f58f866792f083eaeefa0a35364a361a86432bc91d3ab0c"
             }
           },
           "released": "2013-10-02"
@@ -195,15 +195,15 @@
           "platforms": {
             "glnxa64": {
               "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/clpmex/1_0/clpmex_1_0_glnxa64.zip",
-              "sha256": null
+              "sha256": "86b33805084eaa8f2257f8db301abdf92196dbdb6a17bac62f0d7d72ff948935"
             },
             "maci64": {
               "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/clpmex/1_0/clpmex_1_0_maci64.zip",
-              "sha256": null
+              "sha256": "c4064625e34665025e4a06b8130cb59aa66a304e92a8087332d033da10a52d3f"
             },
             "win64": {
               "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/clpmex/1_0/clpmex_1_0_pcwin64.zip",
-              "sha256": null
+              "sha256": "b6873ce5f66e33be6efaabbde828f5db60d77e1f6508a49c90a263b59499d98f"
             }
           },
           "released": "2012-10-02"
@@ -224,7 +224,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/miroslavfikar/dynopt_code/archive/master.zip",
-              "sha256": null
+              "sha256": "ec7b1852021131008616c3f94ca1be53e0a3d474d6e8569a8a268cad8d603ef8"
             }
           },
           "released": "2023-12-10"
@@ -235,7 +235,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/miroslavfikar/dynopt_code/archive/master.zip",
-              "sha256": null
+              "sha256": "ec7b1852021131008616c3f94ca1be53e0a3d474d6e8569a8a268cad8d603ef8"
             }
           },
           "released": "2021-04-04"
@@ -246,7 +246,7 @@
           "platforms": {
             "all": {
               "url": "https://www.uiam.sk/~fikar/dynopt_5.0.4.zip",
-              "sha256": null
+              "sha256": "e2827cef1c1898b22ff41de1dd0b10e787f93a5a72ca8e9bc242c2b9ef097b74"
             }
           },
           "released": "2021-01-05"
@@ -257,7 +257,7 @@
           "platforms": {
             "all": {
               "url": "https://www.uiam.sk/~fikar/dynopt_5.0.3.zip",
-              "sha256": null
+              "sha256": "460d044bc6e854188c19f5d8769ca728870619a2bfac4f8c7ca5f72f3cc0eb89"
             }
           },
           "released": "2020-10-02"
@@ -268,7 +268,7 @@
           "platforms": {
             "all": {
               "url": "https://www.uiam.sk/~fikar/dynopt_5.0.2.zip",
-              "sha256": null
+              "sha256": "82a2e56df0d88dc3a89910b968b78fc9788dad433e86bab225906e5e03fbe062"
             }
           },
           "released": "2020-05-12"
@@ -279,7 +279,7 @@
           "platforms": {
             "all": {
               "url": "https://www.uiam.sk/~fikar/dynopt_5.0.1.zip",
-              "sha256": null
+              "sha256": "6faf129a56d15114d738303bfe47bf30ee7764b4b4008de9a9f424672e8a62e2"
             }
           },
           "released": "2020-04-29"
@@ -301,7 +301,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/martin-kaluz/elab2-matlab/archive/master.zip",
-              "sha256": null
+              "sha256": "20d1db8eb1d7e5d5fd8e8b18346507deffe8cb01cfa28d23b3238cfb8c594e5c"
             }
           },
           "released": "2019-10-14"
@@ -322,7 +322,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/martin-kaluz/elab-crypto-matlab/archive/master.zip",
-              "sha256": null
+              "sha256": "e126d1682420e73cb4374121af79c47c0659d4732bf143b6c75ea13e61715252"
             }
           },
           "released": "2019-10-21"
@@ -344,7 +344,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/martin-kaluz/elab-matlab/archive/master.zip",
-              "sha256": null
+              "sha256": "49c0bcac5bfd26fa084783804093beb6ec8237bfa1a979bfe9472a3405811a11"
             }
           },
           "released": "2016-11-18"
@@ -365,15 +365,15 @@
           "platforms": {
             "glnxa64": {
               "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/espresso/1_0/espresso_linux.tgz",
-              "sha256": null
+              "sha256": "0792c559599d7a62c40d10db32c8269b1bea625ed03bedae3532b215e160f853"
             },
             "maci64": {
               "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/espresso/1_0/espresso_mac.tgz",
-              "sha256": null
+              "sha256": "5661ec4eccf675dde9be1a99e241c7d876933d5b72bf7028b44011e03d96459c"
             },
             "win64": {
               "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/espresso/1_0/espresso_win.tgz",
-              "sha256": null
+              "sha256": "0681b46d59e4ea139a8553bb3cd2d0791e2a237fb52f13637abf3d1aa6913d0d"
             }
           },
           "released": "2013-07-15"
@@ -417,7 +417,7 @@
           "platforms": {
             "all": {
               "url": "http://fiordos.ethz.ch/dwnldf/fiordosR20121210.zip",
-              "sha256": null
+              "sha256": "49fee9ea6671221720e60e9c863e5492603b00cce6da633db56be401e96cfa7d"
             }
           },
           "released": "2012-12-10"
@@ -428,7 +428,7 @@
           "platforms": {
             "all": {
               "url": "http://fiordos.ethz.ch/dwnldf/fiordosR20121029.zip",
-              "sha256": null
+              "sha256": "49fee9ea6671221720e60e9c863e5492603b00cce6da633db56be401e96cfa7d"
             }
           },
           "released": "2012-10-29"
@@ -439,7 +439,7 @@
           "platforms": {
             "all": {
               "url": "http://fiordos.ethz.ch/dwnldf/fiordosR20120921.zip",
-              "sha256": null
+              "sha256": "49fee9ea6671221720e60e9c863e5492603b00cce6da633db56be401e96cfa7d"
             }
           },
           "released": "2012-10-19"
@@ -450,7 +450,7 @@
           "platforms": {
             "all": {
               "url": "http://fiordos.ethz.ch/dwnldf/fiordosR20120525.zip",
-              "sha256": null
+              "sha256": "49fee9ea6671221720e60e9c863e5492603b00cce6da633db56be401e96cfa7d"
             }
           },
           "released": "2012-10-19"
@@ -461,7 +461,7 @@
           "platforms": {
             "all": {
               "url": "http://fiordos.ethz.ch/data/fiordosR20141208.zip",
-              "sha256": null
+              "sha256": "87158fae545fd3f1051e0c630bcf5e22b1e999d6440b542ecc4850a7f3a6b22e"
             }
           },
           "released": "2014-12-08"
@@ -472,7 +472,7 @@
           "platforms": {
             "all": {
               "url": "http://fiordos.ethz.ch/dwnldf/fiordosR20140930.zip",
-              "sha256": null
+              "sha256": "49fee9ea6671221720e60e9c863e5492603b00cce6da633db56be401e96cfa7d"
             }
           },
           "released": "2014-09-30"
@@ -495,7 +495,7 @@
           "platforms": {
             "all": {
               "url": "http://www.uiam.sk/~kaluz/flexy/Flexy.zip",
-              "sha256": null
+              "sha256": "49b4df93f3e34f7ff9bc3cfada4dd691564b02a80fb66bc6c14fb907e12a4caf"
             }
           },
           "released": "2017-11-20"
@@ -517,7 +517,7 @@
           "platforms": {
             "all": {
               "url": "https://www.uiam.sk/~kaluz/Flexy2.zip",
-              "sha256": null
+              "sha256": "19c840033372fc4b2aec3e38bc0192bacca57a066920f2784fd37da5b0f9a0bf"
             }
           },
           "released": "2021-10-05"
@@ -538,15 +538,15 @@
           "platforms": {
             "glnxa64": {
               "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/fourier/1_0/fourier_1_0_glnxa64.zip",
-              "sha256": null
+              "sha256": "7af2042ba9509ef35678e5a2faca6608f885316a90566189c435c8ea0fe25388"
             },
             "maci64": {
               "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/fourier/1_0/fourier_1_0_maci64.zip",
-              "sha256": null
+              "sha256": "0b88d3792d58e0bc89c28618928bd2b8e665bfb0abe164b22a6287210ea302b9"
             },
             "win64": {
               "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/fourier/1_0/fourier_1_0_pcwin64.zip",
-              "sha256": null
+              "sha256": "dcc700c119e4a1aa39d837f0cbcf81af4d130f4e485f8a253b65af15cabf6752"
             }
           },
           "released": "2012-10-02"
@@ -567,15 +567,15 @@
           "platforms": {
             "glnxa64": {
               "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/glpkmex/1_0/glpkmex_1_0_glnxa64.zip",
-              "sha256": null
+              "sha256": "fcd31f2e8b41ab71da44ce18d613c0384b87e2c4b37afc8014c086c5f3a2f313"
             },
             "maci64": {
               "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/glpkmex/1_0/glpkmex_1_0_maci64.zip",
-              "sha256": null
+              "sha256": "a51afea560274b8804f532357377c691bc0edaf0190e0c0c2659da221f264a0a"
             },
             "win64": {
               "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/glpkmex/1_0/glpkmex_1_0_pcwin64.zip",
-              "sha256": null
+              "sha256": "a15f14dc1dbbf97c288ee7d8201664041ad4173c45ea555525338579453950d9"
             }
           },
           "released": "2012-10-02"
@@ -618,15 +618,15 @@
           "platforms": {
             "glnxa64": {
               "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/hysdel2/2_0_6/GLNXA64/hysdel.zip",
-              "sha256": null
+              "sha256": "6555c5a5fac345861f8b262f5fa4d23821ce17fceb603998782a612e1fcc42bd"
             },
             "maci64": {
               "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/hysdel2/2_0_6/MACI64/hysdel.zip",
-              "sha256": null
+              "sha256": "e63638794d71ecc753957fb5cdc57229c25982d657897ad6db2794eb4068f183"
             },
             "win64": {
               "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/hysdel2/2_0_6/PCWIN64/hysdel.zip",
-              "sha256": null
+              "sha256": "7e84cfe1e7e27b0c21d93328f9a531ed5f8ad08cb36c96b39e63fda7398f47da"
             }
           },
           "released": "2012-10-02"
@@ -648,15 +648,15 @@
           "platforms": {
             "glnxa64": {
               "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/lcp/1_0_3/lcp_1_0_3_GLNXA64.tgz",
-              "sha256": null
+              "sha256": "6f1faf48752fe407d7bc3ed32149e80143d9c85de84062dc3e09d5bd276a32bf"
             },
             "maci64": {
               "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/lcp/1_0_3/lcp_1_0_3_MACI64.tgz",
-              "sha256": null
+              "sha256": "cade4483524239f557acdc1439ad067d3b251086989fcdfbb65c4602271b3349"
             },
             "win64": {
               "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/lcp/1_0_3/lcp_1_0_3_PCWIN64.tgz",
-              "sha256": null
+              "sha256": "9b41edbbdcf5cb15b9299d79a19293364b03c417382c83a05aa2cba24a7cde43"
             }
           },
           "released": "2013-08-22"
@@ -734,7 +734,7 @@
           "platforms": {
             "all": {
               "url": "http://www.uiam.sk/~kvasnica/tbxpool/matlabjson/matlabjson_1_0_all.zip",
-              "sha256": null
+              "sha256": "a51c3c2a2ae6656834acde2e612199ae02ad24003bcf4af36f20aab599e4e957"
             }
           },
           "released": "2016-12-02"
@@ -778,7 +778,7 @@
           "platforms": {
             "all": {
               "url": "http://www.uiam.sk/~kvasnica/tbxpool/matwebsocks/matwebsocks_1_3_all.zip",
-              "sha256": null
+              "sha256": "cc862b37c4afa1c49a6b14a26a6aa57bab82b3f8c59fcb9dcdf1dea3523e6938"
             }
           },
           "released": "2019-01-08"
@@ -789,7 +789,7 @@
           "platforms": {
             "all": {
               "url": "http://www.uiam.sk/~kvasnica/tbxpool/matwebsocks/matwebsocks_1_2_all.zip",
-              "sha256": null
+              "sha256": "510603aaee0759a44de46f04a13f5e0dfb7e648d9c209b27e56e68a08aa6f632"
             }
           },
           "released": "2016-11-22"
@@ -1009,7 +1009,7 @@
           "platforms": {
             "all": {
               "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/mpt3/3_2_1/mpt3-3_2_1.tgz",
-              "sha256": null
+              "sha256": "d64b09c1df707c2ab802f78d82d446ae9d436f68fe3afe5b5f5e6bea53530f5d"
             }
           },
           "released": "2018-06-07"
@@ -1031,7 +1031,7 @@
           "platforms": {
             "all": {
               "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/mpt2/261/mpt.zip",
-              "sha256": null
+              "sha256": "816a3df7907cc21e4d374845ad201007f2d5b8add8af1ab8de4efc72b45abf49"
             }
           },
           "released": "2013-07-01"
@@ -1053,7 +1053,7 @@
           "platforms": {
             "all": {
               "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/mpt3lowcom/1_0_3/mpt3lowcom-1_0_3.tgz",
-              "sha256": null
+              "sha256": "57d2a585de8e71b43958b351c604b968e14c2dba8bfdc6e52063c4a033e968ea"
             }
           },
           "released": "2014-02-13"
@@ -1108,7 +1108,7 @@
           "platforms": {
             "all": {
               "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/mpt3doc/3_0_4/mpt3doc-3_0_4.tgz",
-              "sha256": null
+              "sha256": "9244278cf28f517a8856a3059cc180c7f233b96a296e60b9af900c998a182f62"
             }
           },
           "released": "2013-12-19"
@@ -1174,7 +1174,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/holaza/mptplus/releases/download/R20241004/mptplus_R20241004.zip",
-              "sha256": null
+              "sha256": "dec42dee78369bb93d3975d2ad077d18a25424c3ad0e2e5592f55152fdf3fe42"
             }
           },
           "released": "2024-10-04"
@@ -1185,7 +1185,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/holaza/mptplus/releases/download/R20240424/mptplus_R20240424.zip",
-              "sha256": null
+              "sha256": "d80de629ffbac18311d676ee4f6809b7c86d5dea71e9b240224316dbf3175537"
             }
           },
           "released": "2024-04-24"
@@ -1196,7 +1196,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/holaza/mptplus/releases/download/R20230614/mptplus_R20230614.zip",
-              "sha256": null
+              "sha256": "f30f206cc8b1ff2493811f3fd6e40388768b75213ca39d67c31824a011490797"
             }
           },
           "released": "2023-06-14"
@@ -1207,7 +1207,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/holaza/mptplus/releases/download/R20230331/mptplus_R20230331.zip",
-              "sha256": null
+              "sha256": "791f47fc075e1b5206104eca0b602ff9cf9f263013db1529815dc9281df7f839"
             }
           },
           "released": "2023-03-31"
@@ -1218,7 +1218,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/holaza/mptplus/releases/download/R20230314/mptplus_R20230314.zip",
-              "sha256": null
+              "sha256": "150e1a508cd44bd1ddc74a8f04c94ccda891675edbe3ce3c6d1de6d3c002e59f"
             }
           },
           "released": "2023-03-18"
@@ -1240,7 +1240,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/oravec-juraj/mup/releases/download/R20250924/mup.zip",
-              "sha256": null
+              "sha256": "4bc8612e4b43aa4b9f711ed4a3ff165ee1b650d59fff167fbccaf46610c97423"
             }
           },
           "released": "2025-09-24"
@@ -1251,7 +1251,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/oravec-juraj/mup/releases/download/R20240813/mup.zip",
-              "sha256": null
+              "sha256": "b192a1b4a442632d19f804cc54672b634b71a4f7edb04180f1844122ea458aa1"
             }
           },
           "released": "2024-08-13"
@@ -1262,7 +1262,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/oravec-juraj/mup/releases/download/R20210708/mup.zip",
-              "sha256": null
+              "sha256": "92c3f458ec106b5ec5cc5f0fe7b63e6d0db6a32f83d91f251efe71fee201157f"
             }
           },
           "released": "2023-07-27"
@@ -1273,7 +1273,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/oravec-juraj/mup/releases/download/R20210708/mup.zip",
-              "sha256": null
+              "sha256": "92c3f458ec106b5ec5cc5f0fe7b63e6d0db6a32f83d91f251efe71fee201157f"
             }
           },
           "released": "2021-07-08"
@@ -1284,7 +1284,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/oravec-juraj/mup/releases/download/R20210621/mup.zip",
-              "sha256": null
+              "sha256": "733eea0a776ddd0c1092955f89480759b1d0aff1d6aeac82336cbb8e0b8b945d"
             }
           },
           "released": "2021-06-21"
@@ -1295,7 +1295,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/oravec-juraj/mup/releases/download/R20200224/mup.zip",
-              "sha256": null
+              "sha256": "6a917e9b5e3ee59f3f14c036935e9ce2864a32555f6ccfba73a5b24892405927"
             }
           },
           "released": "2020-02-24"
@@ -1336,15 +1336,15 @@
           "platforms": {
             "glnxa64": {
               "url": "http://www.qpoases.org/tbxmanager/3.2.0/qpOASES_3_2_0_linux64.zip",
-              "sha256": null
+              "sha256": "de739a4d73e1514a233fe72b9d94e45ce81360a7cc5437c5b4d69cbb147a1d24"
             },
             "maci64": {
               "url": "http://www.qpoases.org/tbxmanager/3.2.0/qpOASES_3_2_0_mac64.zip",
-              "sha256": null
+              "sha256": "b3f6ddaac29b43f200607ac781bd5dd9de715fc532d43d578da45972ee1cadcd"
             },
             "win64": {
               "url": "http://www.qpoases.org/tbxmanager/3.2.0/qpOASES_3_2_0_win64.zip",
-              "sha256": null
+              "sha256": "8a2e72dea70ad1926f498671137c13ce4be3c42a9279575d4d73e5d0698e355c"
             }
           },
           "released": "2015-09-07"
@@ -1355,15 +1355,15 @@
           "platforms": {
             "glnxa64": {
               "url": "http://www.qpoases.org/tbxmanager/3.1.0/qpOASES_3_1_0_linux64.zip",
-              "sha256": null
+              "sha256": "65bbf5627b0b2ca9180ef200acfd502ea395e70252f39e94a79d277b09bbfd8c"
             },
             "maci64": {
               "url": "http://www.qpoases.org/tbxmanager/3.1.0/qpOASES_3_1_0_mac64.zip",
-              "sha256": null
+              "sha256": "cf918863648983df140a01f65ea021a1fb015fb4f30b9e448b3dc5e86bbac538"
             },
             "win64": {
               "url": "http://www.qpoases.org/tbxmanager/3.1.0/qpOASES_3_1_0_win64.zip",
-              "sha256": null
+              "sha256": "d5f64b7f1694e20b4e9e2c9381ebf6d896772b7c039f98fd1ee22ac320fd641a"
             }
           },
           "released": "2015-02-23"
@@ -1374,15 +1374,15 @@
           "platforms": {
             "glnxa64": {
               "url": "http://www.qpOASES.org/tbxmanager/3.0.1/qpOASES_3_0_1_linux64.zip",
-              "sha256": null
+              "sha256": "8a6f02717241b21645fbeeddf53473591e30cfbbfbec46f9a0e44ca4b4d78a2f"
             },
             "maci64": {
               "url": "http://www.qpOASES.org/tbxmanager/3.0.1/qpOASES_3_0_1_mac64.zip",
-              "sha256": null
+              "sha256": "1dda131982ae4b54b2f4bb61115a406f5b8958355c32d854e706539770cd4921"
             },
             "win64": {
               "url": "http://www.qpOASES.org/tbxmanager/3.0.1/qpOASES_3_0_1_win64.zip",
-              "sha256": null
+              "sha256": "17e0f066527267817e6abb3e99494ebfc37dd00f4657fe0a9226171ddbff7da1"
             }
           },
           "released": "2014-12-18"
@@ -1393,11 +1393,11 @@
           "platforms": {
             "glnxa64": {
               "url": "http://www.qpOASES.org/tbxmanager/3.0.0/qpOASES_3_0_0_linux64.zip",
-              "sha256": null
+              "sha256": "230e76963efc7b36fecef0c793a471c953d03ca5d6e848ca04285cf8d6db6d5b"
             },
             "win64": {
               "url": "http://www.qpOASES.org/tbxmanager/3.0.0/qpOASES_3_0_0_win64.zip",
-              "sha256": null
+              "sha256": "6b013d8f0a7ce53e2ce492f4a0ed77b1fc891cf90b5447bd118a81dc02629b21"
             }
           },
           "released": "2014-12-18"
@@ -1419,7 +1419,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/martin-kaluz/PaillierCrypto-matlab/archive/master.zip",
-              "sha256": null
+              "sha256": "f41f19ca416921f4efc4daa5ab3f04c616f6eb3cc96e84118db7d98240bbf6a0"
             }
           },
           "released": "2019-10-21"
@@ -1441,7 +1441,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/sujunyan/ParExMPC/archive/refs/tags/R20240820.zip",
-              "sha256": null
+              "sha256": "a23cf80481c8fd438fca8304a9b543be848b5908ff5de46ddd572c884149393a"
             }
           },
           "released": "2024-08-20"
@@ -1452,7 +1452,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/sujunyan/ParExMPC/archive/refs/tags/R20231203.zip",
-              "sha256": null
+              "sha256": "748ac0bc97413a0092c1a5549be74629568ecae13e6c1d2788df1ab93d29f36e"
             }
           },
           "released": "2023-12-02"
@@ -1474,7 +1474,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/oravec-juraj/piddesign/archive/refs/tags/R20251117.zip",
-              "sha256": null
+              "sha256": "713a1bde2640938671377746e951f7f387bc00666b319f6a426fb33247de34ac"
             }
           },
           "released": "2025-11-17"
@@ -1485,7 +1485,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/oravec-juraj/piddesign/releases/download/R20240723/piddesign_R20240723.zip",
-              "sha256": null
+              "sha256": "cd2e97f8d11b86f1747c97d8c9a5eefd132fa4e94d2563baaaeefcc4770bb3f1"
             }
           },
           "released": "2024-07-23"
@@ -1496,7 +1496,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/oravec-juraj/piddesign/releases/download/20230918/piddesign.zip",
-              "sha256": null
+              "sha256": "8afcab59f4adfe7d371a0b4f71871c71a871b5a4d3287298f95bfb4f6dc9703f"
             }
           },
           "released": "2023-09-18"
@@ -1507,7 +1507,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/oravec-juraj/piddesign/releases/download/R20210621/piddesign.zip",
-              "sha256": null
+              "sha256": "89dedc68fac96e1a76877dc464c051625bd6c22cc9883a3fcf8849ca763d1476"
             }
           },
           "released": "2021-06-21"
@@ -1518,7 +1518,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/oravec-juraj/piddesign/releases/download/R20200424/piddesign.zip",
-              "sha256": null
+              "sha256": "a9f64f2994994e5a95e4763bd5f62fc4a68b84b0b847b2b84f0bb1e433641a2a"
             }
           },
           "released": "2020-02-24"
@@ -1540,7 +1540,7 @@
           "platforms": {
             "all": {
               "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/qpspline/1_0/QPspline.m",
-              "sha256": null
+              "sha256": "ea0502c52a76787bef85c435fbc7bdf14075e5955a91214f36ccda166a65d72e"
             }
           },
           "released": "2012-10-02"
@@ -1561,15 +1561,15 @@
           "platforms": {
             "glnxa64": {
               "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/sedumi/1_3/sedumi_1_3_glnxa64.zip",
-              "sha256": null
+              "sha256": "b55122fd642db62110aa2452d9acfe0c9f96778daf282fe736d2df43145d02b1"
             },
             "maci64": {
               "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/sedumi/1_3/sedumi_1_3_maci64.zip",
-              "sha256": null
+              "sha256": "b41e5e06522a6e09d5ca2726e7a3aff5c9f92920c4770ac910b82e7fcf9f475f"
             },
             "win64": {
               "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/sedumi/1_3/sedumi_1_3_pcwin64.zip",
-              "sha256": null
+              "sha256": "0ac0b154d109797faf988a16c774f77af75699543630cfa4fc6bc133548538f7"
             }
           },
           "released": "2012-10-02"
@@ -1591,7 +1591,7 @@
           "platforms": {
             "maci64": {
               "url": "https://github.com/MarekWadinger/tbx-index-arm64/archive/refs/heads/main.zip",
-              "sha256": null
+              "sha256": "e899953b3a74c14f17f4c2c76eeab7826b0b43c2313cb708ce3ec267e1701777"
             }
           },
           "released": "2026-03-23"
@@ -1613,7 +1613,7 @@
           "platforms": {
             "all": {
               "url": "http://www.uiam.sk/~kvasnica/tbxpool/tbxcli/tbxcli_1_1_all.zip",
-              "sha256": null
+              "sha256": "bf9710a37e1d62686a5ff1621e8d3b73ad72ad730ff7d94744e62ddacb9f04a1"
             }
           },
           "released": "2014-04-12"
@@ -1624,7 +1624,7 @@
           "platforms": {
             "all": {
               "url": "http://www.tbxmanager.com/tbxcli.m",
-              "sha256": null
+              "sha256": "7e432823ce16e65253b08af1b40c5615489be3db92dd68a2e3007065f9270f4e"
             }
           },
           "released": "2013-09-02"
@@ -1645,7 +1645,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/oravec-juraj/vesna/releases/download/R20240424/vesna_code_R20240424.zip",
-              "sha256": null
+              "sha256": "a21fe2379f4da250e19c486997a17eb51e3f60d8aae5336b58e0ceefbdcd2ce3"
             }
           },
           "released": "2024-04-24"
@@ -1656,7 +1656,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/oravec-juraj/vesna/releases/download/R20240322/vesna_code_R20240322.zip",
-              "sha256": null
+              "sha256": "96b89eb1d6b5076f345835c5e6a0e8acda27d953b73b4ced060634411a4c5ec7"
             }
           },
           "released": "2024-03-22"
@@ -1667,7 +1667,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/oravec-juraj/vesna/releases/download/R20231117/vesna_code_R20231117.zip",
-              "sha256": null
+              "sha256": "e32133cc28edea741d5b553bc1788cb405db309542356b34df9dc4b6650c50a3"
             }
           },
           "released": "2023-11-19"
@@ -1722,7 +1722,7 @@
           "platforms": {
             "all": {
               "url": "http://www.uiam.sk/~kvasnica/tbxpool/wsclient/wsclient_1_6_all.zip",
-              "sha256": null
+              "sha256": "740f6f3e8c65104c6695ec814bbf1b47b2437bc05759a482bb0cc75f8f35adc3"
             }
           },
           "released": "2017-09-21"
@@ -1898,7 +1898,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
-              "sha256": null
+              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
             }
           },
           "released": "2023-06-09"
@@ -1909,7 +1909,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
-              "sha256": null
+              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
             }
           },
           "released": "2021-06-28"
@@ -1920,7 +1920,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
-              "sha256": null
+              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
             }
           },
           "released": "2020-10-01"
@@ -1931,7 +1931,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
-              "sha256": null
+              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
             }
           },
           "released": "2020-01-16"
@@ -1942,7 +1942,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
-              "sha256": null
+              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
             }
           },
           "released": "2019-04-25"
@@ -1953,7 +1953,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
-              "sha256": null
+              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
             }
           },
           "released": "2018-10-12"
@@ -1964,7 +1964,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
-              "sha256": null
+              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
             }
           },
           "released": "2018-09-27"
@@ -1975,7 +1975,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
-              "sha256": null
+              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
             }
           },
           "released": "2018-08-17"
@@ -1986,7 +1986,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
-              "sha256": null
+              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
             }
           },
           "released": "2018-06-12"
@@ -1997,7 +1997,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
-              "sha256": null
+              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
             }
           },
           "released": "2018-04-13"
@@ -2008,7 +2008,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
-              "sha256": null
+              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
             }
           },
           "released": "2018-02-09"
@@ -2019,7 +2019,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
-              "sha256": null
+              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
             }
           },
           "released": "2017-11-21"
@@ -2030,7 +2030,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
-              "sha256": null
+              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
             }
           },
           "released": "2017-10-18"
@@ -2041,7 +2041,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
-              "sha256": null
+              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
             }
           },
           "released": "2017-09-21"
@@ -2052,7 +2052,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
-              "sha256": null
+              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
             }
           },
           "released": "2017-09-15"
@@ -2063,7 +2063,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
-              "sha256": null
+              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
             }
           },
           "released": "2017-08-18"
@@ -2074,7 +2074,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
-              "sha256": null
+              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
             }
           },
           "released": "2017-08-09"
@@ -2085,7 +2085,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
-              "sha256": null
+              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
             }
           },
           "released": "2017-06-24"
@@ -2096,7 +2096,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
-              "sha256": null
+              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
             }
           },
           "released": "2017-06-22"
@@ -2107,7 +2107,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
-              "sha256": null
+              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
             }
           },
           "released": "2016-09-30"
@@ -2118,7 +2118,7 @@
           "platforms": {
             "all": {
               "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
-              "sha256": null
+              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
             }
           },
           "released": "2016-09-23"

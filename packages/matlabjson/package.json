@@ -12,7 +12,7 @@
       "platforms": {
         "all": {
           "url": "http://www.uiam.sk/~kvasnica/tbxpool/matlabjson/matlabjson_1_0_all.zip",
-          "sha256": null
+          "sha256": "a51c3c2a2ae6656834acde2e612199ae02ad24003bcf4af36f20aab599e4e957"
         }
       },
       "released": "2016-12-02"

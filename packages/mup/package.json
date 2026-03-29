@@ -12,7 +12,7 @@
       "platforms": {
         "all": {
           "url": "https://github.com/oravec-juraj/mup/releases/download/R20250924/mup.zip",
-          "sha256": null
+          "sha256": "4bc8612e4b43aa4b9f711ed4a3ff165ee1b650d59fff167fbccaf46610c97423"
         }
       },
       "released": "2025-09-24"
@@ -23,7 +23,7 @@
       "platforms": {
         "all": {
           "url": "https://github.com/oravec-juraj/mup/releases/download/R20240813/mup.zip",
-          "sha256": null
+          "sha256": "b192a1b4a442632d19f804cc54672b634b71a4f7edb04180f1844122ea458aa1"
         }
       },
       "released": "2024-08-13"
@@ -34,7 +34,7 @@
       "platforms": {
         "all": {
           "url": "https://github.com/oravec-juraj/mup/releases/download/R20210708/mup.zip",
-          "sha256": null
+          "sha256": "92c3f458ec106b5ec5cc5f0fe7b63e6d0db6a32f83d91f251efe71fee201157f"
         }
       },
       "released": "2023-07-27"
@@ -45,7 +45,7 @@
       "platforms": {
         "all": {
           "url": "https://github.com/oravec-juraj/mup/releases/download/R20210708/mup.zip",
-          "sha256": null
+          "sha256": "92c3f458ec106b5ec5cc5f0fe7b63e6d0db6a32f83d91f251efe71fee201157f"
         }
       },
       "released": "2021-07-08"
@@ -56,7 +56,7 @@
       "platforms": {
         "all": {
           "url": "https://github.com/oravec-juraj/mup/releases/download/R20210621/mup.zip",
-          "sha256": null
+          "sha256": "733eea0a776ddd0c1092955f89480759b1d0aff1d6aeac82336cbb8e0b8b945d"
         }
       },
       "released": "2021-06-21"
@@ -67,7 +67,7 @@
       "platforms": {
         "all": {
           "url": "https://github.com/oravec-juraj/mup/releases/download/R20200224/mup.zip",
-          "sha256": null
+          "sha256": "6a917e9b5e3ee59f3f14c036935e9ce2864a32555f6ccfba73a5b24892405927"
         }
       },
       "released": "2020-02-24"

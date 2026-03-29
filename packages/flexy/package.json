@@ -12,7 +12,7 @@
       "platforms": {
         "all": {
           "url": "http://www.uiam.sk/~kaluz/flexy/Flexy.zip",
-          "sha256": null
+          "sha256": "49b4df93f3e34f7ff9bc3cfada4dd691564b02a80fb66bc6c14fb907e12a4caf"
         }
       },
       "released": "2017-11-20"

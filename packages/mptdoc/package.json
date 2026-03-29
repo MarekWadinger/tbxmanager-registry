@@ -12,7 +12,7 @@
       "platforms": {
         "all": {
           "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/mpt3doc/3_0_4/mpt3doc-3_0_4.tgz",
-          "sha256": null
+          "sha256": "9244278cf28f517a8856a3059cc180c7f233b96a296e60b9af900c998a182f62"
         }
       },
       "released": "2013-12-19"

@@ -12,15 +12,15 @@
       "platforms": {
         "glnxa64": {
           "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/cddmex/1_0_1/cddmex_1_0_1_GLNXA64.tgz",
-          "sha256": null
+          "sha256": "aa936c2203bd1eac6606f93200062a5e1513bcc6a19313b6570f9f5319524315"
         },
         "maci64": {
           "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/cddmex/1_0_1/cddmex_1_0_1_MACI64.tgz",
-          "sha256": null
+          "sha256": "0f6cfd4b94435c26a50065d0b5400e1e3fc60397693af2ea434b8ab771607bc8"
         },
         "win64": {
           "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/cddmex/1_0_1/cddmex_1_0_1_PCWIN64.tgz",
-          "sha256": null
+          "sha256": "7d27a21ee6a36f107f58f866792f083eaeefa0a35364a361a86432bc91d3ab0c"
         }
       },
       "released": "2013-10-02"

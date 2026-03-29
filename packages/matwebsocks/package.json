@@ -34,7 +34,7 @@
       "platforms": {
         "all": {
           "url": "http://www.uiam.sk/~kvasnica/tbxpool/matwebsocks/matwebsocks_1_3_all.zip",
-          "sha256": null
+          "sha256": "cc862b37c4afa1c49a6b14a26a6aa57bab82b3f8c59fcb9dcdf1dea3523e6938"
         }
       },
       "released": "2019-01-08"
@@ -45,7 +45,7 @@
       "platforms": {
         "all": {
           "url": "http://www.uiam.sk/~kvasnica/tbxpool/matwebsocks/matwebsocks_1_2_all.zip",
-          "sha256": null
+          "sha256": "510603aaee0759a44de46f04a13f5e0dfb7e648d9c209b27e56e68a08aa6f632"
         }
       },
       "released": "2016-11-22"

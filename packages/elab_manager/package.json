@@ -11,7 +11,7 @@
       "platforms": {
         "all": {
           "url": "https://github.com/martin-kaluz/elab-matlab/archive/master.zip",
-          "sha256": null
+          "sha256": "49c0bcac5bfd26fa084783804093beb6ec8237bfa1a979bfe9472a3405811a11"
         }
       },
       "released": "2016-11-18"

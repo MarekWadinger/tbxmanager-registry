@@ -12,7 +12,7 @@
       "platforms": {
         "all": {
           "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/mpt3lowcom/1_0_3/mpt3lowcom-1_0_3.tgz",
-          "sha256": null
+          "sha256": "57d2a585de8e71b43958b351c604b968e14c2dba8bfdc6e52063c4a033e968ea"
         }
       },
       "released": "2014-02-13"

@@ -12,7 +12,7 @@
       "platforms": {
         "all": {
           "url": "https://github.com/martin-kaluz/PaillierCrypto-matlab/archive/master.zip",
-          "sha256": null
+          "sha256": "f41f19ca416921f4efc4daa5ab3f04c616f6eb3cc96e84118db7d98240bbf6a0"
         }
       },
       "released": "2019-10-21"

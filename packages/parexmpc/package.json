@@ -12,7 +12,7 @@
       "platforms": {
         "all": {
           "url": "https://github.com/sujunyan/ParExMPC/archive/refs/tags/R20240820.zip",
-          "sha256": null
+          "sha256": "a23cf80481c8fd438fca8304a9b543be848b5908ff5de46ddd572c884149393a"
         }
       },
       "released": "2024-08-20"
@@ -23,7 +23,7 @@
       "platforms": {
         "all": {
           "url": "https://github.com/sujunyan/ParExMPC/archive/refs/tags/R20231203.zip",
-          "sha256": null
+          "sha256": "748ac0bc97413a0092c1a5549be74629568ecae13e6c1d2788df1ab93d29f36e"
         }
       },
       "released": "2023-12-02"

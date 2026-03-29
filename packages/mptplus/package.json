@@ -12,7 +12,7 @@
       "platforms": {
         "all": {
           "url": "https://github.com/holaza/mptplus/releases/download/R20241004/mptplus_R20241004.zip",
-          "sha256": null
+          "sha256": "dec42dee78369bb93d3975d2ad077d18a25424c3ad0e2e5592f55152fdf3fe42"
         }
       },
       "released": "2024-10-04"
@@ -23,7 +23,7 @@
       "platforms": {
         "all": {
           "url": "https://github.com/holaza/mptplus/releases/download/R20240424/mptplus_R20240424.zip",
-          "sha256": null
+          "sha256": "d80de629ffbac18311d676ee4f6809b7c86d5dea71e9b240224316dbf3175537"
         }
       },
       "released": "2024-04-24"
@@ -34,7 +34,7 @@
       "platforms": {
         "all": {
           "url": "https://github.com/holaza/mptplus/releases/download/R20230614/mptplus_R20230614.zip",
-          "sha256": null
+          "sha256": "f30f206cc8b1ff2493811f3fd6e40388768b75213ca39d67c31824a011490797"
         }
       },
       "released": "2023-06-14"
@@ -45,7 +45,7 @@
       "platforms": {
         "all": {
           "url": "https://github.com/holaza/mptplus/releases/download/R20230331/mptplus_R20230331.zip",
-          "sha256": null
+          "sha256": "791f47fc075e1b5206104eca0b602ff9cf9f263013db1529815dc9281df7f839"
         }
       },
       "released": "2023-03-31"
@@ -56,7 +56,7 @@
       "platforms": {
         "all": {
           "url": "https://github.com/holaza/mptplus/releases/download/R20230314/mptplus_R20230314.zip",
-          "sha256": null
+          "sha256": "150e1a508cd44bd1ddc74a8f04c94ccda891675edbe3ce3c6d1de6d3c002e59f"
         }
       },
       "released": "2023-03-18"

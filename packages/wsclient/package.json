@@ -45,7 +45,7 @@
       "platforms": {
         "all": {
           "url": "http://www.uiam.sk/~kvasnica/tbxpool/wsclient/wsclient_1_6_all.zip",
-          "sha256": null
+          "sha256": "740f6f3e8c65104c6695ec814bbf1b47b2437bc05759a482bb0cc75f8f35adc3"
         }
       },
       "released": "2017-09-21"
