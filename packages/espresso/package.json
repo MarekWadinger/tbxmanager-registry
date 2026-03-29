@@ -1,0 +1,29 @@
+{
+  "name": "espresso",
+  "description": "Espresso heuristic logic minimizer",
+  "homepage": "http://embedded.eecs.berkeley.edu/pubs/downloads/espresso/index.htm",
+  "authors": [
+    "Michal Kvasnica <michal.kvasnica@stuba.sk>"
+  ],
+  "versions": {
+    "1.0": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "glnxa64": {
+          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/espresso/1_0/espresso_linux.tgz",
+          "sha256": null
+        },
+        "maci64": {
+          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/espresso/1_0/espresso_mac.tgz",
+          "sha256": null
+        },
+        "win64": {
+          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/espresso/1_0/espresso_win.tgz",
+          "sha256": null
+        }
+      },
+      "released": "2013-07-15"
+    }
+  }
+}

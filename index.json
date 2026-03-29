@@ -1,0 +1,1197 @@
+{
+  "index_version": 1,
+  "generated": "2026-03-29T15:40:33Z",
+  "packages": {
+    "brcm": {
+      "name": "brcm",
+      "description": "The Building Resistance-Capacitance Modeling (BRCM) Matlab Toolbox facilitates the physical modeling of buildings for MPC. The Toolbox provides a means for the fast generation of (bi-)linear resistance-capacitance type models from basic geometry, construction and building systems data and also supports the generation of appropriate costs and constraints. The Toolbox is based on previously validated modeling principles.\r\n",
+      "homepage": "http://www.brcm.ethz.ch",
+      "license": "The copyright is with the Automatic Control Lab, ETH Zurich.\r\n\r\nThe BRCM Toolbox is licensed under the GPLv3.\r\nIn order to promote the Open Source idea under which this software is licensed,\r\nthe resulting output from this software or modified output shall also be published\r\nunder the GPLv3.\r\n\r\nIf you are interested in using the generated output commercially, \r\nplease contact the Automatic Control Laboratory, ETH Zurich.",
+      "authors": [
+        "David Sturzenegger <stdavid@ethz.ch>"
+      ],
+      "versions": {
+        "v0.96(Beta)": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://www.control.ee.ethz.ch/~stdavid/BRCMToolbox_v0.96(Beta).zip",
+              "sha256": null
+            }
+          },
+          "released": "2014-02-03"
+        },
+        "v0.95(Beta)": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://www.control.ee.ethz.ch/~stdavid/BRCMToolbox_v0.95(Beta).zip",
+              "sha256": null
+            }
+          },
+          "released": "2013-12-10"
+        },
+        "v0.94(Beta)": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://www.control.ee.ethz.ch/~stdavid/BRCMToolbox_v0.94(Beta).zip",
+              "sha256": null
+            }
+          },
+          "released": "2013-10-30"
+        },
+        "v0.93(beta)": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://www.control.ee.ethz.ch/~stdavid/BRCMToolbox_v0.93(Beta).zip",
+              "sha256": null
+            }
+          },
+          "released": "2013-10-20"
+        },
+        "v0.92(beta)": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://www.control.ee.ethz.ch/~stdavid/BRCMToolbox_v0.92(Beta).zip",
+              "sha256": null
+            }
+          },
+          "released": "2013-10-18"
+        },
+        "v0.91(beta)": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://www.control.ee.ethz.ch/~stdavid/BRCMToolbox_v0.91(Beta).zip",
+              "sha256": null
+            }
+          },
+          "released": "2013-10-04"
+        }
+      },
+      "latest": "v0.96(Beta)"
+    },
+    "cddmex": {
+      "name": "cddmex",
+      "description": "Mex interface to CDD",
+      "homepage": "http://control.ee.ethz.ch/~hybrid/cdd.php",
+      "authors": [
+        "Michal Kvasnica <michal.kvasnica@stuba.sk>",
+        "Martin Herceg <herceg@control.ee.ethz.ch>",
+        "Colin Jones <colin.jones@epfl.ch>"
+      ],
+      "versions": {
+        "1.0.1": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "glnxa64": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/cddmex/1_0_1/cddmex_1_0_1_GLNXA64.tgz",
+              "sha256": null
+            },
+            "maci64": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/cddmex/1_0_1/cddmex_1_0_1_MACI64.tgz",
+              "sha256": null
+            },
+            "win64": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/cddmex/1_0_1/cddmex_1_0_1_PCWIN64.tgz",
+              "sha256": null
+            }
+          },
+          "released": "2013-10-02"
+        },
+        "1.0": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "glnxa64": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/cddmex/1_0/cddmex_1_0_glnxa64.zip",
+              "sha256": null
+            },
+            "maci64": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/cddmex/1_0/cddmex_1_0_maci64.zip",
+              "sha256": null
+            },
+            "win64": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/cddmex/1_0/cddmex_1_0_pcwin64.zip",
+              "sha256": null
+            }
+          },
+          "released": "2012-10-02"
+        }
+      },
+      "latest": "1.0.1"
+    },
+    "clpmex": {
+      "name": "clpmex",
+      "description": "Mex interface to CLP",
+      "authors": [
+        "Michal Kvasnica <michal.kvasnica@stuba.sk>",
+        "Martin Herceg <herceg@control.ee.ethz.ch>",
+        "Colin Jones <colin.jones@epfl.ch>"
+      ],
+      "versions": {
+        "1.0": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "glnxa64": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/clpmex/1_0/clpmex_1_0_glnxa64.zip",
+              "sha256": null
+            },
+            "maci64": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/clpmex/1_0/clpmex_1_0_maci64.zip",
+              "sha256": null
+            },
+            "win64": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/clpmex/1_0/clpmex_1_0_pcwin64.zip",
+              "sha256": null
+            }
+          },
+          "released": "2012-10-02"
+        }
+      },
+      "latest": "1.0"
+    },
+    "espresso": {
+      "name": "espresso",
+      "description": "Espresso heuristic logic minimizer",
+      "homepage": "http://embedded.eecs.berkeley.edu/pubs/downloads/espresso/index.htm",
+      "authors": [
+        "Michal Kvasnica <michal.kvasnica@stuba.sk>"
+      ],
+      "versions": {
+        "1.0": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "glnxa64": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/espresso/1_0/espresso_linux.tgz",
+              "sha256": null
+            },
+            "maci64": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/espresso/1_0/espresso_mac.tgz",
+              "sha256": null
+            },
+            "win64": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/espresso/1_0/espresso_win.tgz",
+              "sha256": null
+            }
+          },
+          "released": "2013-07-15"
+        }
+      },
+      "latest": "1.0"
+    },
+    "eventcollector": {
+      "name": "eventcollector",
+      "description": "Collects events from a Matlab object",
+      "homepage": "http://bitbucket.org/kvasnica/eventcollector/",
+      "authors": [
+        "Michal Kvasnica <michal.kvasnica@stuba.sk>"
+      ],
+      "versions": {
+        "1.0": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://www.kirp.chtf.stuba.sk/~kvasnica/tbxpool/eventcollector/eventcollector_1_0_all.zip",
+              "sha256": null
+            }
+          },
+          "released": "2014-04-15"
+        }
+      },
+      "latest": "1.0"
+    },
+    "fiordos": {
+      "name": "fiordos",
+      "description": "FiOrdOs",
+      "homepage": "http://fiordos.ethz.ch",
+      "license": "The copyright is with the Automatic Control Lab, ETH Zurich.\r\n\r\nFiOrdOs is licensed under the GPL 3.0.\r\nIn order to promote the Open Source idea under which this software is licensed,\r\nthe resulting output from this software or modified output shall also be published\r\nunder the GPL 3.0. For your convenience, a respective comment line is added\r\nto any output that this software generates.\r\n\r\nIf you are interested in using the generated output commercially,\r\nplease contact the Automatic Control Lab, ETH Zurich.",
+      "authors": [
+        "Fabian Ullmann <ullmannf@control.ee.ethz.ch>",
+        "Stefan Richter <richters@ee.ethz.ch>"
+      ],
+      "versions": {
+        "R20121210": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://fiordos.ethz.ch/dwnldf/fiordosR20121210.zip",
+              "sha256": null
+            }
+          },
+          "released": "2012-12-10"
+        },
+        "R20121029": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://fiordos.ethz.ch/dwnldf/fiordosR20121029.zip",
+              "sha256": null
+            }
+          },
+          "released": "2012-10-29"
+        },
+        "R20120921": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://fiordos.ethz.ch/dwnldf/fiordosR20120921.zip",
+              "sha256": null
+            }
+          },
+          "released": "2012-10-19"
+        },
+        "R20120525": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://fiordos.ethz.ch/dwnldf/fiordosR20120525.zip",
+              "sha256": null
+            }
+          },
+          "released": "2012-10-19"
+        }
+      },
+      "latest": "R20120525"
+    },
+    "fourier": {
+      "name": "fourier",
+      "description": "Fourier projection",
+      "authors": [
+        "Michal Kvasnica <michal.kvasnica@stuba.sk>",
+        "Martin Herceg <herceg@control.ee.ethz.ch>",
+        "Colin Jones <colin.jones@epfl.ch>"
+      ],
+      "versions": {
+        "1.0": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "glnxa64": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/fourier/1_0/fourier_1_0_glnxa64.zip",
+              "sha256": null
+            },
+            "maci64": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/fourier/1_0/fourier_1_0_maci64.zip",
+              "sha256": null
+            },
+            "win64": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/fourier/1_0/fourier_1_0_pcwin64.zip",
+              "sha256": null
+            }
+          },
+          "released": "2012-10-02"
+        }
+      },
+      "latest": "1.0"
+    },
+    "glpkmex": {
+      "name": "glpkmex",
+      "description": "Mex interface to GLPK",
+      "authors": [
+        "Michal Kvasnica <michal.kvasnica@stuba.sk>",
+        "Martin Herceg <herceg@control.ee.ethz.ch>",
+        "Colin Jones <colin.jones@epfl.ch>"
+      ],
+      "versions": {
+        "1.0": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "glnxa64": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/glpkmex/1_0/glpkmex_1_0_glnxa64.zip",
+              "sha256": null
+            },
+            "maci64": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/glpkmex/1_0/glpkmex_1_0_maci64.zip",
+              "sha256": null
+            },
+            "win64": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/glpkmex/1_0/glpkmex_1_0_pcwin64.zip",
+              "sha256": null
+            }
+          },
+          "released": "2012-10-02"
+        }
+      },
+      "latest": "1.0"
+    },
+    "hashtable": {
+      "name": "hashtable",
+      "description": "The matlab wrapper for the java class LinkedHashMap Java utility. ",
+      "homepage": "http://control.ee.ethz.ch/~mpt",
+      "authors": [
+        "Martin Herceg <herceg@control.ee.ethz.ch>"
+      ],
+      "versions": {
+        "1.0": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/HashTable/1_0/HashTable_1_0_all.tgz",
+              "sha256": null
+            }
+          },
+          "released": "2013-12-04"
+        }
+      },
+      "latest": "1.0"
+    },
+    "hysdel": {
+      "name": "hysdel",
+      "description": "Hybrid Systems Description Language",
+      "homepage": "http://control.ee.ethz.ch/~hybrid/hysdel/",
+      "authors": [
+        "Michal Kvasnica <michal.kvasnica@stuba.sk>",
+        "Martin Herceg <herceg@control.ee.ethz.ch>"
+      ],
+      "versions": {
+        "2.0.6": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "glnxa64": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/hysdel2/2_0_6/GLNXA64/hysdel.zip",
+              "sha256": null
+            },
+            "maci64": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/hysdel2/2_0_6/MACI64/hysdel.zip",
+              "sha256": null
+            },
+            "win64": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/hysdel2/2_0_6/PCWIN64/hysdel.zip",
+              "sha256": null
+            }
+          },
+          "released": "2012-10-02"
+        }
+      },
+      "latest": "2.0.6"
+    },
+    "lcp": {
+      "name": "lcp",
+      "description": "LCP solver",
+      "authors": [
+        "Michal Kvasnica <michal.kvasnica@stuba.sk>",
+        "Martin Herceg <herceg@control.ee.ethz.ch>",
+        "Colin Jones <colin.jones@epfl.ch>"
+      ],
+      "versions": {
+        "1.0.3": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "glnxa64": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/lcp/1_0_3/lcp_1_0_3_GLNXA64.tgz",
+              "sha256": null
+            },
+            "maci64": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/lcp/1_0_3/lcp_1_0_3_MACI64.tgz",
+              "sha256": null
+            },
+            "win64": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/lcp/1_0_3/lcp_1_0_3_PCWIN64.tgz",
+              "sha256": null
+            }
+          },
+          "released": "2013-08-22"
+        },
+        "1.0.2": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "glnxa64": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/lcp/1_0_2/lcp_1_0_2_GLNXA64.tgz",
+              "sha256": null
+            },
+            "maci64": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/lcp/1_0_2/lcp_1_0_2_MACI64.tgz",
+              "sha256": null
+            },
+            "win64": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/lcp/1_0_2/lcp_1_0_2_PCWIN64.tgz",
+              "sha256": null
+            }
+          },
+          "released": "2013-06-15"
+        },
+        "1.0.1": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "glnxa64": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/lcp/1_0_1/lcp_1_0_1_GLNXA64.tgz",
+              "sha256": null
+            },
+            "maci64": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/lcp/1_0_1/lcp_1_0_1_MACI64.tgz",
+              "sha256": null
+            },
+            "win64": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/lcp/1_0_1/lcp_1_0_1_PCWIN64.tgz",
+              "sha256": null
+            }
+          },
+          "released": "2013-02-21"
+        },
+        "1.0": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "glnxa64": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/lcp/1_0/lcp_1_0_glnxa64.zip",
+              "sha256": null
+            },
+            "maci64": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/lcp/1_0/lcp_1_0_maci64.zip",
+              "sha256": null
+            },
+            "win64": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/lcp/1_0/lcp_1_0_pcwin64.zip",
+              "sha256": null
+            }
+          },
+          "released": "2012-10-02"
+        }
+      },
+      "latest": "1.0.3"
+    },
+    "matwebsocks": {
+      "name": "matwebsocks",
+      "description": "Run \"matws_install\" to put the necessary libraries to the static Java path. Then restart matlab.",
+      "homepage": "https://bitbucket.org/kvasnica/matwebsocks",
+      "authors": [
+        "Michal Kvasnica <michal.kvasnica@stuba.sk>"
+      ],
+      "versions": {
+        "1.1": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://www.kirp.chtf.stuba.sk/~kvasnica/tbxpool/matwebsocks/matwebsocks_1_1_all.zip",
+              "sha256": null
+            }
+          },
+          "released": "2014-04-26"
+        },
+        "1.0": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://www.kirp.chtf.stuba.sk/~kvasnica/tbxpool/matwebsocks/matwebsocks_1_0_all.zip",
+              "sha256": null
+            }
+          },
+          "released": "2014-04-15"
+        }
+      },
+      "latest": "1.1"
+    },
+    "mpt": {
+      "name": "mpt",
+      "description": "Multi-Parametric Toolbox 3.0",
+      "homepage": "http://control.ee.ethz.ch/~mpt/",
+      "authors": [
+        "Michal Kvasnica <michal.kvasnica@stuba.sk>",
+        "Martin Herceg <herceg@control.ee.ethz.ch>",
+        "Colin Jones <colin.jones@epfl.ch>"
+      ],
+      "versions": {
+        "3.0.17": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3/3_0_17/mpt3-3_0_17.tgz",
+              "sha256": null
+            }
+          },
+          "released": "2014-02-27"
+        },
+        "3.0.16": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3/3_0_16/mpt3-3_0_16.tgz",
+              "sha256": null
+            }
+          },
+          "released": "2014-01-28"
+        },
+        "3.0.15": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3/3_0_15/mpt3-3_0_15.tgz",
+              "sha256": null
+            }
+          },
+          "released": "2014-01-16"
+        },
+        "3.0.14": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3/3_0_14/mpt3-3_0_14.tgz",
+              "sha256": null
+            }
+          },
+          "released": "2013-12-17"
+        },
+        "3.0.13": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3/3_0_13/mpt3-3_0_13.tgz",
+              "sha256": null
+            }
+          },
+          "released": "2013-10-23"
+        },
+        "3.0.12": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3/3_0_12/mpt3-3_0_12.tgz",
+              "sha256": null
+            }
+          },
+          "released": "2013-09-24"
+        },
+        "3.0.11": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3/3_0_11/mpt3-3_0_11.tgz",
+              "sha256": null
+            }
+          },
+          "released": "2013-08-28"
+        },
+        "3.0.10": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3/3_0_10/mpt3-3_0_10.tgz",
+              "sha256": null
+            }
+          },
+          "released": "2013-08-23"
+        },
+        "3.0.9": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3/3_0_9/mpt3-3_0_9.tgz",
+              "sha256": null
+            }
+          },
+          "released": "2013-08-06"
+        },
+        "3,0.8": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3/3_0_8/mpt3-3_0_8.tgz",
+              "sha256": null
+            }
+          },
+          "released": "2013-07-15"
+        },
+        "3.0.7": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3/3_0_7/mpt3-3_0_7.tgz",
+              "sha256": null
+            }
+          },
+          "released": "2013-07-02"
+        },
+        "3.0.6": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3/3_0_6/mpt3-3_0_6.tgz",
+              "sha256": null
+            }
+          },
+          "released": "2013-05-29"
+        },
+        "3.0.5": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3/3_0_5/mpt3-3_0_5.tgz",
+              "sha256": null
+            }
+          },
+          "released": "2013-05-21"
+        },
+        "3.0.4": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3/3_0_4/mpt3-3_0_4.tgz",
+              "sha256": null
+            }
+          },
+          "released": "2013-05-20"
+        },
+        "3.0.3": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3/3_0_3/mpt3-3_0_3.tgz",
+              "sha256": null
+            }
+          },
+          "released": "2013-05-14"
+        },
+        "3.0.2": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3/3_0_2/mpt3-3_0_2.tgz",
+              "sha256": null
+            }
+          },
+          "released": "2013-02-22"
+        },
+        "3.0.1": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3/3_0_1/mpt3-3_0_1.tgz",
+              "sha256": null
+            }
+          },
+          "released": "2013-02-18"
+        },
+        "3.0": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3/3_0/mpt3-3_0.tgz",
+              "sha256": null
+            }
+          },
+          "released": "2012-10-02"
+        }
+      },
+      "latest": "3,0.8"
+    },
+    "mpt2": {
+      "name": "mpt2",
+      "description": "MPT2",
+      "homepage": "http://control.ee.ethz.ch/~mpt/2/",
+      "authors": [
+        "Michal Kvasnica <michal.kvasnica@stuba.sk>"
+      ],
+      "versions": {
+        "2.6.3": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt2/261/mpt.zip",
+              "sha256": null
+            }
+          },
+          "released": "2013-07-01"
+        }
+      },
+      "latest": "2.6.3"
+    },
+    "mpt3lowcom": {
+      "name": "mpt3lowcom",
+      "description": "Low-complexity control design module for MPT3",
+      "homepage": "https://bitbucket.org/kvasnica/mpt3lowcom/wiki",
+      "authors": [
+        "Michal Kvasnica <michal.kvasnica@stuba.sk>"
+      ],
+      "versions": {
+        "1.0.3": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3lowcom/1_0_3/mpt3lowcom-1_0_3.tgz",
+              "sha256": null
+            }
+          },
+          "released": "2014-02-13"
+        },
+        "1.0.2": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3lowcom/1_0_2/mpt3lowcom-1_0_2.tgz",
+              "sha256": null
+            }
+          },
+          "released": "2014-02-05"
+        },
+        "1.0.1": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3lowcom/1_0_1/mpt3lowcom-1_0_1.tgz",
+              "sha256": null
+            }
+          },
+          "released": "2013-12-03"
+        },
+        "1.0": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3lowcom/1_0/mpt3lowcom-1_0.tgz",
+              "sha256": null
+            }
+          },
+          "released": "2013-10-30"
+        }
+      },
+      "latest": "1.0.3"
+    },
+    "mptdoc": {
+      "name": "mptdoc",
+      "description": "Multi-Parametric Toolbox documentation",
+      "homepage": "http://control.ee.ethz.ch/~mpt/redmine/projects/mpt3/wiki",
+      "authors": [
+        "Michal Kvasnica <michal.kvasnica@stuba.sk>",
+        "Martin Herceg <herceg@control.ee.ethz.ch>",
+        "Colin Jones <colin.jones@epfl.ch>"
+      ],
+      "versions": {
+        "3.0.4": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3doc/3_0_4/mpt3doc-3_0_4.tgz",
+              "sha256": null
+            }
+          },
+          "released": "2013-12-19"
+        },
+        "3.0.3": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3doc/3_0_3/mpt3doc-3_0_3.tgz",
+              "sha256": null
+            }
+          },
+          "released": "2013-10-02"
+        },
+        "3.0.2": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3doc/3_0_2/mpt3doc-3_0_2.tgz",
+              "sha256": null
+            }
+          },
+          "released": "2013-05-29"
+        },
+        "3.0.1": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3doc/3_0_1/mpt3doc-3_0_1.tgz",
+              "sha256": null
+            }
+          },
+          "released": "2013-02-21"
+        },
+        "3.0": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3doc/3_0/mpt3doc-3_0.tgz",
+              "sha256": null
+            }
+          },
+          "released": "2012-10-02"
+        }
+      },
+      "latest": "3.0.4"
+    },
+    "oasesmex": {
+      "name": "oasesmex",
+      "description": "Mex interface to qpOASES",
+      "homepage": "http://www.kuleuven.be/optec/software/qpOASES",
+      "authors": [
+        "Michal Kvasnica <michal.kvasnica@stuba.sk>",
+        "Martin Herceg <herceg@control.ee.ethz.ch>",
+        "Colin Jones <colin.jones@epfl.ch>"
+      ],
+      "versions": {
+        "1.0": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "glnxa64": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/oasesmex/1_0/oasesmex_1_0_glnxa64.zip",
+              "sha256": null
+            },
+            "maci64": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/oasesmex/1_0/oasesmex_1_0_maci64.zip",
+              "sha256": null
+            },
+            "win64": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/oasesmex/1_0/oasesmex_1_0_pcwin64.zip",
+              "sha256": null
+            }
+          },
+          "released": "2012-10-02"
+        }
+      },
+      "latest": "1.0"
+    },
+    "qpspline": {
+      "name": "qpspline",
+      "description": "The QPspline solver is an implementation of a spline algorithm to solve strictly convex feasible QP. The solver requires HashTable class to be installed.",
+      "authors": [
+        "Michal Kvasnica <michal.kvasnica@stuba.sk>",
+        "Martin Herceg <herceg@control.ee.ethz.ch>",
+        "Colin Jones <colin.jones@epfl.ch>"
+      ],
+      "versions": {
+        "1.0": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/qpspline/1_0/QPspline.m",
+              "sha256": null
+            }
+          },
+          "released": "2012-10-02"
+        }
+      },
+      "latest": "1.0"
+    },
+    "sedumi": {
+      "name": "sedumi",
+      "description": "SeDuMi",
+      "homepage": "http://sedumi.ie.lehigh.edu/",
+      "authors": [
+        "Michal Kvasnica <michal.kvasnica@stuba.sk>",
+        "Martin Herceg <herceg@control.ee.ethz.ch>",
+        "Colin Jones <colin.jones@epfl.ch>"
+      ],
+      "versions": {
+        "1.3": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "glnxa64": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/sedumi/1_3/sedumi_1_3_glnxa64.zip",
+              "sha256": null
+            },
+            "maci64": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/sedumi/1_3/sedumi_1_3_maci64.zip",
+              "sha256": null
+            },
+            "win64": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/sedumi/1_3/sedumi_1_3_pcwin64.zip",
+              "sha256": null
+            }
+          },
+          "released": "2012-10-02"
+        }
+      },
+      "latest": "1.3"
+    },
+    "tbxcli": {
+      "name": "tbxcli",
+      "description": "Matlab command line interface to tbxmanager's REST API",
+      "authors": [
+        "Michal Kvasnica <michal.kvasnica@stuba.sk>"
+      ],
+      "versions": {
+        "1.1": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://www.kirp.chtf.stuba.sk/~kvasnica/tbxpool/tbxcli/tbxcli_1_1_all.zip",
+              "sha256": null
+            }
+          },
+          "released": "2014-04-12"
+        },
+        "1.0": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://www.tbxmanager.com/tbxcli.m",
+              "sha256": null
+            }
+          },
+          "released": "2013-09-02"
+        }
+      },
+      "latest": "1.1"
+    },
+    "wsclient": {
+      "name": "wsclient",
+      "description": "Requires the \"matwebsocks\" package",
+      "homepage": "https://bitbucket.org/kvasnica/wsclient",
+      "authors": [
+        "Michal Kvasnica <michal.kvasnica@stuba.sk>"
+      ],
+      "versions": {
+        "1.2": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://www.kirp.chtf.stuba.sk/~kvasnica/tbxpool/wsclient/wsclient_1_2_all.zip",
+              "sha256": null
+            }
+          },
+          "released": "2014-04-26"
+        },
+        "1.1": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://www.kirp.chtf.stuba.sk/~kvasnica/tbxpool/wsclient/wsclient_1_1_all.zip",
+              "sha256": null
+            }
+          },
+          "released": "2014-04-26"
+        },
+        "1.0": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://www.kirp.chtf.stuba.sk/~kvasnica/tbxpool/wsclient/wsclient_1_0_all.zip",
+              "sha256": null
+            }
+          },
+          "released": "2014-04-15"
+        }
+      },
+      "latest": "1.2"
+    },
+    "yalmip": {
+      "name": "yalmip",
+      "description": "YALMIP",
+      "homepage": "http://users.isy.liu.se/johanl/yalmip/",
+      "license": "YALMIP is free of charge to use and is openly distributed, but note that\r\n1. Copyright owned by Johan Lofberg.\r\n2. YALMIP must be referenced when used in a published work (give me some credit for saving your valuable time!)\r\n3. YALMIP, or forks or versions of YALMIP, may not be re-distributed as a part of a commercial product unless agreed upon with the copyright owner (if you make money from YALMIP, let me in first!)\r\n4. YALMIP is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE (if your satellite crash or you fail your Phd due to a bug in YALMIP, your loss!).\r\n5. Forks or versions of YALMIP must include, and follow, this license in any distribution.\r\n",
+      "authors": [
+        "Michal Kvasnica <michal.kvasnica@stuba.sk>",
+        "Johan Lofberg <johanl@isy.liu.se>"
+      ],
+      "versions": {
+        "R20140221": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://www.control.isy.liu.se/~johanl/YALMIP.zip",
+              "sha256": null
+            }
+          },
+          "released": "2014-02-21"
+        },
+        "R20140217": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://www.control.isy.liu.se/~johanl/YALMIP.zip",
+              "sha256": null
+            }
+          },
+          "released": "2014-02-17"
+        },
+        "R20131220": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://www.control.isy.liu.se/~johanl/YALMIP.zip",
+              "sha256": null
+            }
+          },
+          "released": "2013-12-20"
+        },
+        "R20131002": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://www.control.isy.liu.se/~johanl/YALMIP.zip",
+              "sha256": null
+            }
+          },
+          "released": "2013-10-11"
+        },
+        "R20130628": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://www.control.isy.liu.se/~johanl/YALMIP.zip",
+              "sha256": null
+            }
+          },
+          "released": "2013-06-28"
+        },
+        "R20130405": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://www.control.isy.liu.se/~johanl/YALMIP.zip",
+              "sha256": null
+            }
+          },
+          "released": "2013-04-05"
+        },
+        "R20130213": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://www.control.isy.liu.se/~johanl/YALMIP.zip",
+              "sha256": null
+            }
+          },
+          "released": "2013-02-13"
+        },
+        "R20130201": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://www.control.isy.liu.se/~johanl/YALMIP.zip",
+              "sha256": null
+            }
+          },
+          "released": "2013-02-01"
+        },
+        "R20130128": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://www.control.isy.liu.se/~johanl/YALMIP.zip",
+              "sha256": null
+            }
+          },
+          "released": "2013-01-28"
+        },
+        "R20130124": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://www.control.isy.liu.se/~johanl/YALMIP.zip",
+              "sha256": null
+            }
+          },
+          "released": "2013-01-25"
+        },
+        "R20130111": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://www.control.isy.liu.se/~johanl/YALMIP.zip",
+              "sha256": null
+            }
+          },
+          "released": "2013-01-15"
+        },
+        "R20121126": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://www.control.isy.liu.se/~johanl/YALMIP.zip",
+              "sha256": null
+            }
+          },
+          "released": "2013-01-03"
+        },
+        "R20120926": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://www.control.isy.liu.se/~johanl/YALMIP.zip",
+              "sha256": null
+            }
+          },
+          "released": "2012-10-02"
+        },
+        "R20120830": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://www.control.isy.liu.se/~johanl/YALMIP.zip",
+              "sha256": null
+            }
+          },
+          "released": "2012-10-02"
+        }
+      },
+      "latest": "R20120830"
+    }
+  }
+}

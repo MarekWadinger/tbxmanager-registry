@@ -1,0 +1,32 @@
+{
+  "name": "matwebsocks",
+  "description": "Run \"matws_install\" to put the necessary libraries to the static Java path. Then restart matlab.",
+  "homepage": "https://bitbucket.org/kvasnica/matwebsocks",
+  "authors": [
+    "Michal Kvasnica <michal.kvasnica@stuba.sk>"
+  ],
+  "versions": {
+    "1.1": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "http://www.kirp.chtf.stuba.sk/~kvasnica/tbxpool/matwebsocks/matwebsocks_1_1_all.zip",
+          "sha256": null
+        }
+      },
+      "released": "2014-04-26"
+    },
+    "1.0": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "http://www.kirp.chtf.stuba.sk/~kvasnica/tbxpool/matwebsocks/matwebsocks_1_0_all.zip",
+          "sha256": null
+        }
+      },
+      "released": "2014-04-15"
+    }
+  }
+}

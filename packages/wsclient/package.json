@@ -1,0 +1,43 @@
+{
+  "name": "wsclient",
+  "description": "Requires the \"matwebsocks\" package",
+  "homepage": "https://bitbucket.org/kvasnica/wsclient",
+  "authors": [
+    "Michal Kvasnica <michal.kvasnica@stuba.sk>"
+  ],
+  "versions": {
+    "1.2": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "http://www.kirp.chtf.stuba.sk/~kvasnica/tbxpool/wsclient/wsclient_1_2_all.zip",
+          "sha256": null
+        }
+      },
+      "released": "2014-04-26"
+    },
+    "1.1": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "http://www.kirp.chtf.stuba.sk/~kvasnica/tbxpool/wsclient/wsclient_1_1_all.zip",
+          "sha256": null
+        }
+      },
+      "released": "2014-04-26"
+    },
+    "1.0": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "http://www.kirp.chtf.stuba.sk/~kvasnica/tbxpool/wsclient/wsclient_1_0_all.zip",
+          "sha256": null
+        }
+      },
+      "released": "2014-04-15"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "eventcollector",
+  "description": "Collects events from a Matlab object",
+  "homepage": "http://bitbucket.org/kvasnica/eventcollector/",
+  "authors": [
+    "Michal Kvasnica <michal.kvasnica@stuba.sk>"
+  ],
+  "versions": {
+    "1.0": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "http://www.kirp.chtf.stuba.sk/~kvasnica/tbxpool/eventcollector/eventcollector_1_0_all.zip",
+          "sha256": null
+        }
+      },
+      "released": "2014-04-15"
+    }
+  }
+}

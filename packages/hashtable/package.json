@@ -1,0 +1,21 @@
+{
+  "name": "hashtable",
+  "description": "The matlab wrapper for the java class LinkedHashMap Java utility. ",
+  "homepage": "http://control.ee.ethz.ch/~mpt",
+  "authors": [
+    "Martin Herceg <herceg@control.ee.ethz.ch>"
+  ],
+  "versions": {
+    "1.0": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/HashTable/1_0/HashTable_1_0_all.tgz",
+          "sha256": null
+        }
+      },
+      "released": "2013-12-04"
+    }
+  }
+}

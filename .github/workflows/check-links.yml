@@ -1,0 +1,68 @@
+name: Check Links
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'  # Mondays 6 AM UTC
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check all download URLs
+        id: check
+        run: |
+          python3 -c "
+          import json, urllib.request, urllib.error, sys, os
+
+          broken = []
+          checked = 0
+
+          for pkg_file in sorted(__import__('pathlib').Path('packages').glob('*/package.json')):
+              with open(pkg_file) as f:
+                  pkg = json.load(f)
+              name = pkg.get('name', pkg_file.parent.name)
+              for ver, vdata in pkg.get('versions', {}).items():
+                  for plat, pdata in vdata.get('platforms', {}).items():
+                      url = pdata.get('url', '')
+                      if not url:
+                          continue
+                      checked += 1
+                      try:
+                          req = urllib.request.Request(url, method='HEAD')
+                          resp = urllib.request.urlopen(req, timeout=30)
+                          if resp.status != 200:
+                              broken.append(f'{name}@{ver} [{plat}]: {url} (status {resp.status})')
+                      except Exception as e:
+                          broken.append(f'{name}@{ver} [{plat}]: {url} ({e})')
+
+          print(f'Checked {checked} URLs')
+          if broken:
+              print(f'Found {len(broken)} broken URLs:')
+              for b in broken:
+                  print(f'  - {b}')
+              with open(os.environ.get('GITHUB_OUTPUT', '/dev/null'), 'a') as f:
+                  f.write(f'broken_count={len(broken)}\n')
+                  body = '\\n'.join(f'- {b}' for b in broken)
+                  f.write(f'broken_body<<EOF\n{body}\nEOF\n')
+          else:
+              print('All URLs OK')
+              with open(os.environ.get('GITHUB_OUTPUT', '/dev/null'), 'a') as f:
+                  f.write('broken_count=0\n')
+          "
+
+      - name: Create issue for broken links
+        if: steps.check.outputs.broken_count != '0'
+        run: |
+          gh issue create \
+            --title "Broken download URLs detected" \
+            --body "The weekly link check found broken URLs:
+
+          ${{ steps.check.outputs.broken_body }}
+
+          Please update the affected package entries." \
+            --label "broken-links"
+        env:
+          GH_TOKEN: ${{ github.token }}

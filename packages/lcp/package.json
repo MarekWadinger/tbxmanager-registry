@@ -1,0 +1,87 @@
+{
+  "name": "lcp",
+  "description": "LCP solver",
+  "authors": [
+    "Michal Kvasnica <michal.kvasnica@stuba.sk>",
+    "Martin Herceg <herceg@control.ee.ethz.ch>",
+    "Colin Jones <colin.jones@epfl.ch>"
+  ],
+  "versions": {
+    "1.0.3": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "glnxa64": {
+          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/lcp/1_0_3/lcp_1_0_3_GLNXA64.tgz",
+          "sha256": null
+        },
+        "maci64": {
+          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/lcp/1_0_3/lcp_1_0_3_MACI64.tgz",
+          "sha256": null
+        },
+        "win64": {
+          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/lcp/1_0_3/lcp_1_0_3_PCWIN64.tgz",
+          "sha256": null
+        }
+      },
+      "released": "2013-08-22"
+    },
+    "1.0.2": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "glnxa64": {
+          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/lcp/1_0_2/lcp_1_0_2_GLNXA64.tgz",
+          "sha256": null
+        },
+        "maci64": {
+          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/lcp/1_0_2/lcp_1_0_2_MACI64.tgz",
+          "sha256": null
+        },
+        "win64": {
+          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/lcp/1_0_2/lcp_1_0_2_PCWIN64.tgz",
+          "sha256": null
+        }
+      },
+      "released": "2013-06-15"
+    },
+    "1.0.1": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "glnxa64": {
+          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/lcp/1_0_1/lcp_1_0_1_GLNXA64.tgz",
+          "sha256": null
+        },
+        "maci64": {
+          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/lcp/1_0_1/lcp_1_0_1_MACI64.tgz",
+          "sha256": null
+        },
+        "win64": {
+          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/lcp/1_0_1/lcp_1_0_1_PCWIN64.tgz",
+          "sha256": null
+        }
+      },
+      "released": "2013-02-21"
+    },
+    "1.0": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "glnxa64": {
+          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/lcp/1_0/lcp_1_0_glnxa64.zip",
+          "sha256": null
+        },
+        "maci64": {
+          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/lcp/1_0/lcp_1_0_maci64.zip",
+          "sha256": null
+        },
+        "win64": {
+          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/lcp/1_0/lcp_1_0_pcwin64.zip",
+          "sha256": null
+        }
+      },
+      "released": "2012-10-02"
+    }
+  }
+}

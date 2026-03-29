@@ -1,0 +1,166 @@
+{
+  "name": "yalmip",
+  "description": "YALMIP",
+  "homepage": "http://users.isy.liu.se/johanl/yalmip/",
+  "license": "YALMIP is free of charge to use and is openly distributed, but note that\r\n1. Copyright owned by Johan Lofberg.\r\n2. YALMIP must be referenced when used in a published work (give me some credit for saving your valuable time!)\r\n3. YALMIP, or forks or versions of YALMIP, may not be re-distributed as a part of a commercial product unless agreed upon with the copyright owner (if you make money from YALMIP, let me in first!)\r\n4. YALMIP is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE (if your satellite crash or you fail your Phd due to a bug in YALMIP, your loss!).\r\n5. Forks or versions of YALMIP must include, and follow, this license in any distribution.\r\n",
+  "authors": [
+    "Michal Kvasnica <michal.kvasnica@stuba.sk>",
+    "Johan Lofberg <johanl@isy.liu.se>"
+  ],
+  "versions": {
+    "R20140221": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "http://www.control.isy.liu.se/~johanl/YALMIP.zip",
+          "sha256": null
+        }
+      },
+      "released": "2014-02-21"
+    },
+    "R20140217": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "http://www.control.isy.liu.se/~johanl/YALMIP.zip",
+          "sha256": null
+        }
+      },
+      "released": "2014-02-17"
+    },
+    "R20131220": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "http://www.control.isy.liu.se/~johanl/YALMIP.zip",
+          "sha256": null
+        }
+      },
+      "released": "2013-12-20"
+    },
+    "R20131002": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "http://www.control.isy.liu.se/~johanl/YALMIP.zip",
+          "sha256": null
+        }
+      },
+      "released": "2013-10-11"
+    },
+    "R20130628": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "http://www.control.isy.liu.se/~johanl/YALMIP.zip",
+          "sha256": null
+        }
+      },
+      "released": "2013-06-28"
+    },
+    "R20130405": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "http://www.control.isy.liu.se/~johanl/YALMIP.zip",
+          "sha256": null
+        }
+      },
+      "released": "2013-04-05"
+    },
+    "R20130213": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "http://www.control.isy.liu.se/~johanl/YALMIP.zip",
+          "sha256": null
+        }
+      },
+      "released": "2013-02-13"
+    },
+    "R20130201": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "http://www.control.isy.liu.se/~johanl/YALMIP.zip",
+          "sha256": null
+        }
+      },
+      "released": "2013-02-01"
+    },
+    "R20130128": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "http://www.control.isy.liu.se/~johanl/YALMIP.zip",
+          "sha256": null
+        }
+      },
+      "released": "2013-01-28"
+    },
+    "R20130124": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "http://www.control.isy.liu.se/~johanl/YALMIP.zip",
+          "sha256": null
+        }
+      },
+      "released": "2013-01-25"
+    },
+    "R20130111": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "http://www.control.isy.liu.se/~johanl/YALMIP.zip",
+          "sha256": null
+        }
+      },
+      "released": "2013-01-15"
+    },
+    "R20121126": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "http://www.control.isy.liu.se/~johanl/YALMIP.zip",
+          "sha256": null
+        }
+      },
+      "released": "2013-01-03"
+    },
+    "R20120926": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "http://www.control.isy.liu.se/~johanl/YALMIP.zip",
+          "sha256": null
+        }
+      },
+      "released": "2012-10-02"
+    },
+    "R20120830": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "http://www.control.isy.liu.se/~johanl/YALMIP.zip",
+          "sha256": null
+        }
+      },
+      "released": "2012-10-02"
+    }
+  }
+}

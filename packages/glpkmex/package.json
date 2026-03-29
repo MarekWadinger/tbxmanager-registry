@@ -1,0 +1,30 @@
+{
+  "name": "glpkmex",
+  "description": "Mex interface to GLPK",
+  "authors": [
+    "Michal Kvasnica <michal.kvasnica@stuba.sk>",
+    "Martin Herceg <herceg@control.ee.ethz.ch>",
+    "Colin Jones <colin.jones@epfl.ch>"
+  ],
+  "versions": {
+    "1.0": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "glnxa64": {
+          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/glpkmex/1_0/glpkmex_1_0_glnxa64.zip",
+          "sha256": null
+        },
+        "maci64": {
+          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/glpkmex/1_0/glpkmex_1_0_maci64.zip",
+          "sha256": null
+        },
+        "win64": {
+          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/glpkmex/1_0/glpkmex_1_0_pcwin64.zip",
+          "sha256": null
+        }
+      },
+      "released": "2012-10-02"
+    }
+  }
+}

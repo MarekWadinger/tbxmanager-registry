@@ -1,0 +1,77 @@
+{
+  "name": "brcm",
+  "description": "The Building Resistance-Capacitance Modeling (BRCM) Matlab Toolbox facilitates the physical modeling of buildings for MPC. The Toolbox provides a means for the fast generation of (bi-)linear resistance-capacitance type models from basic geometry, construction and building systems data and also supports the generation of appropriate costs and constraints. The Toolbox is based on previously validated modeling principles.\r\n",
+  "homepage": "http://www.brcm.ethz.ch",
+  "license": "The copyright is with the Automatic Control Lab, ETH Zurich.\r\n\r\nThe BRCM Toolbox is licensed under the GPLv3.\r\nIn order to promote the Open Source idea under which this software is licensed,\r\nthe resulting output from this software or modified output shall also be published\r\nunder the GPLv3.\r\n\r\nIf you are interested in using the generated output commercially, \r\nplease contact the Automatic Control Laboratory, ETH Zurich.",
+  "authors": [
+    "David Sturzenegger <stdavid@ethz.ch>"
+  ],
+  "versions": {
+    "v0.96(Beta)": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "http://www.control.ee.ethz.ch/~stdavid/BRCMToolbox_v0.96(Beta).zip",
+          "sha256": null
+        }
+      },
+      "released": "2014-02-03"
+    },
+    "v0.95(Beta)": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "http://www.control.ee.ethz.ch/~stdavid/BRCMToolbox_v0.95(Beta).zip",
+          "sha256": null
+        }
+      },
+      "released": "2013-12-10"
+    },
+    "v0.94(Beta)": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "http://www.control.ee.ethz.ch/~stdavid/BRCMToolbox_v0.94(Beta).zip",
+          "sha256": null
+        }
+      },
+      "released": "2013-10-30"
+    },
+    "v0.93(beta)": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "http://www.control.ee.ethz.ch/~stdavid/BRCMToolbox_v0.93(Beta).zip",
+          "sha256": null
+        }
+      },
+      "released": "2013-10-20"
+    },
+    "v0.92(beta)": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "http://www.control.ee.ethz.ch/~stdavid/BRCMToolbox_v0.92(Beta).zip",
+          "sha256": null
+        }
+      },
+      "released": "2013-10-18"
+    },
+    "v0.91(beta)": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "http://www.control.ee.ethz.ch/~stdavid/BRCMToolbox_v0.91(Beta).zip",
+          "sha256": null
+        }
+      },
+      "released": "2013-10-04"
+    }
+  }
+}

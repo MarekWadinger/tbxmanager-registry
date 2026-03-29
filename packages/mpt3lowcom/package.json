@@ -1,0 +1,54 @@
+{
+  "name": "mpt3lowcom",
+  "description": "Low-complexity control design module for MPT3",
+  "homepage": "https://bitbucket.org/kvasnica/mpt3lowcom/wiki",
+  "authors": [
+    "Michal Kvasnica <michal.kvasnica@stuba.sk>"
+  ],
+  "versions": {
+    "1.0.3": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3lowcom/1_0_3/mpt3lowcom-1_0_3.tgz",
+          "sha256": null
+        }
+      },
+      "released": "2014-02-13"
+    },
+    "1.0.2": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3lowcom/1_0_2/mpt3lowcom-1_0_2.tgz",
+          "sha256": null
+        }
+      },
+      "released": "2014-02-05"
+    },
+    "1.0.1": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3lowcom/1_0_1/mpt3lowcom-1_0_1.tgz",
+          "sha256": null
+        }
+      },
+      "released": "2013-12-03"
+    },
+    "1.0": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3lowcom/1_0/mpt3lowcom-1_0.tgz",
+          "sha256": null
+        }
+      },
+      "released": "2013-10-30"
+    }
+  }
+}
