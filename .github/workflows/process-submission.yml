@@ -1,0 +1,114 @@
+name: Process Package Submission
+
+on:
+  issues:
+    types: [labeled]
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  process:
+    if: github.event.label.name == 'submit-package'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Process submission
+        id: submit
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_AUTHOR: ${{ github.event.issue.user.login }}
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/process_submission.py
+
+      - name: Read outputs
+        if: success()
+        id: result
+        run: |
+          echo "pkg_name=$(cat /tmp/submission_pkg_name)" >> "$GITHUB_OUTPUT"
+          echo "version=$(cat /tmp/submission_version)" >> "$GITHUB_OUTPUT"
+
+      - name: Create PR
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          PKG_NAME="${{ steps.result.outputs.pkg_name }}"
+          VERSION="${{ steps.result.outputs.version }}"
+          BRANCH="submit/${PKG_NAME}-${VERSION}"
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git checkout -b "$BRANCH"
+          git add "packages/${PKG_NAME}/package.json"
+          git commit -m "feat(registry): add ${PKG_NAME}@${VERSION}
+
+          Submitted by @${{ github.event.issue.user.login }} via #${{ github.event.issue.number }}"
+
+          git push origin "$BRANCH"
+
+          # Determine if this is new or update
+          if git show origin/main:"packages/${PKG_NAME}/package.json" > /dev/null 2>&1; then
+            LABEL="package-update"
+            ACTION="Update"
+          else
+            LABEL="new-package"
+            ACTION="Add"
+          fi
+
+          PR_URL=$(gh pr create \
+            --title "${ACTION} ${PKG_NAME}@${VERSION}" \
+            --label "$LABEL" \
+            --body "$(cat <<EOF
+          ## Package Submission
+
+          **Package:** \`${PKG_NAME}\`
+          **Version:** \`${VERSION}\`
+          **Submitted by:** @${{ github.event.issue.user.login }}
+
+          Closes #${{ github.event.issue.number }}
+
+          ---
+          Automatically generated from issue #${{ github.event.issue.number }}.
+          EOF
+          )")
+
+          gh issue comment "${{ github.event.issue.number }}" \
+            --body "$(cat <<EOF
+          Your package has been processed successfully!
+
+          **Package:** \`${PKG_NAME}@${VERSION}\`
+          **Pull Request:** ${PR_URL}
+
+          A maintainer will review and merge the PR. Once merged, your package will be available in the tbxmanager registry.
+          EOF
+          )"
+
+      - name: Handle failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -f /tmp/submission_error ]; then
+            ERROR=$(cat /tmp/submission_error)
+          else
+            ERROR="An unexpected error occurred during processing. Please check the [workflow logs](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) for details."
+          fi
+
+          gh issue comment "${{ github.event.issue.number }}" \
+            --body "$(cat <<EOF
+          ## Submission Failed
+
+          ${ERROR}
+
+          ---
+          Please fix the issue and submit again by removing and re-adding the \`submit-package\` label, or by opening a new issue.
+          EOF
+          )"
+
+          gh issue edit "${{ github.event.issue.number }}" --add-label "submission-failed"

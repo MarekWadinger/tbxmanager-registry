@@ -1,0 +1,50 @@
+name: Submit Package
+description: Submit a new package or version to the tbxmanager registry
+title: "Submit: <package-name>"
+labels: ["submit-package"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Prerequisites
+
+        Before submitting, make sure:
+
+        1. Your repository has a **`tbxmanager.json`** in the root directory
+        2. You have created a **GitHub Release** with a `.zip` archive attached
+        3. Your package name is lowercase using only letters, numbers, hyphens, and underscores
+
+        Need help? See the [Quick Start for Authors](https://tbxmanager.com/quick-start-authors) guide.
+
+  - type: input
+    id: repo_url
+    attributes:
+      label: Repository URL
+      description: Full URL to your GitHub repository
+      placeholder: "https://github.com/username/my-toolbox"
+    validations:
+      required: true
+
+  - type: input
+    id: release_tag
+    attributes:
+      label: Release tag
+      description: The Git tag of the release to submit
+      placeholder: "v1.0.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      description: Target platform for this package
+      options:
+        - "all (pure MATLAB, no MEX files)"
+        - "win64"
+        - "maci64"
+        - "maca64"
+        - "glnxa64"
+      default: 0
+    validations:
+      required: true
