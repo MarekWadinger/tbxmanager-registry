@@ -1,6 +1,6 @@
 {
   "index_version": 1,
-  "generated": "2026-03-30T07:28:19Z",
+  "generated": "2026-03-30T10:55:48Z",
   "packages": {
     "besim": {
       "name": "besim",
@@ -1588,6 +1588,28 @@
       },
       "authors": [
         "mpt@control.ee.ethz.ch"
+      ]
+    },
+    "rls-identification": {
+      "name": "rls-identification",
+      "description": "Recursive Least Squares algorithm for system parameter identification",
+      "latest": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "platforms": {
+            "all": {
+              "url": "https://github.com/MarekWadinger/RLS_identification/releases/download/v1.0.0/rls-identification-all.zip",
+              "sha256": "e5079fb6a6f50b22ebd987f5bb05a8363f94e84de4a94420e8f65717f1ad410a"
+            }
+          },
+          "released": "2026-03-30",
+          "matlab": ">=R2019b"
+        }
+      },
+      "homepage": "https://github.com/MarekWadinger/RLS_identification",
+      "license": "MIT",
+      "authors": [
+        "MarekWadinger"
       ]
     },
     "sedumi": {
