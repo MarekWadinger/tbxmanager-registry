@@ -216,7 +216,11 @@ def main():
         # 4. Fetch tbxmanager.json
         pkg = fetch_tbxmanager_json(owner, repo, tag)
 
-        # 5. Validate
+        # 5. Validate (set placeholder URLs so platform validation passes —
+        #    real URLs are provided as overrides to convert())
+        for plat in list(pkg.get("platforms", {})):
+            if not isinstance(pkg["platforms"][plat], str) or not pkg["platforms"][plat].startswith("https://"):
+                pkg["platforms"][plat] = "https://placeholder"
         errors = convert_to_registry.validate_input(pkg)
         if errors:
             error_list = "\n".join(f"- {e}" for e in errors)
