@@ -15,7 +15,8 @@
           "sha256": null
         }
       },
-      "released": "2014-02-27"
+      "released": "2014-02-27",
+      "yanked": "Download URL no longer available"
     },
     "3.0.16": {
       "matlab": ">=R2014a",
@@ -26,7 +27,8 @@
           "sha256": null
         }
       },
-      "released": "2014-01-28"
+      "released": "2014-01-28",
+      "yanked": "Download URL no longer available"
     },
     "3.0.15": {
       "matlab": ">=R2014a",
@@ -37,7 +39,8 @@
           "sha256": null
         }
       },
-      "released": "2014-01-16"
+      "released": "2014-01-16",
+      "yanked": "Download URL no longer available"
     },
     "3.0.14": {
       "matlab": ">=R2014a",
@@ -48,7 +51,8 @@
           "sha256": null
         }
       },
-      "released": "2013-12-17"
+      "released": "2013-12-17",
+      "yanked": "Download URL no longer available"
     },
     "3.0.13": {
       "matlab": ">=R2014a",
@@ -59,7 +63,8 @@
           "sha256": null
         }
       },
-      "released": "2013-10-23"
+      "released": "2013-10-23",
+      "yanked": "Download URL no longer available"
     },
     "3.0.12": {
       "matlab": ">=R2014a",
@@ -70,7 +75,8 @@
           "sha256": null
         }
       },
-      "released": "2013-09-24"
+      "released": "2013-09-24",
+      "yanked": "Download URL no longer available"
     },
     "3.0.11": {
       "matlab": ">=R2014a",
@@ -81,7 +87,8 @@
           "sha256": null
         }
       },
-      "released": "2013-08-28"
+      "released": "2013-08-28",
+      "yanked": "Download URL no longer available"
     },
     "3.0.10": {
       "matlab": ">=R2014a",
@@ -92,7 +99,8 @@
           "sha256": null
         }
       },
-      "released": "2013-08-23"
+      "released": "2013-08-23",
+      "yanked": "Download URL no longer available"
     },
     "3.0.9": {
       "matlab": ">=R2014a",
@@ -103,7 +111,8 @@
           "sha256": null
         }
       },
-      "released": "2013-08-06"
+      "released": "2013-08-06",
+      "yanked": "Download URL no longer available"
     },
     "3,0.8": {
       "matlab": ">=R2014a",
@@ -114,7 +123,8 @@
           "sha256": null
         }
       },
-      "released": "2013-07-15"
+      "released": "2013-07-15",
+      "yanked": "Download URL no longer available"
     },
     "3.0.7": {
       "matlab": ">=R2014a",
@@ -125,7 +135,8 @@
           "sha256": null
         }
       },
-      "released": "2013-07-02"
+      "released": "2013-07-02",
+      "yanked": "Download URL no longer available"
     },
     "3.0.6": {
       "matlab": ">=R2014a",
@@ -136,7 +147,8 @@
           "sha256": null
         }
       },
-      "released": "2013-05-29"
+      "released": "2013-05-29",
+      "yanked": "Download URL no longer available"
     },
     "3.0.5": {
       "matlab": ">=R2014a",
@@ -147,7 +159,8 @@
           "sha256": null
         }
       },
-      "released": "2013-05-21"
+      "released": "2013-05-21",
+      "yanked": "Download URL no longer available"
     },
     "3.0.4": {
       "matlab": ">=R2014a",
@@ -158,7 +171,8 @@
           "sha256": null
         }
       },
-      "released": "2013-05-20"
+      "released": "2013-05-20",
+      "yanked": "Download URL no longer available"
     },
     "3.0.3": {
       "matlab": ">=R2014a",
@@ -169,7 +183,8 @@
           "sha256": null
         }
       },
-      "released": "2013-05-14"
+      "released": "2013-05-14",
+      "yanked": "Download URL no longer available"
     },
     "3.0.2": {
       "matlab": ">=R2014a",
@@ -180,7 +195,8 @@
           "sha256": null
         }
       },
-      "released": "2013-02-22"
+      "released": "2013-02-22",
+      "yanked": "Download URL no longer available"
     },
     "3.0.1": {
       "matlab": ">=R2014a",
@@ -191,7 +207,8 @@
           "sha256": null
         }
       },
-      "released": "2013-02-18"
+      "released": "2013-02-18",
+      "yanked": "Download URL no longer available"
     },
     "3.0": {
       "matlab": ">=R2014a",
@@ -202,7 +219,8 @@
           "sha256": null
         }
       },
-      "released": "2012-10-02"
+      "released": "2012-10-02",
+      "yanked": "Download URL no longer available"
     },
     "3.2.1": {
       "matlab": ">=R2014a",

@@ -23,7 +23,8 @@
           "sha256": null
         }
       },
-      "released": "2012-10-02"
+      "released": "2012-10-02",
+      "yanked": "Download URL no longer available"
     },
     "3.2.0": {
       "matlab": ">=R2014a",

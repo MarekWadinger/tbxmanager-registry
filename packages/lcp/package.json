@@ -41,7 +41,8 @@
           "sha256": null
         }
       },
-      "released": "2013-06-15"
+      "released": "2013-06-15",
+      "yanked": "Download URL no longer available"
     },
     "1.0.1": {
       "matlab": ">=R2014a",
@@ -60,7 +61,8 @@
           "sha256": null
         }
       },
-      "released": "2013-02-21"
+      "released": "2013-02-21",
+      "yanked": "Download URL no longer available"
     },
     "1.0": {
       "matlab": ">=R2014a",
@@ -79,7 +81,8 @@
           "sha256": null
         }
       },
-      "released": "2012-10-02"
+      "released": "2012-10-02",
+      "yanked": "Download URL no longer available"
     }
   }
 }

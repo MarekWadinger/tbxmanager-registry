@@ -16,7 +16,8 @@
           "sha256": null
         }
       },
-      "released": "2014-02-03"
+      "released": "2014-02-03",
+      "yanked": "Download URL no longer available"
     },
     "v0.95(Beta)": {
       "matlab": ">=R2014a",
@@ -27,7 +28,8 @@
           "sha256": null
         }
       },
-      "released": "2013-12-10"
+      "released": "2013-12-10",
+      "yanked": "Download URL no longer available"
     },
     "v0.94(Beta)": {
       "matlab": ">=R2014a",
@@ -38,7 +40,8 @@
           "sha256": null
         }
       },
-      "released": "2013-10-30"
+      "released": "2013-10-30",
+      "yanked": "Download URL no longer available"
     },
     "v0.93(beta)": {
       "matlab": ">=R2014a",
@@ -49,7 +52,8 @@
           "sha256": null
         }
       },
-      "released": "2013-10-20"
+      "released": "2013-10-20",
+      "yanked": "Download URL no longer available"
     },
     "v0.92(beta)": {
       "matlab": ">=R2014a",
@@ -60,7 +64,8 @@
           "sha256": null
         }
       },
-      "released": "2013-10-18"
+      "released": "2013-10-18",
+      "yanked": "Download URL no longer available"
     },
     "v0.91(beta)": {
       "matlab": ">=R2014a",
@@ -71,7 +76,8 @@
           "sha256": null
         }
       },
-      "released": "2013-10-04"
+      "released": "2013-10-04",
+      "yanked": "Download URL no longer available"
     }
   }
 }
