@@ -44,6 +44,9 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
+          # Delete branch if it exists from a previous attempt
+          git push origin --delete "$BRANCH" 2>/dev/null || true
+
           git checkout -b "$BRANCH"
           git add "packages/${PKG_NAME}/package.json"
           git commit -m "feat(registry): add ${PKG_NAME}@${VERSION}
