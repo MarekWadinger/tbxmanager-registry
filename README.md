@@ -1,18 +1,30 @@
 # tbxmanager-registry
 
-Community package registry for [tbxmanager](https://github.com/MarekWadinger/tbxmanager) — the MATLAB package manager.
+Community package registry for [tbxmanager](https://tbxmanager.com) — the MATLAB package manager.
 
-## For Package Authors
+Packages are served as `index.json` via GitHub Pages.
 
-The easiest way to publish is with the [tbxmanager-publish](https://github.com/MarekWadinger/tbxmanager-publish) GitHub Action. See the [Quick Start](https://marekwadinger.github.io/tbxmanager/quick-start-authors/).
+## Submit a Package
 
-### Manual Submission
+The easiest way — fill in a form:
 
-1. Fork this repo
-2. Create `packages/your-package/package.json` (see format below)
-3. Open a pull request
-4. CI validates automatically
-5. Once merged, the package appears in the registry
+1. Add a `tbxmanager.json` to your repository root ([how](https://tbxmanager.com/quick-start-authors))
+2. Create a GitHub Release and attach a `.zip` archive of your package
+3. **[Submit here](https://github.com/MarekWadinger/tbxmanager-registry/issues/new?template=submit-package.yml)** — fill in your repo URL and release tag
+
+A bot will fetch your metadata, download the archive, compute SHA256, and open a PR. A maintainer reviews and merges it.
+
+### Autodiscovery
+
+Add the `tbxmanager-package` topic to your GitHub repository. A weekly bot will find it and create a submission automatically.
+
+### Alternative: Manual Pull Request
+
+Fork this repo, add `packages/your-package/package.json`, and open a PR. See [Creating Packages](https://tbxmanager.com/creating-packages) for the format.
+
+### For Registry Collaborators
+
+Automate publishing with the [tbxmanager-publish](https://github.com/MarekWadinger/tbxmanager-publish) GitHub Action. Requires write access to this repo.
 
 ## Package Format
 
@@ -50,16 +62,10 @@ Each package lives at `packages/[name]/package.json`:
 
 ## CI Checks
 
-Pull requests are automatically validated:
-
-- Valid JSON syntax
-- Required fields (name, description, versions)
-- Package name matches directory name
-- Valid semver versions
-- Valid platform names (win64, maci64, maca64, glnxa64, all)
-- HTTPS download URLs
-- SHA256 hash format (64-char hex or null)
-- URL reachability (HEAD request)
+- **PR validation** — JSON schema, URL liveness, SHA256 format
+- **Index rebuild** — `index.json` updated automatically on merge
+- **Weekly link check** — broken URLs create issues
+- **Autodiscovery** — weekly scan for `tbxmanager-package` tagged repos
 
 ## License
 
