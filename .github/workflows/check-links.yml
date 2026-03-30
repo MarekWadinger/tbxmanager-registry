@@ -25,6 +25,8 @@ jobs:
                   pkg = json.load(f)
               name = pkg.get('name', pkg_file.parent.name)
               for ver, vdata in pkg.get('versions', {}).items():
+                  if vdata.get('yanked'):
+                      continue
                   for plat, pdata in vdata.get('platforms', {}).items():
                       url = pdata.get('url', '')
                       if not url:
