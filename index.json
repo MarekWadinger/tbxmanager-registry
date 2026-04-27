@@ -1,6 +1,6 @@
 {
   "index_version": 1,
-  "generated": "2026-04-27T08:40:15Z",
+  "generated": "2026-04-27T09:49:27Z",
   "packages": {
     "besim": {
       "name": "besim",
@@ -163,6 +163,10 @@
             "win64": {
               "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/cddmex/1_0_1/cddmex_1_0_1_PCWIN64.tgz",
               "sha256": "7d27a21ee6a36f107f58f866792f083eaeefa0a35364a361a86432bc91d3ab0c"
+            },
+            "maca64": {
+              "url": "https://raw.githubusercontent.com/MarekWadinger/tbx-index-maca64/main/binary/darwin-arm64/cddmex/1.0.1/cddmex_1_0_1_MACA64.tgz",
+              "sha256": "49bb33db3b5c75cda062a5c136b2b7a56fb3aa2dbf46e6a0c3af11554709018e"
             }
           },
           "released": "2013-10-02"
@@ -557,6 +561,10 @@
             "win64": {
               "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/fourier/1_0/fourier_1_0_pcwin64.zip",
               "sha256": "dcc700c119e4a1aa39d837f0cbcf81af4d130f4e485f8a253b65af15cabf6752"
+            },
+            "maca64": {
+              "url": "https://raw.githubusercontent.com/MarekWadinger/tbx-index-maca64/main/binary/darwin-arm64/fourier/1.0.0/fourier_1_0_0_MACA64.tgz",
+              "sha256": "8a0b820927d8250ee615ce9d651404225714c5464aa85c97397f1475e7672e2c"
             }
           },
           "released": "2012-10-02"
@@ -586,6 +594,10 @@
             "win64": {
               "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/glpkmex/1_0/glpkmex_1_0_pcwin64.zip",
               "sha256": "a15f14dc1dbbf97c288ee7d8201664041ad4173c45ea555525338579453950d9"
+            },
+            "maca64": {
+              "url": "https://raw.githubusercontent.com/MarekWadinger/tbx-index-maca64/main/binary/darwin-arm64/glpkmex/1.0.0/glpkmex_1_0_0_MACA64.tgz",
+              "sha256": "d80febffd47ed84d91d04c35e229677ab7c04d80db6416f74d3d9322259a9eae"
             }
           },
           "released": "2012-10-02"
@@ -638,6 +650,10 @@
             "win64": {
               "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/hysdel2/2_0_6/PCWIN64/hysdel.zip",
               "sha256": "7e84cfe1e7e27b0c21d93328f9a531ed5f8ad08cb36c96b39e63fda7398f47da"
+            },
+            "maca64": {
+              "url": "https://raw.githubusercontent.com/MarekWadinger/tbx-index-maca64/main/binary/darwin-arm64/hysdel/2.0.6/hysdel_2_0_6_MACA64.tgz",
+              "sha256": "08b843f40b3d66819e21d6f358e3c18bb9a9649a9364d1226ed18d056d9f4946"
             }
           },
           "released": "2012-10-02"
@@ -668,6 +684,10 @@
             "win64": {
               "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/lcp/1_0_3/lcp_1_0_3_PCWIN64.tgz",
               "sha256": "9b41edbbdcf5cb15b9299d79a19293364b03c417382c83a05aa2cba24a7cde43"
+            },
+            "maca64": {
+              "url": "https://raw.githubusercontent.com/MarekWadinger/tbx-index-maca64/main/binary/darwin-arm64/lcp/1.0.3/lcp_1_0_3_MACA64.tgz",
+              "sha256": "84063e28bc98fafd08e1c0352775fbaece8093d142b30632e9f799f0c9f7841c"
             }
           },
           "released": "2013-08-22"
