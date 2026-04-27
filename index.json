@@ -1,6 +1,6 @@
 {
   "index_version": 1,
-  "generated": "2026-03-30T11:24:35Z",
+  "generated": "2026-04-27T08:40:15Z",
   "packages": {
     "besim": {
       "name": "besim",
@@ -9,7 +9,9 @@
       "versions": {
         "1.0.2": {
           "matlab": ">=R2014a",
-          "dependencies": {},
+          "dependencies": {
+            "yalmip": "*"
+          },
           "platforms": {
             "all": {
               "url": "https://github.com/drgona/BeSim/archive/1.0.2.zip",
@@ -1037,7 +1039,18 @@
         },
         "3.2.1": {
           "matlab": ">=R2014a",
-          "dependencies": {},
+          "dependencies": {
+            "yalmip": "*",
+            "sedumi": "*",
+            "lcp": "*",
+            "cddmex": "*",
+            "glpkmex": "*",
+            "clpmex": "*",
+            "espresso": "*",
+            "hysdel": "*",
+            "oasesmex": "*",
+            "qpspline": "*"
+          },
           "platforms": {
             "all": {
               "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/mpt3/3_2_1/mpt3-3_2_1.tgz",
@@ -1059,7 +1072,16 @@
       "versions": {
         "2.6.3": {
           "matlab": ">=R2014a",
-          "dependencies": {},
+          "dependencies": {
+            "yalmip": "*",
+            "sedumi": "*",
+            "lcp": "*",
+            "cddmex": "*",
+            "glpkmex": "*",
+            "clpmex": "*",
+            "espresso": "*",
+            "hysdel": "*"
+          },
           "platforms": {
             "all": {
               "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/mpt2/261/mpt.zip",
@@ -1081,7 +1103,10 @@
       "versions": {
         "1.0.3": {
           "matlab": ">=R2014a",
-          "dependencies": {},
+          "dependencies": {
+            "mpt": "*",
+            "yalmip": "*"
+          },
           "platforms": {
             "all": {
               "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/mpt3lowcom/1_0_3/mpt3lowcom-1_0_3.tgz",
@@ -1209,7 +1234,10 @@
       "versions": {
         "R20241004": {
           "matlab": ">=R2014a",
-          "dependencies": {},
+          "dependencies": {
+            "mpt": "*",
+            "yalmip": "*"
+          },
           "platforms": {
             "all": {
               "url": "https://github.com/holaza/mptplus/releases/download/R20241004/mptplus_R20241004.zip",
@@ -1275,7 +1303,9 @@
       "versions": {
         "R20250924": {
           "matlab": ">=R2014a",
-          "dependencies": {},
+          "dependencies": {
+            "yalmip": "*"
+          },
           "platforms": {
             "all": {
               "url": "https://github.com/oravec-juraj/mup/releases/download/R20250924/mup.zip",
