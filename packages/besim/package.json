@@ -8,7 +8,9 @@
   "versions": {
     "1.0.2": {
       "matlab": ">=R2014a",
-      "dependencies": {},
+      "dependencies": {
+        "yalmip": "*"
+      },
       "platforms": {
         "all": {
           "url": "https://github.com/drgona/BeSim/archive/1.0.2.zip",

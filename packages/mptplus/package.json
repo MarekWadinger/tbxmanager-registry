@@ -8,7 +8,10 @@
   "versions": {
     "R20241004": {
       "matlab": ">=R2014a",
-      "dependencies": {},
+      "dependencies": {
+        "mpt": "*",
+        "yalmip": "*"
+      },
       "platforms": {
         "all": {
           "url": "https://github.com/holaza/mptplus/releases/download/R20241004/mptplus_R20241004.zip",

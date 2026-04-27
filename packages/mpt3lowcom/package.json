@@ -8,7 +8,10 @@
   "versions": {
     "1.0.3": {
       "matlab": ">=R2014a",
-      "dependencies": {},
+      "dependencies": {
+        "mpt": "*",
+        "yalmip": "*"
+      },
       "platforms": {
         "all": {
           "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/mpt3lowcom/1_0_3/mpt3lowcom-1_0_3.tgz",

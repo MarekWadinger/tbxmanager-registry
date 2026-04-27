@@ -224,7 +224,18 @@
     },
     "3.2.1": {
       "matlab": ">=R2014a",
-      "dependencies": {},
+      "dependencies": {
+        "yalmip": "*",
+        "sedumi": "*",
+        "lcp": "*",
+        "cddmex": "*",
+        "glpkmex": "*",
+        "clpmex": "*",
+        "espresso": "*",
+        "hysdel": "*",
+        "oasesmex": "*",
+        "qpspline": "*"
+      },
       "platforms": {
         "all": {
           "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/mpt3/3_2_1/mpt3-3_2_1.tgz",

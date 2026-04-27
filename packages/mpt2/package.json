@@ -8,7 +8,16 @@
   "versions": {
     "2.6.3": {
       "matlab": ">=R2014a",
-      "dependencies": {},
+      "dependencies": {
+        "yalmip": "*",
+        "sedumi": "*",
+        "lcp": "*",
+        "cddmex": "*",
+        "glpkmex": "*",
+        "clpmex": "*",
+        "espresso": "*",
+        "hysdel": "*"
+      },
       "platforms": {
         "all": {
           "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/mpt2/261/mpt.zip",

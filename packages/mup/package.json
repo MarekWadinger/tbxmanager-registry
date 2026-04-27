@@ -8,7 +8,9 @@
   "versions": {
     "R20250924": {
       "matlab": ">=R2014a",
-      "dependencies": {},
+      "dependencies": {
+        "yalmip": "*"
+      },
       "platforms": {
         "all": {
           "url": "https://github.com/oravec-juraj/mup/releases/download/R20250924/mup.zip",
