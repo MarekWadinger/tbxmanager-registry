@@ -1,0 +1,309 @@
+name: Build MEX Binaries
+
+on:
+  workflow_dispatch:
+    inputs:
+      package:
+        description: 'Package to build (or "all")'
+        required: true
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - sedumi
+          - espresso
+          - clpmex
+          - oasesmex
+      platforms:
+        description: 'Platforms to build for'
+        required: true
+        default: 'maca64'
+        type: choice
+        options:
+          - maca64
+          - all
+
+permissions:
+  contents: write
+
+jobs:
+  matrix:
+    runs-on: ubuntu-latest
+    outputs:
+      include: ${{ steps.set.outputs.include }}
+    steps:
+      - id: set
+        run: |
+          # Build matrix based on inputs
+          PACKAGES='${{ inputs.package }}'
+          PLATFORMS='${{ inputs.platforms }}'
+
+          if [ "$PACKAGES" = "all" ]; then
+            PACKAGES="sedumi espresso clpmex oasesmex"
+          fi
+          if [ "$PLATFORMS" = "all" ]; then
+            PLATFORMS="maca64 maci64 glnxa64 win64"
+          fi
+
+          MATRIX="["
+          FIRST=true
+          for pkg in $PACKAGES; do
+            for plat in $PLATFORMS; do
+              case $plat in
+                maca64)  runner="macos-latest" ;;
+                maci64)  runner="macos-13" ;;
+                glnxa64) runner="ubuntu-latest" ;;
+                win64)   runner="windows-latest" ;;
+              esac
+              if [ "$FIRST" = true ]; then FIRST=false; else MATRIX="$MATRIX,"; fi
+              MATRIX="$MATRIX{\"package\":\"$pkg\",\"platform\":\"$plat\",\"runner\":\"$runner\"}"
+            done
+          done
+          MATRIX="$MATRIX]"
+          echo "include=$MATRIX" >> "$GITHUB_OUTPUT"
+
+  build:
+    needs: matrix
+    strategy:
+      matrix:
+        include: ${{ fromJson(needs.matrix.outputs.include) }}
+      fail-fast: false
+    runs-on: ${{ matrix.runner }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup MATLAB
+        uses: matlab-actions/setup-matlab@v2
+        with:
+          release: R2024b
+          cache: true
+
+      - name: Install system dependencies
+        shell: bash
+        run: |
+          case "${{ matrix.package }}" in
+            clpmex)
+              case "${{ matrix.platform }}" in
+                maca64|maci64) brew install clp ;;
+                glnxa64)       sudo apt-get update && sudo apt-get install -y coinor-libclp-dev ;;
+                win64)         echo "CLP on Windows requires manual setup" ;;
+              esac
+              ;;
+            oasesmex)
+              # qpOASES is built from source, no system deps needed
+              ;;
+            espresso)
+              # Pure C compilation, no extra deps
+              ;;
+          esac
+
+      - name: Download source
+        shell: bash
+        run: |
+          mkdir -p build/src
+          case "${{ matrix.package }}" in
+            sedumi)
+              curl -sL "https://github.com/sqlp/sedumi/archive/refs/heads/master.zip" \
+                -o build/src/source.zip
+              unzip -q build/src/source.zip -d build/src
+              mv build/src/sedumi-master build/src/pkg
+              ;;
+            espresso)
+              # UC Berkeley espresso - use the archived source
+              curl -sL "https://github.com/psksvp/espresso-ab-1.0/archive/refs/heads/master.zip" \
+                -o build/src/source.zip
+              unzip -q build/src/source.zip -d build/src
+              mv build/src/espresso-ab-1.0-master build/src/pkg
+              ;;
+            clpmex)
+              # Download existing distribution for the .cpp and .m files
+              curl -sL "http://people.ee.ethz.ch/~mpt/tbx/pool/clpmex/1_0/clpmex_1_0_maci64.zip" \
+                -o build/src/source.zip
+              unzip -q build/src/source.zip -d build/src
+              mv build/src/clpmex_1_0_maci64 build/src/pkg
+              ;;
+            oasesmex)
+              # qpOASES source with MATLAB interface
+              curl -sL "https://github.com/coin-or/qpOASES/archive/refs/tags/releases/3.2.0.zip" \
+                -o build/src/source.zip
+              unzip -q build/src/source.zip -d build/src
+              mv build/src/qpOASES-releases-3.2.0 build/src/pkg
+              ;;
+          esac
+
+      - name: Build MEX
+        uses: matlab-actions/run-command@v2
+        with:
+          command: |
+            cd('build/src/pkg');
+            switch '${{ matrix.package }}'
+              case 'sedumi'
+                install_sedumi('-rebuild', '-nopath');
+              case 'clpmex'
+                mex -O -largeArrayDims mexclp.cpp -lClp -lCoinUtils
+              case 'oasesmex'
+                cd('interfaces/matlab');
+                make;
+            end
+
+      - name: Build espresso (C binary, not MEX)
+        if: matrix.package == 'espresso'
+        shell: bash
+        run: |
+          cd build/src/pkg
+          # espresso is a standalone C program
+          if [ -f Makefile ]; then
+            make
+          else
+            # Compile all .c files
+            cc -O2 -o espresso *.c -lm 2>/dev/null || \
+            cc -O2 -o espresso main.c *.c -lm 2>/dev/null || \
+            echo "Espresso compilation needs investigation"
+          fi
+
+      - name: Package artifact
+        shell: bash
+        run: |
+          PKG="${{ matrix.package }}"
+          PLAT="${{ matrix.platform }}"
+          PLAT_UPPER=$(echo "$PLAT" | tr '[:lower:]' '[:upper:]')
+          mkdir -p build/out
+
+          case "$PKG" in
+            sedumi)
+              VER="1.3"
+              cd build/src/pkg
+              # Collect all .m and .mex* files
+              find . -name "*.m" -o -name "*.mex*" | \
+                tar czf "../../out/sedumi_1_3_${PLAT_UPPER}.tgz" -T -
+              ;;
+            espresso)
+              VER="1.0"
+              cd build/src/pkg
+              # Package the binary
+              tar czf "../../out/espresso_1_0_${PLAT_UPPER}.tgz" espresso* 2>/dev/null || true
+              ;;
+            clpmex)
+              VER="1.0"
+              cd build/src/pkg
+              find . -name "*.m" -o -name "*.mex*" | \
+                tar czf "../../out/clpmex_1_0_${PLAT_UPPER}.tgz" -T -
+              ;;
+            oasesmex)
+              VER="3.0.0"
+              cd build/src/pkg/interfaces/matlab
+              find . -name "*.m" -o -name "*.mex*" | \
+                tar czf "../../../../out/oasesmex_3_0_0_${PLAT_UPPER}.tgz" -T -
+              ;;
+          esac
+
+      - name: Compute SHA256
+        shell: bash
+        run: |
+          cd build/out
+          for f in *.tgz; do
+            if [ -f "$f" ]; then
+              shasum -a 256 "$f" | tee "${f}.sha256"
+            fi
+          done
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.package }}-${{ matrix.platform }}
+          path: build/out/*
+
+  publish:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download all artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: artifacts/
+
+      - name: Create GitHub Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          TAG="builds/$(date +%Y%m%d)"
+          # Delete existing tag/release if re-running
+          gh release delete "$TAG" --yes 2>/dev/null || true
+          git tag -d "$TAG" 2>/dev/null || true
+          git push origin ":refs/tags/$TAG" 2>/dev/null || true
+
+          # Collect all .tgz files
+          FILES=$(find artifacts -name "*.tgz" -type f)
+          if [ -z "$FILES" ]; then
+            echo "No artifacts to publish"
+            exit 0
+          fi
+
+          gh release create "$TAG" \
+            --title "MEX Binaries $(date +%Y-%m-%d)" \
+            --notes "Auto-built MEX binaries for missing platforms." \
+            --prerelease \
+            $FILES
+
+      - name: Update package.json files
+        shell: bash
+        run: |
+          TAG="builds/$(date +%Y%m%d)"
+          REPO="${{ github.repository }}"
+
+          for dir in artifacts/*/; do
+            # Extract package and platform from directory name
+            DIRNAME=$(basename "$dir")
+            PKG=$(echo "$DIRNAME" | rev | cut -d- -f2- | rev)
+            PLAT=$(echo "$DIRNAME" | rev | cut -d- -f1 | rev)
+
+            for tgz in "$dir"*.tgz; do
+              [ -f "$tgz" ] || continue
+              FILENAME=$(basename "$tgz")
+              SHA256=$(cat "${tgz}.sha256" | cut -d' ' -f1)
+              URL="https://github.com/${REPO}/releases/download/${TAG}/${FILENAME}"
+
+              # Determine version from filename
+              case "$PKG" in
+                sedumi)   VER="1.3" ;;
+                espresso) VER="1.0" ;;
+                clpmex)   VER="1.0" ;;
+                oasesmex) VER="3.0.0" ;;
+                *)        VER="" ;;
+              esac
+
+              if [ -n "$VER" ]; then
+                echo "Updating $PKG@$VER platform=$PLAT sha256=$SHA256"
+                python3 -c "
+          import json, sys
+          pkg_file = f'packages/{sys.argv[1]}/package.json'
+          with open(pkg_file) as f:
+              data = json.load(f)
+          ver = sys.argv[2]
+          plat = sys.argv[3]
+          url = sys.argv[4]
+          sha = sys.argv[5]
+          if ver in data['versions']:
+              data['versions'][ver]['platforms'][plat] = {'url': url, 'sha256': sha}
+          with open(pkg_file, 'w') as f:
+              json.dump(data, f, indent=2)
+              f.write('\n')
+          " "$PKG" "$VER" "$PLAT" "$URL" "$SHA256"
+              fi
+            done
+          done
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add packages/
+          if git diff --cached --quiet; then
+            echo "No package.json changes"
+          else
+            git commit -m "feat(registry): add MEX binaries for missing platforms"
+            git push
+          fi
