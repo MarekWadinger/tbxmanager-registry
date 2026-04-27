@@ -20,6 +20,10 @@
         "win64": {
           "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/fourier/1_0/fourier_1_0_pcwin64.zip",
           "sha256": "dcc700c119e4a1aa39d837f0cbcf81af4d130f4e485f8a253b65af15cabf6752"
+        },
+        "maca64": {
+          "url": "https://raw.githubusercontent.com/MarekWadinger/tbx-index-maca64/main/binary/darwin-arm64/fourier/1.0.0/fourier_1_0_0_MACA64.tgz",
+          "sha256": "8a0b820927d8250ee615ce9d651404225714c5464aa85c97397f1475e7672e2c"
         }
       },
       "released": "2012-10-02"

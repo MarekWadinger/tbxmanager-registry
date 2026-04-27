@@ -21,6 +21,10 @@
         "win64": {
           "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/cddmex/1_0_1/cddmex_1_0_1_PCWIN64.tgz",
           "sha256": "7d27a21ee6a36f107f58f866792f083eaeefa0a35364a361a86432bc91d3ab0c"
+        },
+        "maca64": {
+          "url": "https://raw.githubusercontent.com/MarekWadinger/tbx-index-maca64/main/binary/darwin-arm64/cddmex/1.0.1/cddmex_1_0_1_MACA64.tgz",
+          "sha256": "49bb33db3b5c75cda062a5c136b2b7a56fb3aa2dbf46e6a0c3af11554709018e"
         }
       },
       "released": "2013-10-02"

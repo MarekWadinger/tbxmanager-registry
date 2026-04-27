@@ -20,6 +20,10 @@
         "win64": {
           "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/lcp/1_0_3/lcp_1_0_3_PCWIN64.tgz",
           "sha256": "9b41edbbdcf5cb15b9299d79a19293364b03c417382c83a05aa2cba24a7cde43"
+        },
+        "maca64": {
+          "url": "https://raw.githubusercontent.com/MarekWadinger/tbx-index-maca64/main/binary/darwin-arm64/lcp/1.0.3/lcp_1_0_3_MACA64.tgz",
+          "sha256": "84063e28bc98fafd08e1c0352775fbaece8093d142b30632e9f799f0c9f7841c"
         }
       },
       "released": "2013-08-22"

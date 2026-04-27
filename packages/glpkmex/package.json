@@ -20,6 +20,10 @@
         "win64": {
           "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/glpkmex/1_0/glpkmex_1_0_pcwin64.zip",
           "sha256": "a15f14dc1dbbf97c288ee7d8201664041ad4173c45ea555525338579453950d9"
+        },
+        "maca64": {
+          "url": "https://raw.githubusercontent.com/MarekWadinger/tbx-index-maca64/main/binary/darwin-arm64/glpkmex/1.0.0/glpkmex_1_0_0_MACA64.tgz",
+          "sha256": "d80febffd47ed84d91d04c35e229677ab7c04d80db6416f74d3d9322259a9eae"
         }
       },
       "released": "2012-10-02"

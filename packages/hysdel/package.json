@@ -21,6 +21,10 @@
         "win64": {
           "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/hysdel2/2_0_6/PCWIN64/hysdel.zip",
           "sha256": "7e84cfe1e7e27b0c21d93328f9a531ed5f8ad08cb36c96b39e63fda7398f47da"
+        },
+        "maca64": {
+          "url": "https://raw.githubusercontent.com/MarekWadinger/tbx-index-maca64/main/binary/darwin-arm64/hysdel/2.0.6/hysdel_2_0_6_MACA64.tgz",
+          "sha256": "08b843f40b3d66819e21d6f358e3c18bb9a9649a9364d1226ed18d056d9f4946"
         }
       },
       "released": "2012-10-02"
