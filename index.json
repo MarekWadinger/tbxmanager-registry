@@ -1,6 +1,6 @@
 {
   "index_version": 1,
-  "generated": "2026-05-08T08:33:12Z",
+  "generated": "2026-05-08T08:40:26Z",
   "packages": {
     "besim": {
       "name": "besim",
@@ -391,6 +391,10 @@
             "win64": {
               "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/espresso/1_0/espresso_win.tgz",
               "sha256": "0681b46d59e4ea139a8553bb3cd2d0791e2a237fb52f13637abf3d1aa6913d0d"
+            },
+            "maca64": {
+              "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/builds/20260508/espresso_1_0_MACA64.tgz",
+              "sha256": "a328e5272812113eafe5001f0bd62b061e299ad56aa14ebfda7ea32739f354b9"
             }
           },
           "released": "2013-07-15"
