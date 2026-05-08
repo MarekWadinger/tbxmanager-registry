@@ -24,7 +24,7 @@
         },
         "maca64": {
           "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/builds/20260508/espresso_1_0_MACA64.tgz",
-          "sha256": "270d98121c1f63e117b263940ab778c860a422aff21381b3e60040b5bc037f69"
+          "sha256": "b4d2046598f0dc093289c522656311b84cad657d02224cffbecce9f87c35074e"
         }
       },
       "released": "2013-07-15"
