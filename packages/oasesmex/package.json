@@ -21,6 +21,10 @@
         "win64": {
           "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/oasesmex/1_0/oasesmex_1_0_pcwin64.zip",
           "sha256": null
+        },
+        "maca64": {
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/builds/20260508/oasesmex_1_0_MACA64.tgz",
+          "sha256": "bce09b81e01c3546f5ae3ee1b27ee1b8a01fa89caa482c407498c88eec0fbf07"
         }
       },
       "released": "2012-10-02",
@@ -41,6 +45,10 @@
         "win64": {
           "url": "http://www.qpoases.org/tbxmanager/3.2.0/qpOASES_3_2_0_win64.zip",
           "sha256": "8a2e72dea70ad1926f498671137c13ce4be3c42a9279575d4d73e5d0698e355c"
+        },
+        "maca64": {
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/builds/20260508/oasesmex_3_2_0_MACA64.tgz",
+          "sha256": "495cf222adfb8e97735072bc20c0a4abb202e4dfe6399fc1e05c079eedf1a6f6"
         }
       },
       "released": "2015-09-07"
@@ -60,6 +68,10 @@
         "win64": {
           "url": "http://www.qpoases.org/tbxmanager/3.1.0/qpOASES_3_1_0_win64.zip",
           "sha256": "d5f64b7f1694e20b4e9e2c9381ebf6d896772b7c039f98fd1ee22ac320fd641a"
+        },
+        "maca64": {
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/builds/20260508/oasesmex_3_1_0_MACA64.tgz",
+          "sha256": "9e6f02a1656046ed3b9686be95cb61cd0b772fd2406d900b535def5d54023991"
         }
       },
       "released": "2015-02-23"
@@ -79,6 +91,10 @@
         "win64": {
           "url": "http://www.qpOASES.org/tbxmanager/3.0.1/qpOASES_3_0_1_win64.zip",
           "sha256": "17e0f066527267817e6abb3e99494ebfc37dd00f4657fe0a9226171ddbff7da1"
+        },
+        "maca64": {
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/builds/20260508/oasesmex_3_0_1_MACA64.tgz",
+          "sha256": "f1d037bf0039be8fabdc0e87df3e2633688b259ffb4b223c6ba48ba0d2b40e4d"
         }
       },
       "released": "2014-12-18"
