@@ -97,7 +97,7 @@
         },
         "maca64": {
           "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/builds/20260508/oasesmex_3_0_0_MACA64.tgz",
-          "sha256": "055eb99c771b898afb7d44387dbece50a8bd6f50e2b89690e062b291b56e5c7d"
+          "sha256": "f2f30cc481e81f930dffa182c3952503c4d0edb1d864258ea7fb124e69aea5bd"
         }
       },
       "released": "2014-12-18"

@@ -24,7 +24,7 @@
         },
         "maca64": {
           "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/builds/20260508/sedumi_1_3_MACA64.tgz",
-          "sha256": "e319af492f663a6f7638e55a9dc067ffe7956f41c767eb2979ed2da53360460b"
+          "sha256": "c85ea448de0cd6cd94218f8ac3c46589890ba96d6c7f50e3e329419faac297f8"
         }
       },
       "released": "2012-10-02"

@@ -23,7 +23,7 @@
         },
         "maca64": {
           "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/builds/20260508/clpmex_1_0_MACA64.tgz",
-          "sha256": "51209ea1ea237b98e96b3bf51981bf56505c9c76146a28b0b43f033f4ac62e64"
+          "sha256": "01b2916bb8092ad2376e2ead03fd3907d12724b941a7f49d54cf15345747000c"
         }
       },
       "released": "2012-10-02"
