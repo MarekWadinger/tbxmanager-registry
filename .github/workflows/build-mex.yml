@@ -229,6 +229,7 @@ jobs:
 
   publish:
     needs: build
+    if: ${{ always() && contains(needs.build.result, 'success') }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
