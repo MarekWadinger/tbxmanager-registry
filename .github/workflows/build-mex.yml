@@ -320,5 +320,6 @@ jobs:
             echo "No package.json changes"
           else
             git commit -m "feat(registry): add MEX binaries for missing platforms"
+            git pull --rebase
             git push
           fi
