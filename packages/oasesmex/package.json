@@ -94,6 +94,10 @@
         "win64": {
           "url": "http://www.qpOASES.org/tbxmanager/3.0.0/qpOASES_3_0_0_win64.zip",
           "sha256": "6b013d8f0a7ce53e2ce492f4a0ed77b1fc891cf90b5447bd118a81dc02629b21"
+        },
+        "maca64": {
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/builds/20260508/oasesmex_3_0_0_MACA64.tgz",
+          "sha256": "055eb99c771b898afb7d44387dbece50a8bd6f50e2b89690e062b291b56e5c7d"
         }
       },
       "released": "2014-12-18"
