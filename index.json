@@ -1,6 +1,6 @@
 {
   "index_version": 1,
-  "generated": "2026-05-08T08:48:31Z",
+  "generated": "2026-05-08T08:57:15Z",
   "packages": {
     "besim": {
       "name": "besim",
@@ -220,7 +220,7 @@
             },
             "maca64": {
               "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/builds/20260508/clpmex_1_0_MACA64.tgz",
-              "sha256": "51209ea1ea237b98e96b3bf51981bf56505c9c76146a28b0b43f033f4ac62e64"
+              "sha256": "01b2916bb8092ad2376e2ead03fd3907d12724b941a7f49d54cf15345747000c"
             }
           },
           "released": "2012-10-02"
@@ -394,7 +394,7 @@
             },
             "maca64": {
               "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/builds/20260508/espresso_1_0_MACA64.tgz",
-              "sha256": "a328e5272812113eafe5001f0bd62b061e299ad56aa14ebfda7ea32739f354b9"
+              "sha256": "270d98121c1f63e117b263940ab778c860a422aff21381b3e60040b5bc037f69"
             }
           },
           "released": "2013-07-15"
@@ -1499,7 +1499,7 @@
             },
             "maca64": {
               "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/builds/20260508/oasesmex_3_0_0_MACA64.tgz",
-              "sha256": "055eb99c771b898afb7d44387dbece50a8bd6f50e2b89690e062b291b56e5c7d"
+              "sha256": "f2f30cc481e81f930dffa182c3952503c4d0edb1d864258ea7fb124e69aea5bd"
             }
           },
           "released": "2014-12-18"
@@ -1697,7 +1697,7 @@
             },
             "maca64": {
               "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/builds/20260508/sedumi_1_3_MACA64.tgz",
-              "sha256": "e319af492f663a6f7638e55a9dc067ffe7956f41c767eb2979ed2da53360460b"
+              "sha256": "c85ea448de0cd6cd94218f8ac3c46589890ba96d6c7f50e3e329419faac297f8"
             }
           },
           "released": "2012-10-02"
