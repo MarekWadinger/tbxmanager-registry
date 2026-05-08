@@ -1,0 +1,64 @@
+name: Auto-build missing platform binaries
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'packages/*/package.json'
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    # Skip the commit that build-mex.yml itself pushes back — prevents infinite loop
+    if: "!startsWith(github.event.head_commit.message, 'feat(registry): add MEX binaries')"
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check for buildable packages missing any platform
+        id: check
+        shell: python
+        run: |
+          import json, glob, os
+
+          PLATFORM_SPECIFIC = {"maci64", "win64", "glnxa64"}
+          BUILDABLE = {"sedumi", "espresso", "clpmex", "oasesmex"}
+
+          missing = []
+          for path in sorted(glob.glob("packages/*/package.json")):
+              try:
+                  data = json.loads(open(path).read())
+              except Exception:
+                  continue
+              name = data.get("name", "")
+              if name not in BUILDABLE:
+                  continue
+              for ver, vdata in data.get("versions", {}).items():
+                  if not isinstance(vdata, dict):
+                      continue
+                  plats = set(vdata.get("platforms", {}).keys())
+                  if plats & PLATFORM_SPECIFIC and "all" not in plats:
+                      all_targets = {"maca64", "maci64", "glnxa64", "win64"}
+                      gaps = all_targets - plats
+                      if gaps:
+                          missing.append(f"{name}@{ver}: missing {sorted(gaps)}")
+
+          found = "true" if missing else "false"
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write(f"found={found}\n")
+
+          if missing:
+              print(f"Found {len(missing)} gap(s):")
+              for m in missing:
+                  print(f"  {m}")
+          else:
+              print("No gaps found — skipping build dispatch")
+
+      - name: Dispatch build-mex workflow
+        if: steps.check.outputs.found == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        run: |
+          gh workflow run build-mex.yml \
+            --repo ${{ github.repository }} \
+            -f package=auto \
+            -f platforms=all
