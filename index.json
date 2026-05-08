@@ -1,6 +1,6 @@
 {
   "index_version": 1,
-  "generated": "2026-04-27T09:49:27Z",
+  "generated": "2026-05-08T08:17:57Z",
   "packages": {
     "besim": {
       "name": "besim",
@@ -1682,6 +1682,10 @@
             "win64": {
               "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/sedumi/1_3/sedumi_1_3_pcwin64.zip",
               "sha256": "0ac0b154d109797faf988a16c774f77af75699543630cfa4fc6bc133548538f7"
+            },
+            "maca64": {
+              "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/builds/20260508/sedumi_1_3_MACA64.tgz",
+              "sha256": "e319af492f663a6f7638e55a9dc067ffe7956f41c767eb2979ed2da53360460b"
             }
           },
           "released": "2012-10-02"
