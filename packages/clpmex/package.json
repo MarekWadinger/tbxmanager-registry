@@ -20,6 +20,10 @@
         "win64": {
           "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/clpmex/1_0/clpmex_1_0_pcwin64.zip",
           "sha256": "b6873ce5f66e33be6efaabbde828f5db60d77e1f6508a49c90a263b59499d98f"
+        },
+        "maca64": {
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/builds/20260508/clpmex_1_0_MACA64.tgz",
+          "sha256": "51209ea1ea237b98e96b3bf51981bf56505c9c76146a28b0b43f033f4ac62e64"
         }
       },
       "released": "2012-10-02"
