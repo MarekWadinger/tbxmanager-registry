@@ -88,7 +88,7 @@ jobs:
                   brew install clp
                   CLP_PREFIX=$(brew --prefix clp)
                   CUI_PREFIX=$(brew --prefix coinutils)
-                  echo "CLP_INCLUDE=${CLP_PREFIX}/include/clp/coin:${CUI_PREFIX}/include/coin" >> "$GITHUB_ENV"
+                  echo "CLP_INCLUDE=${CLP_PREFIX}/include/clp/coin:${CUI_PREFIX}/include/coinutils/coin" >> "$GITHUB_ENV"
                   echo "CLP_LIB=${CLP_PREFIX}/lib:${CUI_PREFIX}/lib" >> "$GITHUB_ENV"
                   ;;
                 glnxa64)
@@ -106,17 +106,6 @@ jobs:
               # Pure C compilation, no extra deps
               ;;
           esac
-
-      - name: Locate CLP headers (debug)
-        if: matrix.package == 'clpmex'
-        shell: bash
-        run: |
-          echo "=== Searching for Coin_C_defines.h ==="
-          find /opt/homebrew -name "Coin_C_defines.h" 2>/dev/null || echo "not found under /opt/homebrew"
-          echo "=== CLP_INCLUDE env ==="
-          echo "$CLP_INCLUDE"
-          echo "=== CoinUtils brew info ==="
-          brew info coinutils | head -5
 
       - name: Download source
         shell: bash
