@@ -87,8 +87,9 @@ jobs:
                 maca64|maci64)
                   brew install clp
                   CLP_PREFIX=$(brew --prefix clp)
-                  echo "CLP_INCLUDE=${CLP_PREFIX}/include/clp/coin" >> "$GITHUB_ENV"
-                  echo "CLP_LIB=${CLP_PREFIX}/lib" >> "$GITHUB_ENV"
+                  CUI_PREFIX=$(brew --prefix coinutils)
+                  echo "CLP_INCLUDE=${CLP_PREFIX}/include/clp/coin:${CUI_PREFIX}/include/coin" >> "$GITHUB_ENV"
+                  echo "CLP_LIB=${CLP_PREFIX}/lib:${CUI_PREFIX}/lib" >> "$GITHUB_ENV"
                   ;;
                 glnxa64)
                   sudo apt-get update && sudo apt-get install -y coinor-libclp-dev coinor-libcoinutils-dev
@@ -149,9 +150,11 @@ jobs:
               case 'sedumi'
                 install_sedumi('-rebuild', '-nopath');
               case 'clpmex'
-                clpInc = getenv('CLP_INCLUDE');
-                clpLib = getenv('CLP_LIB');
-                mex('-O', '-largeArrayDims', ['-I' clpInc], ['-L' clpLib], 'mexclp.cpp', '-lClp', '-lCoinUtils')
+                incPaths = strsplit(getenv('CLP_INCLUDE'), ':');
+                libPaths = strsplit(getenv('CLP_LIB'), ':');
+                incArgs = strcat('-I', incPaths);
+                libArgs = strcat('-L', libPaths);
+                mex('-O', '-largeArrayDims', incArgs{:}, libArgs{:}, 'mexclp.cpp', '-lClp', '-lCoinUtils')
               case 'oasesmex'
                 cd('interfaces/matlab');
                 make;
