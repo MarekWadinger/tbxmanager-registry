@@ -43,6 +43,8 @@ jobs:
               "glnxa64": "ubuntu-latest",
               "win64":   "windows-latest",
           }
+          # Packages the workflow knows how to build from source
+          BUILDABLE = {"sedumi", "espresso", "clpmex", "oasesmex"}
 
           platforms = list(RUNNER_MAP.keys()) if plat_input == "all" else [plat_input]
 
@@ -60,6 +62,8 @@ jobs:
               except (OSError, json.JSONDecodeError):
                   continue
               name = data.get("name", "")
+              if pkg_input == "auto" and name not in BUILDABLE:
+                  continue
               for ver, vdata in data.get("versions", {}).items():
                   if not isinstance(vdata, dict):
                       continue
@@ -191,34 +195,35 @@ jobs:
           PLAT="${{ matrix.platform }}"
           VER_UNDER=$(echo "$VER" | tr '.' '_')
           PLAT_UPPER=$(echo "$PLAT" | tr '[:lower:]' '[:upper:]')
-          mkdir -p build/out
+          REPO_ROOT=$(pwd)
+          mkdir -p "${REPO_ROOT}/build/out"
 
           case "$PKG" in
             sedumi)
-              cd build/src/pkg
+              cd "${REPO_ROOT}/build/src/pkg"
               find . -name "*.m" -o -name "*.mex*" | \
-                tar czf "../../out/${PKG}_${VER_UNDER}_${PLAT_UPPER}.tgz" -T -
+                tar czf "${REPO_ROOT}/build/out/${PKG}_${VER_UNDER}_${PLAT_UPPER}.tgz" -T -
               ;;
             espresso)
-              ESPRESSO_BIN=$(find build/src/pkg -type f -name "espresso" | head -1)
+              ESPRESSO_BIN=$(find "${REPO_ROOT}/build/src/pkg" -type f -name "espresso" | head -1)
               [ -n "$ESPRESSO_BIN" ] || { echo "ERROR: espresso binary not found" && exit 1; }
-              tar czf "build/out/${PKG}_${VER_UNDER}_${PLAT_UPPER}.tgz" \
+              tar czf "${REPO_ROOT}/build/out/${PKG}_${VER_UNDER}_${PLAT_UPPER}.tgz" \
                 -C "$(dirname "$ESPRESSO_BIN")" espresso
               ;;
             clpmex)
-              cd build/src/pkg
+              cd "${REPO_ROOT}/build/src/pkg"
               find . -name "*.m" -o -name "*.mex*" | \
-                tar czf "../../out/${PKG}_${VER_UNDER}_${PLAT_UPPER}.tgz" -T -
+                tar czf "${REPO_ROOT}/build/out/${PKG}_${VER_UNDER}_${PLAT_UPPER}.tgz" -T -
               ;;
             oasesmex)
-              cd build/src/pkg/interfaces/matlab
+              cd "${REPO_ROOT}/build/src/pkg/interfaces/matlab"
               find . -name "*.m" -o -name "*.mex*" | \
-                tar czf "../../../../out/${PKG}_${VER_UNDER}_${PLAT_UPPER}.tgz" -T -
+                tar czf "${REPO_ROOT}/build/out/${PKG}_${VER_UNDER}_${PLAT_UPPER}.tgz" -T -
               ;;
           esac
 
           # Record version for the publish step
-          echo "$VER" > build/out/version.txt
+          echo "$VER" > "${REPO_ROOT}/build/out/version.txt"
 
       - name: Compute SHA256
         shell: bash
