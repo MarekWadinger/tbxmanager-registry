@@ -193,9 +193,13 @@ jobs:
               ;;
             espresso)
               VER="1.0"
-              cd build/src/pkg
-              # Package the binary
-              tar czf "../../out/espresso_1_0_${PLAT_UPPER}.tgz" espresso* 2>/dev/null || true
+              # Binary may be in src/ subdirectory depending on Makefile
+              ESPRESSO_BIN=$(find build/src/pkg -type f -name "espresso" | head -1)
+              if [ -z "$ESPRESSO_BIN" ]; then
+                echo "ERROR: espresso binary not found" && exit 1
+              fi
+              echo "Found espresso binary: $ESPRESSO_BIN"
+              tar czf "build/out/espresso_1_0_${PLAT_UPPER}.tgz" -C "$(dirname "$ESPRESSO_BIN")" espresso
               ;;
             clpmex)
               VER="1.0"
