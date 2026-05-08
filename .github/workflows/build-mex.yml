@@ -107,6 +107,17 @@ jobs:
               ;;
           esac
 
+      - name: Locate CLP headers (debug)
+        if: matrix.package == 'clpmex'
+        shell: bash
+        run: |
+          echo "=== Searching for Coin_C_defines.h ==="
+          find /opt/homebrew -name "Coin_C_defines.h" 2>/dev/null || echo "not found under /opt/homebrew"
+          echo "=== CLP_INCLUDE env ==="
+          echo "$CLP_INCLUDE"
+          echo "=== CoinUtils brew info ==="
+          brew info coinutils | head -5
+
       - name: Download source
         shell: bash
         run: |
