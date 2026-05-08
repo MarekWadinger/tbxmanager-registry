@@ -84,9 +84,18 @@ jobs:
           case "${{ matrix.package }}" in
             clpmex)
               case "${{ matrix.platform }}" in
-                maca64|maci64) brew install clp ;;
-                glnxa64)       sudo apt-get update && sudo apt-get install -y coinor-libclp-dev ;;
-                win64)         echo "CLP on Windows requires manual setup" ;;
+                maca64|maci64)
+                  brew install clp
+                  CLP_PREFIX=$(brew --prefix clp)
+                  echo "CLP_INCLUDE=${CLP_PREFIX}/include/clp/coin" >> "$GITHUB_ENV"
+                  echo "CLP_LIB=${CLP_PREFIX}/lib" >> "$GITHUB_ENV"
+                  ;;
+                glnxa64)
+                  sudo apt-get update && sudo apt-get install -y coinor-libclp-dev coinor-libcoinutils-dev
+                  echo "CLP_INCLUDE=/usr/include/coin" >> "$GITHUB_ENV"
+                  echo "CLP_LIB=/usr/lib" >> "$GITHUB_ENV"
+                  ;;
+                win64) echo "CLP on Windows requires manual setup" ;;
               esac
               ;;
             oasesmex)
@@ -140,7 +149,9 @@ jobs:
               case 'sedumi'
                 install_sedumi('-rebuild', '-nopath');
               case 'clpmex'
-                mex -O -largeArrayDims mexclp.cpp -lClp -lCoinUtils
+                clpInc = getenv('CLP_INCLUDE');
+                clpLib = getenv('CLP_LIB');
+                mex('-O', '-largeArrayDims', ['-I' clpInc], ['-L' clpLib], 'mexclp.cpp', '-lClp', '-lCoinUtils')
               case 'oasesmex'
                 cd('interfaces/matlab');
                 make;
