@@ -245,10 +245,6 @@ jobs:
         shell: bash
         run: |
           TAG="builds/$(date +%Y%m%d)"
-          # Delete existing tag/release if re-running
-          gh release delete "$TAG" --yes 2>/dev/null || true
-          git tag -d "$TAG" 2>/dev/null || true
-          git push origin ":refs/tags/$TAG" 2>/dev/null || true
 
           # Collect all .tgz files
           FILES=$(find artifacts -name "*.tgz" -type f)
@@ -257,11 +253,16 @@ jobs:
             exit 0
           fi
 
-          gh release create "$TAG" \
-            --title "MEX Binaries $(date +%Y-%m-%d)" \
-            --notes "Auto-built MEX binaries for missing platforms." \
-            --prerelease \
-            $FILES
+          # Create release if it doesn't exist, then upload/overwrite files
+          if ! gh release view "$TAG" &>/dev/null; then
+            gh release create "$TAG" \
+              --title "MEX Binaries $(date +%Y-%m-%d)" \
+              --notes "Auto-built MEX binaries for missing platforms." \
+              --prerelease \
+              $FILES
+          else
+            gh release upload "$TAG" $FILES --clobber
+          fi
 
       - name: Update package.json files
         shell: bash
