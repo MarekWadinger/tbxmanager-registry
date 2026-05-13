@@ -9,12 +9,18 @@ from pathlib import Path
 
 
 def parse_version(v):
-    """Parse version string to comparable tuple."""
+    """Parse version string to comparable tuple.
+
+    Handles both semver ("1.2.3") and R-date ("R20250626_fix2") formats.
+    Non-numeric versions sort lexicographically via their string value.
+    """
     parts = v.split(".")
     try:
-        return tuple(int(p) for p in parts)
+        return (1,) + tuple(int(p) for p in parts)
     except ValueError:
-        return (0,)
+        # R-date or other non-numeric: sort lexicographically.
+        # Prefix with (0,) so numeric versions always sort separately.
+        return (0, v)
 
 
 def build_index(packages_dir):

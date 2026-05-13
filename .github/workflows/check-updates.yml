@@ -1,0 +1,56 @@
+name: Check Updates
+
+on:
+  schedule:
+    - cron: '0 9 * * 3'  # Wednesdays 9 AM UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  check-updates:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check for new upstream releases
+        id: check
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          output=$(python3 scripts/check_updates.py --include-patches --apply 2>&1)
+          echo "$output"
+          if echo "$output" | grep -q "update(s) applied"; then
+            echo "has_updates=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_updates=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create pull request
+        if: steps.check.outputs.has_updates == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          branch="auto/check-updates-$(date +%Y%m%d)"
+          git checkout -b "$branch"
+          git add packages/
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "feat(registry): add new upstream versions
+
+          Auto-detected by check_updates.py"
+          git push origin "$branch"
+          gh pr create \
+            --title "Add new upstream versions" \
+            --body "$(cat <<'EOF'
+          ## Summary
+
+          Automated check found new releases for registered packages.
+          Downloads were verified and SHA256 hashes computed.
+
+          Created by the weekly `check-updates` workflow.
+          EOF
+          )" \
+            --label "auto-update"

@@ -1,6 +1,6 @@
 {
   "index_version": 1,
-  "generated": "2026-05-08T12:13:16Z",
+  "generated": "2026-05-13T07:15:58Z",
   "packages": {
     "besim": {
       "name": "besim",
@@ -40,7 +40,7 @@
     "brcm": {
       "name": "brcm",
       "description": "The Building Resistance-Capacitance Modeling (BRCM) Matlab Toolbox facilitates the physical modeling of buildings for MPC. The Toolbox provides a means for the fast generation of (bi-)linear resistance-capacitance type models from basic geometry, construction and building systems data and also supports the generation of appropriate costs and constraints. The Toolbox is based on previously validated modeling principles.\r\n",
-      "latest": "v0.91(beta)",
+      "latest": "v0.96(Beta)",
       "versions": {
         "v0.96(Beta)": {
           "matlab": ">=R2014a",
@@ -431,7 +431,7 @@
     "fiordos": {
       "name": "fiordos",
       "description": "FiOrdOs",
-      "latest": "R20140930",
+      "latest": "R20141208",
       "versions": {
         "R20121210": {
           "matlab": ">=R2014a",
@@ -1258,7 +1258,7 @@
     "mptplus": {
       "name": "mptplus",
       "description": "mptplus",
-      "latest": "R20230314",
+      "latest": "R20241004",
       "versions": {
         "R20241004": {
           "matlab": ">=R2014a",
@@ -1551,7 +1551,7 @@
     "parexmpc": {
       "name": "parexmpc",
       "description": "parexmpc",
-      "latest": "R20231203",
+      "latest": "R20240820",
       "versions": {
         "R20240820": {
           "matlab": ">=R2014a",
@@ -1584,7 +1584,7 @@
     "piddesign": {
       "name": "piddesign",
       "description": "piddesign",
-      "latest": "R20200224",
+      "latest": "R20251117",
       "versions": {
         "R20251117": {
           "matlab": ">=R2014a",
@@ -1781,7 +1781,7 @@
     "vesna": {
       "name": "vesna",
       "description": "vesna",
-      "latest": "R20231117",
+      "latest": "R20240424",
       "versions": {
         "R20240424": {
           "matlab": ">=R2014a",
@@ -1883,7 +1883,7 @@
     "yalmip": {
       "name": "yalmip",
       "description": "YALMIP",
-      "latest": "R20160923",
+      "latest": "R20250626_fix2",
       "versions": {
         "R20140221": {
           "matlab": ">=R2014a",
@@ -2283,6 +2283,72 @@
             }
           },
           "released": "2016-09-23"
+        },
+        "R20250626_fix2": {
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/refs/tags/R20250626_fix2.zip",
+              "sha256": "bd7d6407402279583b4372081cea95b24da00a630e53e60130ac1f7141dfb78a"
+            }
+          },
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "released": "2025-06-26"
+        },
+        "R20230622": {
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/refs/tags/R20230622.zip",
+              "sha256": "be41dba6d7162a2ace1645fdfda8029cdf8ac50cc75e520cb20150dc1989fdee"
+            }
+          },
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "released": "2023-06-22"
+        },
+        "R20200930": {
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/refs/tags/R20200930.zip",
+              "sha256": "5bb39c2c1335588a13102a998c5adcdadd660d86946d0f23b80d02bd03efc594"
+            }
+          },
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "released": "2020-09-30"
+        },
+        "R20200116_hotfix": {
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/refs/tags/R20200116_hotfix.zip",
+              "sha256": "920603f2f8d2a104dc27a9fee931d1d020d05a55e747a0e9710d59a8c33419b2"
+            }
+          },
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "released": "2020-01-16"
+        },
+        "R20180926_fix3": {
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/refs/tags/R20180926_fix3.zip",
+              "sha256": "e30e0a5242e5011ec2c1227be19a640d81fff549bbe62075be12c83b90e210ca"
+            }
+          },
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "released": "2018-09-26"
+        },
+        "R20160930-patched": {
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/refs/tags/R20160930-patched.zip",
+              "sha256": "0978f5f8d72b336df90e6f8964bdff9cbd5b2c80c32680d527aef271669341a1"
+            }
+          },
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "released": "2016-09-30"
         }
       },
       "homepage": "https://yalmip.github.io",
