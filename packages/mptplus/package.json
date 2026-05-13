@@ -63,6 +63,39 @@
         }
       },
       "released": "2023-03-18"
+    },
+    "R20260508": {
+      "platforms": {
+        "all": {
+          "url": "https://github.com/holaza/mptplus/releases/download/R20260508/mptplus_R20260508.zip",
+          "sha256": "44ed7d359a2cecd50b0c59326167bb4d748d249c37b55f6ab0ebd39b294fde12"
+        }
+      },
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "released": "2026-05-11"
+    },
+    "R20260330": {
+      "platforms": {
+        "all": {
+          "url": "https://github.com/holaza/mptplus/releases/download/R20260330/mptplus_R20260330.zip",
+          "sha256": "e59e30c209150a1fa30f8851d0d864ffbfc2c2eb26af1403a32c3b35794a6708"
+        }
+      },
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "released": "2026-04-08"
+    },
+    "R20260328": {
+      "platforms": {
+        "all": {
+          "url": "https://github.com/holaza/mptplus/releases/download/R20260328/mptplus_R20260328.zip",
+          "sha256": "f5150b0148b6ca777d4c9fc4e5154df8ea155f6497dcd10d6b49ce41eb1f2556"
+        }
+      },
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "released": "2026-04-08"
     }
   }
 }
