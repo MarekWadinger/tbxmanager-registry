@@ -1,6 +1,6 @@
 {
   "index_version": 1,
-  "generated": "2026-05-13T08:11:28Z",
+  "generated": "2026-05-13T08:19:10Z",
   "packages": {
     "besim": {
       "name": "besim",
@@ -1360,7 +1360,7 @@
     "mup": {
       "name": "mup",
       "description": "mup",
-      "latest": "20210621",
+      "latest": "R20250924",
       "versions": {
         "R20250924": {
           "matlab": ">=R2014a",

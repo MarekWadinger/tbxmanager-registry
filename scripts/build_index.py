@@ -11,15 +11,26 @@ from pathlib import Path
 def parse_version(v):
     """Parse version string to comparable tuple.
 
-    Handles both semver ("1.2.3") and R-date ("R20250626_fix2") formats.
-    Non-numeric versions sort lexicographically via their string value.
+    Handles:
+      - Semver: "1.2.3" or "3.0" -> numeric tuple comparison
+      - v-prefixed semver: "v1.0.1" -> strip v, then numeric
+      - Date versions: "R20250626", "20210621" -> lexicographic on
+        the normalized string (bare dates get "R" prefix for sorting)
+      - Anything else: "v0.96(Beta)", "3,0.8" -> lexicographic fallback
     """
-    parts = v.split(".")
+    # Strip v prefix for semver (v1.0.1 -> 1.0.1)
+    normalized = v.lstrip("v") if v.startswith("v") else v
+
+    # Try numeric semver parse
+    parts = normalized.split(".")
     try:
-        return (1,) + tuple(int(p) for p in parts)
+        nums = tuple(int(p) for p in parts)
+        # Guard: a single huge number (20210621) is a bare date, not semver
+        if len(nums) == 1 and nums[0] > 99999:
+            return (0, "R" + v)
+        return (1,) + nums
     except ValueError:
-        # R-date or other non-numeric: sort lexicographically.
-        # Prefix with (0,) so numeric versions always sort separately.
+        # Non-numeric: R-date, typos, free-form strings
         return (0, v)
 
 
