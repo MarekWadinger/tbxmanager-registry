@@ -1,6 +1,6 @@
 {
   "index_version": 1,
-  "generated": "2026-05-13T08:19:10Z",
+  "generated": "2026-05-13T08:27:17Z",
   "packages": {
     "besim": {
       "name": "besim",
@@ -433,6 +433,28 @@
       "description": "FiOrdOs",
       "latest": "R20141208",
       "versions": {
+        "R20141208": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://fiordos.ethz.ch/data/fiordosR20141208.zip",
+              "sha256": "87158fae545fd3f1051e0c630bcf5e22b1e999d6440b542ecc4850a7f3a6b22e"
+            }
+          },
+          "released": "2014-12-08"
+        },
+        "R20140930": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://fiordos.ethz.ch/dwnldf/fiordosR20140930.zip",
+              "sha256": "49fee9ea6671221720e60e9c863e5492603b00cce6da633db56be401e96cfa7d"
+            }
+          },
+          "released": "2014-09-30"
+        },
         "R20121210": {
           "matlab": ">=R2014a",
           "dependencies": {},
@@ -476,28 +498,6 @@
             }
           },
           "released": "2012-10-19"
-        },
-        "R20141208": {
-          "matlab": ">=R2014a",
-          "dependencies": {},
-          "platforms": {
-            "all": {
-              "url": "http://fiordos.ethz.ch/data/fiordosR20141208.zip",
-              "sha256": "87158fae545fd3f1051e0c630bcf5e22b1e999d6440b542ecc4850a7f3a6b22e"
-            }
-          },
-          "released": "2014-12-08"
-        },
-        "R20140930": {
-          "matlab": ">=R2014a",
-          "dependencies": {},
-          "platforms": {
-            "all": {
-              "url": "http://fiordos.ethz.ch/dwnldf/fiordosR20140930.zip",
-              "sha256": "49fee9ea6671221720e60e9c863e5492603b00cce6da633db56be401e96cfa7d"
-            }
-          },
-          "released": "2014-09-30"
         }
       },
       "homepage": "http://fiordos.ethz.ch",
@@ -792,6 +792,28 @@
       "description": "Run \"matws_install\" to put the necessary libraries to the static Java path. Then restart matlab.",
       "latest": "1.3",
       "versions": {
+        "1.3": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://www.uiam.sk/~kvasnica/tbxpool/matwebsocks/matwebsocks_1_3_all.zip",
+              "sha256": "cc862b37c4afa1c49a6b14a26a6aa57bab82b3f8c59fcb9dcdf1dea3523e6938"
+            }
+          },
+          "released": "2019-01-08"
+        },
+        "1.2": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://www.uiam.sk/~kvasnica/tbxpool/matwebsocks/matwebsocks_1_2_all.zip",
+              "sha256": "510603aaee0759a44de46f04a13f5e0dfb7e648d9c209b27e56e68a08aa6f632"
+            }
+          },
+          "released": "2016-11-22"
+        },
         "1.1": {
           "matlab": ">=R2014a",
           "dependencies": {},
@@ -815,28 +837,6 @@
           },
           "released": "2014-04-15",
           "yanked": "Download URL no longer available"
-        },
-        "1.3": {
-          "matlab": ">=R2014a",
-          "dependencies": {},
-          "platforms": {
-            "all": {
-              "url": "http://www.uiam.sk/~kvasnica/tbxpool/matwebsocks/matwebsocks_1_3_all.zip",
-              "sha256": "cc862b37c4afa1c49a6b14a26a6aa57bab82b3f8c59fcb9dcdf1dea3523e6938"
-            }
-          },
-          "released": "2019-01-08"
-        },
-        "1.2": {
-          "matlab": ">=R2014a",
-          "dependencies": {},
-          "platforms": {
-            "all": {
-              "url": "http://www.uiam.sk/~kvasnica/tbxpool/matwebsocks/matwebsocks_1_2_all.zip",
-              "sha256": "510603aaee0759a44de46f04a13f5e0dfb7e648d9c209b27e56e68a08aa6f632"
-            }
-          },
-          "released": "2016-11-22"
         }
       },
       "homepage": "https://bitbucket.org/kvasnica/matwebsocks",
@@ -849,6 +849,28 @@
       "description": "Multi-Parametric Toolbox 3.0",
       "latest": "3.2.1",
       "versions": {
+        "3.2.1": {
+          "matlab": ">=R2014a",
+          "dependencies": {
+            "yalmip": "*",
+            "sedumi": "*",
+            "lcp": "*",
+            "cddmex": "*",
+            "glpkmex": "*",
+            "clpmex": "*",
+            "espresso": "*",
+            "hysdel": "*",
+            "oasesmex": "*",
+            "qpspline": "*"
+          },
+          "platforms": {
+            "all": {
+              "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/mpt3/3_2_1/mpt3-3_2_1.tgz",
+              "sha256": "d64b09c1df707c2ab802f78d82d446ae9d436f68fe3afe5b5f5e6bea53530f5d"
+            }
+          },
+          "released": "2018-06-07"
+        },
         "3.0.17": {
           "matlab": ">=R2014a",
           "dependencies": {},
@@ -957,18 +979,6 @@
           "released": "2013-08-06",
           "yanked": "Download URL no longer available"
         },
-        "3,0.8": {
-          "matlab": ">=R2014a",
-          "dependencies": {},
-          "platforms": {
-            "all": {
-              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3/3_0_8/mpt3-3_0_8.tgz",
-              "sha256": null
-            }
-          },
-          "released": "2013-07-15",
-          "yanked": "Download URL no longer available"
-        },
         "3.0.7": {
           "matlab": ">=R2014a",
           "dependencies": {},
@@ -1065,27 +1075,17 @@
           "released": "2012-10-02",
           "yanked": "Download URL no longer available"
         },
-        "3.2.1": {
+        "3,0.8": {
           "matlab": ">=R2014a",
-          "dependencies": {
-            "yalmip": "*",
-            "sedumi": "*",
-            "lcp": "*",
-            "cddmex": "*",
-            "glpkmex": "*",
-            "clpmex": "*",
-            "espresso": "*",
-            "hysdel": "*",
-            "oasesmex": "*",
-            "qpspline": "*"
-          },
+          "dependencies": {},
           "platforms": {
             "all": {
-              "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/mpt3/3_2_1/mpt3-3_2_1.tgz",
-              "sha256": "d64b09c1df707c2ab802f78d82d446ae9d436f68fe3afe5b5f5e6bea53530f5d"
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3/3_0_8/mpt3-3_0_8.tgz",
+              "sha256": null
             }
           },
-          "released": "2018-06-07"
+          "released": "2013-07-15",
+          "yanked": "Download URL no longer available"
         }
       },
       "homepage": "http://control.ee.ethz.ch/~mpt/",
@@ -1260,6 +1260,39 @@
       "description": "mptplus",
       "latest": "R20260508",
       "versions": {
+        "R20260508": {
+          "platforms": {
+            "all": {
+              "url": "https://github.com/holaza/mptplus/releases/download/R20260508/mptplus_R20260508.zip",
+              "sha256": "44ed7d359a2cecd50b0c59326167bb4d748d249c37b55f6ab0ebd39b294fde12"
+            }
+          },
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "released": "2026-05-11"
+        },
+        "R20260330": {
+          "platforms": {
+            "all": {
+              "url": "https://github.com/holaza/mptplus/releases/download/R20260330/mptplus_R20260330.zip",
+              "sha256": "e59e30c209150a1fa30f8851d0d864ffbfc2c2eb26af1403a32c3b35794a6708"
+            }
+          },
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "released": "2026-04-08"
+        },
+        "R20260328": {
+          "platforms": {
+            "all": {
+              "url": "https://github.com/holaza/mptplus/releases/download/R20260328/mptplus_R20260328.zip",
+              "sha256": "f5150b0148b6ca777d4c9fc4e5154df8ea155f6497dcd10d6b49ce41eb1f2556"
+            }
+          },
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "released": "2026-04-08"
+        },
         "R20241004": {
           "matlab": ">=R2014a",
           "dependencies": {
@@ -1317,39 +1350,6 @@
             }
           },
           "released": "2023-03-18"
-        },
-        "R20260508": {
-          "platforms": {
-            "all": {
-              "url": "https://github.com/holaza/mptplus/releases/download/R20260508/mptplus_R20260508.zip",
-              "sha256": "44ed7d359a2cecd50b0c59326167bb4d748d249c37b55f6ab0ebd39b294fde12"
-            }
-          },
-          "matlab": ">=R2014a",
-          "dependencies": {},
-          "released": "2026-05-11"
-        },
-        "R20260330": {
-          "platforms": {
-            "all": {
-              "url": "https://github.com/holaza/mptplus/releases/download/R20260330/mptplus_R20260330.zip",
-              "sha256": "e59e30c209150a1fa30f8851d0d864ffbfc2c2eb26af1403a32c3b35794a6708"
-            }
-          },
-          "matlab": ">=R2014a",
-          "dependencies": {},
-          "released": "2026-04-08"
-        },
-        "R20260328": {
-          "platforms": {
-            "all": {
-              "url": "https://github.com/holaza/mptplus/releases/download/R20260328/mptplus_R20260328.zip",
-              "sha256": "f5150b0148b6ca777d4c9fc4e5154df8ea155f6497dcd10d6b49ce41eb1f2556"
-            }
-          },
-          "matlab": ">=R2014a",
-          "dependencies": {},
-          "released": "2026-04-08"
         }
       },
       "homepage": "https://github.com/holaza/mptplus/wiki",
@@ -1441,30 +1441,6 @@
       "description": "Mex interface to qpOASES",
       "latest": "3.2.0",
       "versions": {
-        "1.0": {
-          "matlab": ">=R2014a",
-          "dependencies": {},
-          "platforms": {
-            "glnxa64": {
-              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/oasesmex/1_0/oasesmex_1_0_glnxa64.zip",
-              "sha256": null
-            },
-            "maci64": {
-              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/oasesmex/1_0/oasesmex_1_0_maci64.zip",
-              "sha256": null
-            },
-            "win64": {
-              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/oasesmex/1_0/oasesmex_1_0_pcwin64.zip",
-              "sha256": null
-            },
-            "maca64": {
-              "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/builds/20260508/oasesmex_1_0_MACA64.tgz",
-              "sha256": "bce09b81e01c3546f5ae3ee1b27ee1b8a01fa89caa482c407498c88eec0fbf07"
-            }
-          },
-          "released": "2012-10-02",
-          "yanked": "Download URL no longer available"
-        },
         "3.2.0": {
           "matlab": ">=R2014a",
           "dependencies": {},
@@ -1552,6 +1528,30 @@
             }
           },
           "released": "2014-12-18"
+        },
+        "1.0": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "glnxa64": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/oasesmex/1_0/oasesmex_1_0_glnxa64.zip",
+              "sha256": null
+            },
+            "maci64": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/oasesmex/1_0/oasesmex_1_0_maci64.zip",
+              "sha256": null
+            },
+            "win64": {
+              "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/oasesmex/1_0/oasesmex_1_0_pcwin64.zip",
+              "sha256": null
+            },
+            "maca64": {
+              "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/builds/20260508/oasesmex_1_0_MACA64.tgz",
+              "sha256": "bce09b81e01c3546f5ae3ee1b27ee1b8a01fa89caa482c407498c88eec0fbf07"
+            }
+          },
+          "released": "2012-10-02",
+          "yanked": "Download URL no longer available"
         }
       },
       "homepage": "https://projects.coin-or.org/qpOASES",
@@ -1860,6 +1860,17 @@
       "description": "Requires the \"matwebsocks\" package",
       "latest": "1.6",
       "versions": {
+        "1.6": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "http://www.uiam.sk/~kvasnica/tbxpool/wsclient/wsclient_1_6_all.zip",
+              "sha256": "740f6f3e8c65104c6695ec814bbf1b47b2437bc05759a482bb0cc75f8f35adc3"
+            }
+          },
+          "released": "2017-09-21"
+        },
         "1.2": {
           "matlab": ">=R2014a",
           "dependencies": {},
@@ -1895,17 +1906,6 @@
           },
           "released": "2014-04-15",
           "yanked": "Download URL no longer available"
-        },
-        "1.6": {
-          "matlab": ">=R2014a",
-          "dependencies": {},
-          "platforms": {
-            "all": {
-              "url": "http://www.uiam.sk/~kvasnica/tbxpool/wsclient/wsclient_1_6_all.zip",
-              "sha256": "740f6f3e8c65104c6695ec814bbf1b47b2437bc05759a482bb0cc75f8f35adc3"
-            }
-          },
-          "released": "2017-09-21"
         }
       },
       "homepage": "https://github.com/kvasnica/wsclient",
@@ -1918,6 +1918,303 @@
       "description": "YALMIP",
       "latest": "R20250626_fix2",
       "versions": {
+        "R20250626_fix2": {
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/refs/tags/R20250626_fix2.zip",
+              "sha256": "bd7d6407402279583b4372081cea95b24da00a630e53e60130ac1f7141dfb78a"
+            }
+          },
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "released": "2025-06-26"
+        },
+        "R20230622": {
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/refs/tags/R20230622.zip",
+              "sha256": "be41dba6d7162a2ace1645fdfda8029cdf8ac50cc75e520cb20150dc1989fdee"
+            }
+          },
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "released": "2023-06-22"
+        },
+        "R20230609": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
+            }
+          },
+          "released": "2023-06-09"
+        },
+        "R20210331": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
+            }
+          },
+          "released": "2021-06-28"
+        },
+        "R20201001": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
+            }
+          },
+          "released": "2020-10-01"
+        },
+        "R20200930": {
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/refs/tags/R20200930.zip",
+              "sha256": "5bb39c2c1335588a13102a998c5adcdadd660d86946d0f23b80d02bd03efc594"
+            }
+          },
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "released": "2020-09-30"
+        },
+        "R20200116_hotfix": {
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/refs/tags/R20200116_hotfix.zip",
+              "sha256": "920603f2f8d2a104dc27a9fee931d1d020d05a55e747a0e9710d59a8c33419b2"
+            }
+          },
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "released": "2020-01-16"
+        },
+        "R20200116": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
+            }
+          },
+          "released": "2020-01-16"
+        },
+        "R20190425": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
+            }
+          },
+          "released": "2019-04-25"
+        },
+        "R20181012": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
+            }
+          },
+          "released": "2018-10-12"
+        },
+        "R20180926_fix3": {
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/refs/tags/R20180926_fix3.zip",
+              "sha256": "e30e0a5242e5011ec2c1227be19a640d81fff549bbe62075be12c83b90e210ca"
+            }
+          },
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "released": "2018-09-26"
+        },
+        "R20180926": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
+            }
+          },
+          "released": "2018-09-27"
+        },
+        "R20180817": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
+            }
+          },
+          "released": "2018-08-17"
+        },
+        "R20180612": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
+            }
+          },
+          "released": "2018-06-12"
+        },
+        "R20180413": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
+            }
+          },
+          "released": "2018-04-13"
+        },
+        "R20180209": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
+            }
+          },
+          "released": "2018-02-09"
+        },
+        "R20171121": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
+            }
+          },
+          "released": "2017-11-21"
+        },
+        "R20171018": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
+            }
+          },
+          "released": "2017-10-18"
+        },
+        "R20170921": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
+            }
+          },
+          "released": "2017-09-21"
+        },
+        "R20170915": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
+            }
+          },
+          "released": "2017-09-15"
+        },
+        "R20170818": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
+            }
+          },
+          "released": "2017-08-18"
+        },
+        "R20170626": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
+            }
+          },
+          "released": "2017-08-09"
+        },
+        "R20170624": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
+            }
+          },
+          "released": "2017-06-24"
+        },
+        "R20170622": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
+            }
+          },
+          "released": "2017-06-22"
+        },
+        "R20160930-patched": {
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/refs/tags/R20160930-patched.zip",
+              "sha256": "0978f5f8d72b336df90e6f8964bdff9cbd5b2c80c32680d527aef271669341a1"
+            }
+          },
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "released": "2016-09-30"
+        },
+        "R20160930": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
+            }
+          },
+          "released": "2016-09-30"
+        },
+        "R20160923": {
+          "matlab": ">=R2014a",
+          "dependencies": {},
+          "platforms": {
+            "all": {
+              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
+            }
+          },
+          "released": "2016-09-23"
+        },
         "R20140221": {
           "matlab": ">=R2014a",
           "dependencies": {},
@@ -2085,303 +2382,6 @@
           },
           "released": "2012-10-02",
           "yanked": "Download URL no longer available"
-        },
-        "R20230609": {
-          "matlab": ">=R2014a",
-          "dependencies": {},
-          "platforms": {
-            "all": {
-              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
-              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
-            }
-          },
-          "released": "2023-06-09"
-        },
-        "R20210331": {
-          "matlab": ">=R2014a",
-          "dependencies": {},
-          "platforms": {
-            "all": {
-              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
-              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
-            }
-          },
-          "released": "2021-06-28"
-        },
-        "R20201001": {
-          "matlab": ">=R2014a",
-          "dependencies": {},
-          "platforms": {
-            "all": {
-              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
-              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
-            }
-          },
-          "released": "2020-10-01"
-        },
-        "R20200116": {
-          "matlab": ">=R2014a",
-          "dependencies": {},
-          "platforms": {
-            "all": {
-              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
-              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
-            }
-          },
-          "released": "2020-01-16"
-        },
-        "R20190425": {
-          "matlab": ">=R2014a",
-          "dependencies": {},
-          "platforms": {
-            "all": {
-              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
-              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
-            }
-          },
-          "released": "2019-04-25"
-        },
-        "R20181012": {
-          "matlab": ">=R2014a",
-          "dependencies": {},
-          "platforms": {
-            "all": {
-              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
-              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
-            }
-          },
-          "released": "2018-10-12"
-        },
-        "R20180926": {
-          "matlab": ">=R2014a",
-          "dependencies": {},
-          "platforms": {
-            "all": {
-              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
-              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
-            }
-          },
-          "released": "2018-09-27"
-        },
-        "R20180817": {
-          "matlab": ">=R2014a",
-          "dependencies": {},
-          "platforms": {
-            "all": {
-              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
-              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
-            }
-          },
-          "released": "2018-08-17"
-        },
-        "R20180612": {
-          "matlab": ">=R2014a",
-          "dependencies": {},
-          "platforms": {
-            "all": {
-              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
-              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
-            }
-          },
-          "released": "2018-06-12"
-        },
-        "R20180413": {
-          "matlab": ">=R2014a",
-          "dependencies": {},
-          "platforms": {
-            "all": {
-              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
-              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
-            }
-          },
-          "released": "2018-04-13"
-        },
-        "R20180209": {
-          "matlab": ">=R2014a",
-          "dependencies": {},
-          "platforms": {
-            "all": {
-              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
-              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
-            }
-          },
-          "released": "2018-02-09"
-        },
-        "R20171121": {
-          "matlab": ">=R2014a",
-          "dependencies": {},
-          "platforms": {
-            "all": {
-              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
-              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
-            }
-          },
-          "released": "2017-11-21"
-        },
-        "R20171018": {
-          "matlab": ">=R2014a",
-          "dependencies": {},
-          "platforms": {
-            "all": {
-              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
-              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
-            }
-          },
-          "released": "2017-10-18"
-        },
-        "R20170921": {
-          "matlab": ">=R2014a",
-          "dependencies": {},
-          "platforms": {
-            "all": {
-              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
-              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
-            }
-          },
-          "released": "2017-09-21"
-        },
-        "R20170915": {
-          "matlab": ">=R2014a",
-          "dependencies": {},
-          "platforms": {
-            "all": {
-              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
-              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
-            }
-          },
-          "released": "2017-09-15"
-        },
-        "R20170818": {
-          "matlab": ">=R2014a",
-          "dependencies": {},
-          "platforms": {
-            "all": {
-              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
-              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
-            }
-          },
-          "released": "2017-08-18"
-        },
-        "R20170626": {
-          "matlab": ">=R2014a",
-          "dependencies": {},
-          "platforms": {
-            "all": {
-              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
-              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
-            }
-          },
-          "released": "2017-08-09"
-        },
-        "R20170624": {
-          "matlab": ">=R2014a",
-          "dependencies": {},
-          "platforms": {
-            "all": {
-              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
-              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
-            }
-          },
-          "released": "2017-06-24"
-        },
-        "R20170622": {
-          "matlab": ">=R2014a",
-          "dependencies": {},
-          "platforms": {
-            "all": {
-              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
-              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
-            }
-          },
-          "released": "2017-06-22"
-        },
-        "R20160930": {
-          "matlab": ">=R2014a",
-          "dependencies": {},
-          "platforms": {
-            "all": {
-              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
-              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
-            }
-          },
-          "released": "2016-09-30"
-        },
-        "R20160923": {
-          "matlab": ">=R2014a",
-          "dependencies": {},
-          "platforms": {
-            "all": {
-              "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
-              "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
-            }
-          },
-          "released": "2016-09-23"
-        },
-        "R20250626_fix2": {
-          "platforms": {
-            "all": {
-              "url": "https://github.com/yalmip/YALMIP/archive/refs/tags/R20250626_fix2.zip",
-              "sha256": "bd7d6407402279583b4372081cea95b24da00a630e53e60130ac1f7141dfb78a"
-            }
-          },
-          "matlab": ">=R2014a",
-          "dependencies": {},
-          "released": "2025-06-26"
-        },
-        "R20230622": {
-          "platforms": {
-            "all": {
-              "url": "https://github.com/yalmip/YALMIP/archive/refs/tags/R20230622.zip",
-              "sha256": "be41dba6d7162a2ace1645fdfda8029cdf8ac50cc75e520cb20150dc1989fdee"
-            }
-          },
-          "matlab": ">=R2014a",
-          "dependencies": {},
-          "released": "2023-06-22"
-        },
-        "R20200930": {
-          "platforms": {
-            "all": {
-              "url": "https://github.com/yalmip/YALMIP/archive/refs/tags/R20200930.zip",
-              "sha256": "5bb39c2c1335588a13102a998c5adcdadd660d86946d0f23b80d02bd03efc594"
-            }
-          },
-          "matlab": ">=R2014a",
-          "dependencies": {},
-          "released": "2020-09-30"
-        },
-        "R20200116_hotfix": {
-          "platforms": {
-            "all": {
-              "url": "https://github.com/yalmip/YALMIP/archive/refs/tags/R20200116_hotfix.zip",
-              "sha256": "920603f2f8d2a104dc27a9fee931d1d020d05a55e747a0e9710d59a8c33419b2"
-            }
-          },
-          "matlab": ">=R2014a",
-          "dependencies": {},
-          "released": "2020-01-16"
-        },
-        "R20180926_fix3": {
-          "platforms": {
-            "all": {
-              "url": "https://github.com/yalmip/YALMIP/archive/refs/tags/R20180926_fix3.zip",
-              "sha256": "e30e0a5242e5011ec2c1227be19a640d81fff549bbe62075be12c83b90e210ca"
-            }
-          },
-          "matlab": ">=R2014a",
-          "dependencies": {},
-          "released": "2018-09-26"
-        },
-        "R20160930-patched": {
-          "platforms": {
-            "all": {
-              "url": "https://github.com/yalmip/YALMIP/archive/refs/tags/R20160930-patched.zip",
-              "sha256": "0978f5f8d72b336df90e6f8964bdff9cbd5b2c80c32680d527aef271669341a1"
-            }
-          },
-          "matlab": ">=R2014a",
-          "dependencies": {},
-          "released": "2016-09-30"
         }
       },
       "homepage": "https://yalmip.github.io",

@@ -6,30 +6,6 @@
     "mpt@control.ee.ethz.ch"
   ],
   "versions": {
-    "1.0": {
-      "matlab": ">=R2014a",
-      "dependencies": {},
-      "platforms": {
-        "glnxa64": {
-          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/oasesmex/1_0/oasesmex_1_0_glnxa64.zip",
-          "sha256": null
-        },
-        "maci64": {
-          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/oasesmex/1_0/oasesmex_1_0_maci64.zip",
-          "sha256": null
-        },
-        "win64": {
-          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/oasesmex/1_0/oasesmex_1_0_pcwin64.zip",
-          "sha256": null
-        },
-        "maca64": {
-          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/builds/20260508/oasesmex_1_0_MACA64.tgz",
-          "sha256": "bce09b81e01c3546f5ae3ee1b27ee1b8a01fa89caa482c407498c88eec0fbf07"
-        }
-      },
-      "released": "2012-10-02",
-      "yanked": "Download URL no longer available"
-    },
     "3.2.0": {
       "matlab": ">=R2014a",
       "dependencies": {},
@@ -117,6 +93,30 @@
         }
       },
       "released": "2014-12-18"
+    },
+    "1.0": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "glnxa64": {
+          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/oasesmex/1_0/oasesmex_1_0_glnxa64.zip",
+          "sha256": null
+        },
+        "maci64": {
+          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/oasesmex/1_0/oasesmex_1_0_maci64.zip",
+          "sha256": null
+        },
+        "win64": {
+          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/oasesmex/1_0/oasesmex_1_0_pcwin64.zip",
+          "sha256": null
+        },
+        "maca64": {
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/builds/20260508/oasesmex_1_0_MACA64.tgz",
+          "sha256": "bce09b81e01c3546f5ae3ee1b27ee1b8a01fa89caa482c407498c88eec0fbf07"
+        }
+      },
+      "released": "2012-10-02",
+      "yanked": "Download URL no longer available"
     }
   }
 }

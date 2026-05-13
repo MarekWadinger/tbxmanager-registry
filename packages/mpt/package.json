@@ -6,6 +6,28 @@
     "mpt@control.ee.ethz.ch"
   ],
   "versions": {
+    "3.2.1": {
+      "matlab": ">=R2014a",
+      "dependencies": {
+        "yalmip": "*",
+        "sedumi": "*",
+        "lcp": "*",
+        "cddmex": "*",
+        "glpkmex": "*",
+        "clpmex": "*",
+        "espresso": "*",
+        "hysdel": "*",
+        "oasesmex": "*",
+        "qpspline": "*"
+      },
+      "platforms": {
+        "all": {
+          "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/mpt3/3_2_1/mpt3-3_2_1.tgz",
+          "sha256": "d64b09c1df707c2ab802f78d82d446ae9d436f68fe3afe5b5f5e6bea53530f5d"
+        }
+      },
+      "released": "2018-06-07"
+    },
     "3.0.17": {
       "matlab": ">=R2014a",
       "dependencies": {},
@@ -114,18 +136,6 @@
       "released": "2013-08-06",
       "yanked": "Download URL no longer available"
     },
-    "3,0.8": {
-      "matlab": ">=R2014a",
-      "dependencies": {},
-      "platforms": {
-        "all": {
-          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3/3_0_8/mpt3-3_0_8.tgz",
-          "sha256": null
-        }
-      },
-      "released": "2013-07-15",
-      "yanked": "Download URL no longer available"
-    },
     "3.0.7": {
       "matlab": ">=R2014a",
       "dependencies": {},
@@ -222,27 +232,17 @@
       "released": "2012-10-02",
       "yanked": "Download URL no longer available"
     },
-    "3.2.1": {
+    "3,0.8": {
       "matlab": ">=R2014a",
-      "dependencies": {
-        "yalmip": "*",
-        "sedumi": "*",
-        "lcp": "*",
-        "cddmex": "*",
-        "glpkmex": "*",
-        "clpmex": "*",
-        "espresso": "*",
-        "hysdel": "*",
-        "oasesmex": "*",
-        "qpspline": "*"
-      },
+      "dependencies": {},
       "platforms": {
         "all": {
-          "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/mpt3/3_2_1/mpt3-3_2_1.tgz",
-          "sha256": "d64b09c1df707c2ab802f78d82d446ae9d436f68fe3afe5b5f5e6bea53530f5d"
+          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3/3_0_8/mpt3-3_0_8.tgz",
+          "sha256": null
         }
       },
-      "released": "2018-06-07"
+      "released": "2013-07-15",
+      "yanked": "Download URL no longer available"
     }
   }
 }

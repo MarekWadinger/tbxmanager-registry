@@ -7,6 +7,28 @@
     "fiordos@control.ee.ethz.ch"
   ],
   "versions": {
+    "R20141208": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "http://fiordos.ethz.ch/data/fiordosR20141208.zip",
+          "sha256": "87158fae545fd3f1051e0c630bcf5e22b1e999d6440b542ecc4850a7f3a6b22e"
+        }
+      },
+      "released": "2014-12-08"
+    },
+    "R20140930": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "http://fiordos.ethz.ch/dwnldf/fiordosR20140930.zip",
+          "sha256": "49fee9ea6671221720e60e9c863e5492603b00cce6da633db56be401e96cfa7d"
+        }
+      },
+      "released": "2014-09-30"
+    },
     "R20121210": {
       "matlab": ">=R2014a",
       "dependencies": {},
@@ -50,28 +72,6 @@
         }
       },
       "released": "2012-10-19"
-    },
-    "R20141208": {
-      "matlab": ">=R2014a",
-      "dependencies": {},
-      "platforms": {
-        "all": {
-          "url": "http://fiordos.ethz.ch/data/fiordosR20141208.zip",
-          "sha256": "87158fae545fd3f1051e0c630bcf5e22b1e999d6440b542ecc4850a7f3a6b22e"
-        }
-      },
-      "released": "2014-12-08"
-    },
-    "R20140930": {
-      "matlab": ">=R2014a",
-      "dependencies": {},
-      "platforms": {
-        "all": {
-          "url": "http://fiordos.ethz.ch/dwnldf/fiordosR20140930.zip",
-          "sha256": "49fee9ea6671221720e60e9c863e5492603b00cce6da633db56be401e96cfa7d"
-        }
-      },
-      "released": "2014-09-30"
     }
   }
 }

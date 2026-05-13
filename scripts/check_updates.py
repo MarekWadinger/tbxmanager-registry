@@ -197,6 +197,49 @@ def detect_matlab_constraint(package: dict) -> str | None:
     return None
 
 
+def detect_version_convention(package: dict) -> str:
+    """Detect the naming convention used by existing versions.
+
+    Returns one of:
+      - "semver"   : numeric dotted versions (1.2.3, 3.0)
+      - "rdate"    : R-prefixed dates (R20250626, R20250626_fix2)
+      - "date"     : bare date numbers (20210621)
+      - "mixed"    : inconsistent (should not happen in well-maintained packages)
+      - "unknown"  : no versions or unrecognizable format
+    """
+    semver_pat = re.compile(r"^v?\d+\.\d+(\.\d+)?$")
+    rdate_pat = re.compile(r"^R\d{8}")
+    bare_date_pat = re.compile(r"^\d{8}$")
+
+    conventions: set[str] = set()
+    for ver in package.get("versions", {}):
+        if semver_pat.match(ver):
+            conventions.add("semver")
+        elif rdate_pat.match(ver):
+            conventions.add("rdate")
+        elif bare_date_pat.match(ver):
+            conventions.add("date")
+
+    if len(conventions) == 1:
+        return conventions.pop()
+    if len(conventions) > 1:
+        return "mixed"
+    return "unknown"
+
+
+def tag_matches_convention(tag: str, convention: str) -> bool:
+    """Check if a release tag matches the package's version convention."""
+    version_key = tag_to_version_key(tag)
+    if convention == "semver":
+        return bool(re.match(r"^\d+\.\d+(\.\d+)?$", version_key))
+    if convention == "rdate":
+        return bool(re.match(r"^R\d{8}", version_key))
+    if convention == "date":
+        return bool(re.match(r"^\d{8}$", version_key))
+    # unknown/mixed: accept anything
+    return True
+
+
 def check_package(
     name: str,
     pkg_path: Path,
@@ -227,8 +270,10 @@ def check_package(
 
     platforms = detect_platforms(package)
     matlab = detect_matlab_constraint(package)
+    convention = detect_version_convention(package)
 
     missing = []
+    skipped_convention = []
 
     for release in releases:
         tag = release["tag_name"]
@@ -249,6 +294,11 @@ def check_package(
             if re.search(r"[_-](fix|patch|hotfix)", tag, re.IGNORECASE):
                 continue
 
+        # Reject tags that violate the package's naming convention
+        if not tag_matches_convention(tag, convention):
+            skipped_convention.append(tag)
+            continue
+
         entry = {
             "tag": tag,
             "version_key": version_key,
@@ -262,6 +312,12 @@ def check_package(
 
         missing.append(entry)
 
+    if skipped_convention:
+        log(
+            f"{name}: SKIPPED {len(skipped_convention)} tag(s) violating "
+            f"'{convention}' convention: {', '.join(skipped_convention)}"
+        )
+
     if not missing:
         log(f"{name}: up to date ({len(registered_versions)} versions)")
         return []
@@ -269,6 +325,7 @@ def check_package(
     log(f"{name}: {len(missing)} new version(s) found")
 
     if apply:
+        new_versions: dict = {}
         for entry in missing:
             vk = entry["version_key"]
             for platform, plat_data in entry["platforms"].items():
@@ -295,9 +352,13 @@ def check_package(
             if entry["date"]:
                 version_entry["released"] = entry["date"]
 
-            package.setdefault("versions", {})[vk] = version_entry
+            new_versions[vk] = version_entry
 
         if not dry_run:
+            # Prepend new versions (descending) before existing ones
+            existing_versions = package.get("versions", {})
+            package["versions"] = {**new_versions, **existing_versions}
+
             with open(pkg_path, "w") as f:
                 json.dump(package, f, indent=2, ensure_ascii=False)
                 f.write("\n")
