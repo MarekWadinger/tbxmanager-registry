@@ -14,7 +14,7 @@ body:
         2. You have created a **GitHub Release** with a `.zip` archive attached
         3. Your package name is lowercase using only letters, numbers, hyphens, and underscores
 
-        Need help? See the [Quick Start for Authors](https://tbxmanager.com/quick-start-authors) guide.
+        Need help? See the [Quick Start for Authors](https://marekwadinger.github.io/tbxmanager/quick-start-authors) guide.
 
   - type: input
     id: repo_url

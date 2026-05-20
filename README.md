@@ -1,6 +1,6 @@
 # tbxmanager-registry
 
-Community package registry for [tbxmanager](https://tbxmanager.com) — the MATLAB package manager.
+Community package registry for [tbxmanager](https://marekwadinger.github.io/tbxmanager) — the MATLAB package manager.
 
 Packages are served as `index.json` via GitHub Pages.
 
@@ -8,7 +8,7 @@ Packages are served as `index.json` via GitHub Pages.
 
 The easiest way — fill in a form:
 
-1. Add a `tbxmanager.json` to your repository root ([how](https://tbxmanager.com/quick-start-authors))
+1. Add a `tbxmanager.json` to your repository root ([how](https://marekwadinger.github.io/tbxmanager/quick-start-authors))
 2. Create a GitHub Release and attach a `.zip` archive of your package
 3. **[Submit here](https://github.com/MarekWadinger/tbxmanager-registry/issues/new?template=submit-package.yml)** — fill in your repo URL and release tag
 
@@ -20,7 +20,7 @@ Add the `tbxmanager-package` topic to your GitHub repository. A weekly bot will 
 
 ### Alternative: Manual Pull Request
 
-Fork this repo, add `packages/your-package/package.json`, and open a PR. See [Creating Packages](https://tbxmanager.com/creating-packages) for the format.
+Fork this repo, add `packages/your-package/package.json`, and open a PR. See [Creating Packages](https://marekwadinger.github.io/tbxmanager/creating-packages) for the format.
 
 ### For Registry Collaborators
 

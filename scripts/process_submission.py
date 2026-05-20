@@ -117,7 +117,7 @@ def fetch_tbxmanager_json(owner, repo, tag):
             raise ValueError(
                 f"Could not find `tbxmanager.json` in your repository at tag `{tag}`. "
                 "Make sure the file exists in your repo root.\n\n"
-                "See [Creating tbxmanager.json](https://tbxmanager.com/quick-start-authors) for help."
+                "See [Creating tbxmanager.json](https://marekwadinger.github.io/tbxmanager/quick-start-authors) for help."
             ) from e
         raise ValueError(
             f"Failed to fetch `tbxmanager.json` (HTTP {e.code}). "
@@ -226,7 +226,7 @@ def main():
             error_list = "\n".join(f"- {e}" for e in errors)
             raise ValueError(
                 f"Validation errors in `tbxmanager.json`:\n\n{error_list}\n\n"
-                "See [Creating tbxmanager.json](https://tbxmanager.com/quick-start-authors) for help."
+                "See [Creating tbxmanager.json](https://marekwadinger.github.io/tbxmanager/quick-start-authors) for help."
             )
 
         name = pkg["name"]
