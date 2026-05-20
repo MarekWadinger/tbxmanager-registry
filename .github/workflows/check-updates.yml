@@ -34,6 +34,15 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           branch="auto/check-updates-$(date +%Y%m%d)"
+
+          # Close any existing PR and delete the remote branch from a prior run
+          existing_pr=$(gh pr list --head "$branch" --json number --jq '.[0].number' 2>/dev/null || true)
+          if [ -n "$existing_pr" ]; then
+            gh pr close "$existing_pr" --delete-branch
+          else
+            git push origin --delete "$branch" 2>/dev/null || true
+          fi
+
           git checkout -b "$branch"
           git add packages/
           git config user.name "github-actions[bot]"
