@@ -1,6 +1,6 @@
 {
   "index_version": 1,
-  "generated": "2026-05-13T08:27:48Z",
+  "generated": "2026-05-21T06:19:12Z",
   "packages": {
     "besim": {
       "name": "besim",
@@ -1755,28 +1755,6 @@
       "homepage": "http://sedumi.ie.lehigh.edu/",
       "authors": [
         "mpt@control.ee.ethz.ch"
-      ]
-    },
-    "tbx-index-arm64": {
-      "name": "tbx-index-arm64",
-      "description": "tbx-index-arm64",
-      "latest": "R20260323",
-      "versions": {
-        "R20260323": {
-          "matlab": ">=R2014a",
-          "dependencies": {},
-          "platforms": {
-            "maci64": {
-              "url": "https://github.com/MarekWadinger/tbx-index-arm64/archive/refs/heads/main.zip",
-              "sha256": "e899953b3a74c14f17f4c2c76eeab7826b0b43c2313cb708ce3ec267e1701777"
-            }
-          },
-          "released": "2026-03-23"
-        }
-      },
-      "homepage": "https://github.com/MarekWadinger/tbx-index-arm64",
-      "authors": [
-        "marek.wadinger@stuba.sk"
       ]
     },
     "tbxcli": {
