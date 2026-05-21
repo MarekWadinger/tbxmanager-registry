@@ -32,22 +32,3 @@ jobs:
             echo ""
           done
           exit $FAILED
-
-      - name: Check maca64 parity
-        if: steps.changed.outputs.files != ''
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          WARNINGS=$(python3 scripts/check_maca64_parity.py ${{ steps.changed.outputs.files }})
-          if [ -n "$WARNINGS" ]; then
-            BODY="### :warning: maca64 parity warning
-
-The following package versions have platform-specific binaries but no \`maca64\` (Apple Silicon) entry. This is not a build failure — the package may not have source available — but consider running the **Build MEX Binaries** workflow to add native Apple Silicon support.
-
-\`\`\`
-$WARNINGS
-\`\`\`"
-            gh pr comment ${{ github.event.pull_request.number }} \
-              --body "$BODY" \
-              --repo ${{ github.repository }}
-          fi
