@@ -21,7 +21,6 @@ jobs:
           import json, glob, os
 
           PLATFORM_SPECIFIC = {"maci64", "win64", "glnxa64"}
-          BUILDABLE = {"sedumi", "espresso", "clpmex", "oasesmex"}
 
           missing = []
           for path in sorted(glob.glob("packages/*/package.json")):
@@ -30,8 +29,6 @@ jobs:
               except Exception:
                   continue
               name = data.get("name", "")
-              if name not in BUILDABLE:
-                  continue
               for ver, vdata in data.get("versions", {}).items():
                   if not isinstance(vdata, dict):
                       continue

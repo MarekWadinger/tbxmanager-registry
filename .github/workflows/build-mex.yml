@@ -4,21 +4,25 @@ on:
   workflow_dispatch:
     inputs:
       package:
-        description: 'Package name to build, or "auto" to scan for all missing maca64'
+        description: 'Package name to build, or "auto" to scan for all missing platforms'
         required: true
         default: 'auto'
         type: string
       platforms:
         description: 'Platforms to build for'
         required: true
-        default: 'maca64'
+        default: 'all'
         type: choice
         options:
-          - maca64
           - all
+          - maca64
+          - maci64
+          - glnxa64
+          - win64
 
 permissions:
   contents: write
+  issues: write
 
 jobs:
   matrix:
@@ -31,7 +35,7 @@ jobs:
       - id: set
         shell: python
         run: |
-          import json, os, glob
+          import json, os, glob, re
 
           pkg_input = "${{ inputs.package }}"
           plat_input = "${{ inputs.platforms }}"
@@ -43,8 +47,9 @@ jobs:
               "glnxa64": "ubuntu-latest",
               "win64":   "windows-latest",
           }
-          # Packages the workflow knows how to build from source
-          BUILDABLE = {"sedumi", "espresso", "clpmex", "oasesmex"}
+          GITHUB_URL_RE = re.compile(
+              r"https?://github\.com/([A-Za-z0-9_.-]+)/([A-Za-z0-9_.-]+)"
+          )
 
           platforms = list(RUNNER_MAP.keys()) if plat_input == "all" else [plat_input]
 
@@ -62,17 +67,47 @@ jobs:
               except (OSError, json.JSONDecodeError):
                   continue
               name = data.get("name", "")
-              if pkg_input == "auto" and name not in BUILDABLE:
+
+              # Discover source GitHub repo from download URLs or homepage
+              # Skip URLs pointing to this registry's own releases (CI-built binaries)
+              THIS_REPO = "${{ github.repository }}"
+              repo_url = ""
+              for vdata in data.get("versions", {}).values():
+                  if not isinstance(vdata, dict):
+                      continue
+                  for pdata in vdata.get("platforms", {}).values():
+                      url = pdata.get("url", "")
+                      m = GITHUB_URL_RE.search(url)
+                      if m and f"{m.group(1)}/{m.group(2)}" != THIS_REPO:
+                          repo_url = f"https://github.com/{m.group(1)}/{m.group(2)}"
+                          break
+                  if repo_url:
+                      break
+              if not repo_url:
+                  m = GITHUB_URL_RE.search(data.get("homepage", ""))
+                  if m and f"{m.group(1)}/{m.group(2)}" != THIS_REPO:
+                      repo_url = f"https://github.com/{m.group(1)}/{m.group(2)}"
+              if not repo_url:
+                  print(f"  SKIP {name}: no GitHub source repo found")
                   continue
+
               for ver, vdata in data.get("versions", {}).items():
                   if not isinstance(vdata, dict):
                       continue
+                  if vdata.get("yanked"):
+                      continue
                   plats = set(vdata.get("platforms", {}).keys())
+                  # Only build for platform-specific packages with gaps
                   if plats & PLATFORM_SPECIFIC and "all" not in plats:
                       for plat in platforms:
                           if plat not in plats:
-                              entries.append({"package": name, "version": ver,
-                                              "platform": plat, "runner": RUNNER_MAP[plat]})
+                              entries.append({
+                                  "package": name,
+                                  "version": ver,
+                                  "platform": plat,
+                                  "runner": RUNNER_MAP[plat],
+                                  "repo_url": repo_url,
+                              })
 
           include_json = json.dumps(entries)
           with open(os.environ["GITHUB_OUTPUT"], "a") as f:
@@ -99,92 +134,93 @@ jobs:
           release: R2024b
           cache: true
 
-      - name: Install system dependencies
-        shell: bash
-        run: |
-          case "${{ matrix.package }}" in
-            clpmex)
-              case "${{ matrix.platform }}" in
-                maca64|maci64)
-                  brew install clp
-                  CLP_PREFIX=$(brew --prefix clp)
-                  CUI_PREFIX=$(brew --prefix coinutils)
-                  echo "CLP_INCLUDE=${CLP_PREFIX}/include/clp/coin:${CUI_PREFIX}/include/coinutils/coin" >> "$GITHUB_ENV"
-                  echo "CLP_LIB=${CLP_PREFIX}/lib:${CUI_PREFIX}/lib" >> "$GITHUB_ENV"
-                  ;;
-                glnxa64)
-                  sudo apt-get update && sudo apt-get install -y coinor-libclp-dev coinor-libcoinutils-dev
-                  echo "CLP_INCLUDE=/usr/include/coin" >> "$GITHUB_ENV"
-                  echo "CLP_LIB=/usr/lib" >> "$GITHUB_ENV"
-                  ;;
-                win64) echo "CLP on Windows requires manual setup" ;;
-              esac
-              ;;
-            oasesmex|espresso|sedumi) ;;  # no system deps
-          esac
-
       - name: Download source
         shell: bash
         run: |
+          REPO_URL="${{ matrix.repo_url }}"
+          VERSION="${{ matrix.version }}"
           mkdir -p build/src
-          case "${{ matrix.package }}" in
-            sedumi)
-              curl -sL "https://github.com/sqlp/sedumi/archive/refs/heads/master.zip" \
-                -o build/src/source.zip
-              unzip -q build/src/source.zip -d build/src
-              mv build/src/sedumi-master build/src/pkg
-              ;;
-            espresso)
-              curl -sL "https://github.com/psksvp/espresso-ab-1.0/archive/refs/heads/master.zip" \
-                -o build/src/source.zip
-              unzip -q build/src/source.zip -d build/src
-              mv build/src/espresso-ab-1.0-master build/src/pkg
-              ;;
-            clpmex)
-              curl -sL "http://people.ee.ethz.ch/~mpt/tbx/pool/clpmex/1_0/clpmex_1_0_maci64.zip" \
-                -o build/src/source.zip
-              unzip -q build/src/source.zip -d build/src
-              mv build/src/clpmex_1_0_maci64 build/src/pkg
-              ;;
-            oasesmex)
-              curl -sL "https://github.com/coin-or/qpOASES/archive/refs/tags/releases/3.2.0.zip" \
-                -o build/src/source.zip
-              unzip -q build/src/source.zip -d build/src
-              mv build/src/qpOASES-releases-3.2.0 build/src/pkg
-              ;;
-          esac
 
-      - name: Build MEX
-        if: matrix.package != 'espresso'
+          # Try common tag formats
+          CLONED=false
+          for TAG in "v${VERSION}" "${VERSION}" "R${VERSION}"; do
+            if git ls-remote --tags "$REPO_URL" "refs/tags/$TAG" 2>/dev/null | grep -q .; then
+              git clone --depth 1 --branch "$TAG" "$REPO_URL" build/src/pkg
+              CLONED=true
+              break
+            fi
+          done
+
+          if [ "$CLONED" = false ]; then
+            echo "::warning::No matching tag found, cloning default branch"
+            git clone --depth 1 "$REPO_URL" build/src/pkg
+          fi
+
+      - name: Build
         uses: matlab-actions/run-command@v2
         with:
           command: |
             cd('build/src/pkg');
-            switch '${{ matrix.package }}'
-              case 'sedumi'
-                install_sedumi('-rebuild', '-nopath');
-              case 'clpmex'
-                incPaths = strsplit(getenv('CLP_INCLUDE'), ':');
-                libPaths = strsplit(getenv('CLP_LIB'), ':');
-                incArgs = strcat('-I', incPaths);
-                libArgs = strcat('-L', libPaths);
-                mex('-O', '-largeArrayDims', incArgs{:}, libArgs{:}, 'mexclp.cpp', '-lClp', '-lCoinUtils')
-              case 'oasesmex'
-                cd('interfaces/matlab');
-                make;
+
+            % 1. Check for build.script in tbxmanager.json
+            if isfile('tbxmanager.json')
+                pkg = jsondecode(fileread('tbxmanager.json'));
+                if isfield(pkg, 'build') && isfield(pkg.build, 'script')
+                    fprintf('Running build script: %s\n', pkg.build.script);
+                    run(pkg.build.script);
+                    return;
+                end
             end
 
-      - name: Build espresso (C binary)
-        if: matrix.package == 'espresso'
+            % 2. Look for common build entry points
+            entryPoints = {'install.m', 'make.m', 'setup.m', 'compile.m', 'build.m'};
+            % Also check for install_<pkgname>.m pattern
+            d = dir('install_*.m');
+            if ~isempty(d)
+                entryPoints = [{d(1).name}, entryPoints];
+            end
+            for i = 1:numel(entryPoints)
+                if isfile(entryPoints{i})
+                    fprintf('Found build entry point: %s\n', entryPoints{i});
+                    run(entryPoints{i});
+                    return;
+                end
+            end
+
+            % 3. Search subdirectories for entry points
+            for sub = ["src", "mex", "interfaces/matlab"]
+                if isfolder(sub)
+                    d = dir(fullfile(sub, '**', 'make.m'));
+                    if ~isempty(d)
+                        fprintf('Found build entry point: %s\n', fullfile(d(1).folder, d(1).name));
+                        cd(d(1).folder);
+                        run('make.m');
+                        return;
+                    end
+                end
+            end
+
+            % 4. Fall back to mex on all C/C++ files
+            cFiles = [dir('**/*.c'); dir('**/*.cpp')];
+            if isempty(cFiles)
+                fprintf('No C/C++ source files found — nothing to build.\n');
+                return;
+            end
+            fprintf('Auto-compiling %d C/C++ file(s) with mex\n', numel(cFiles));
+            for i = 1:numel(cFiles)
+                src = fullfile(cFiles(i).folder, cFiles(i).name);
+                fprintf('  mex %s\n', src);
+                mex('-O', '-largeArrayDims', src);
+            end
+
+      - name: Build with make (fallback for non-MEX)
         shell: bash
         run: |
           cd build/src/pkg
-          if [ -f Makefile ]; then
+          # If no .mex* files were produced but a Makefile exists, try make
+          if ! find . -name "*.mex*" | grep -q . && [ -f Makefile ]; then
+            echo "No MEX files produced, trying Makefile"
             make
-          else
-            cc -O2 -o espresso *.c -lm 2>/dev/null || \
-            cc -O2 -o espresso main.c *.c -lm 2>/dev/null || \
-            { echo "Espresso compilation failed" && exit 1; }
           fi
 
       - name: Package artifact
@@ -198,32 +234,25 @@ jobs:
           REPO_ROOT=$(pwd)
           mkdir -p "${REPO_ROOT}/build/out"
 
-          case "$PKG" in
-            sedumi)
-              cd "${REPO_ROOT}/build/src/pkg"
-              find . -name "*.m" -o -name "*.mex*" | \
-                tar czf "${REPO_ROOT}/build/out/${PKG}_${VER_UNDER}_${PLAT_UPPER}.tgz" -T -
-              ;;
-            espresso)
-              ESPRESSO_BIN=$(find "${REPO_ROOT}/build/src/pkg" -type f -name "espresso" | head -1)
-              [ -n "$ESPRESSO_BIN" ] || { echo "ERROR: espresso binary not found" && exit 1; }
-              tar czf "${REPO_ROOT}/build/out/${PKG}_${VER_UNDER}_${PLAT_UPPER}.tgz" \
-                -C "$(dirname "$ESPRESSO_BIN")" espresso
-              ;;
-            clpmex)
-              cd "${REPO_ROOT}/build/src/pkg"
-              find . -name "*.m" -o -name "*.mex*" | \
-                tar czf "${REPO_ROOT}/build/out/${PKG}_${VER_UNDER}_${PLAT_UPPER}.tgz" -T -
-              ;;
-            oasesmex)
-              cd "${REPO_ROOT}/build/src/pkg/interfaces/matlab"
-              find . -name "*.m" -o -name "*.mex*" | \
-                tar czf "${REPO_ROOT}/build/out/${PKG}_${VER_UNDER}_${PLAT_UPPER}.tgz" -T -
-              ;;
-          esac
+          cd "${REPO_ROOT}/build/src/pkg"
 
-          # Record version for the publish step
+          # Collect all .m, .mex*, and standalone binaries
+          FILELIST=$(mktemp)
+          find . \( -name "*.m" -o -name "*.mex*" \) > "$FILELIST"
+
+          if [ ! -s "$FILELIST" ]; then
+            # Check for standalone binaries (e.g., espresso)
+            find . -maxdepth 2 -type f -executable ! -name "*.sh" > "$FILELIST"
+          fi
+
+          if [ ! -s "$FILELIST" ]; then
+            echo "::error::No build artifacts found"
+            exit 1
+          fi
+
+          tar czf "${REPO_ROOT}/build/out/${PKG}_${VER_UNDER}_${PLAT_UPPER}.tgz" -T "$FILELIST"
           echo "$VER" > "${REPO_ROOT}/build/out/version.txt"
+          rm "$FILELIST"
 
       - name: Compute SHA256
         shell: bash
@@ -238,6 +267,45 @@ jobs:
         with:
           name: ${{ matrix.package }}-${{ matrix.version }}-${{ matrix.platform }}
           path: build/out/*
+
+  notify-failure:
+    needs: build
+    if: failure()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Report build failures
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # Ensure label exists
+          gh label create "build-failure" --color "d73a4a" \
+            --description "Automated MEX build failed" 2>/dev/null || true
+
+          gh issue create \
+            --title "MEX build failed for ${{ github.event.inputs.package }}" \
+            --body "$(cat <<'EOF'
+          The automated MEX build failed. This usually means the package needs
+          a custom build script.
+
+          **How to fix:** Add a `build` section to your `tbxmanager.json`:
+
+          ```json
+          {
+            "build": {
+              "script": "build.m"
+            }
+          }
+          ```
+
+          Then create `build.m` in your repository root with the commands
+          needed to compile your MEX files (e.g., `mex -O myfile.c`).
+
+          See the [workflow run](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) for details.
+          EOF
+          )" \
+            --label "build-failure"
 
   publish:
     needs: build
