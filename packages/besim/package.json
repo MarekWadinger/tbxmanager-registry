@@ -6,6 +6,17 @@
     "jan.drgona@kuleuven.be"
   ],
   "versions": {
+    "1.0": {
+      "platforms": {
+        "all": {
+          "url": "https://github.com/drgona/BeSim/archive/refs/tags/v1.0.zip",
+          "sha256": "9c2a7c9245331bc8ede4376d1f73b2af2669940a9eb1c9571101eae672348f90"
+        }
+      },
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "released": "2019-01-15"
+    },
     "1.0.2": {
       "matlab": ">=R2014a",
       "dependencies": {
