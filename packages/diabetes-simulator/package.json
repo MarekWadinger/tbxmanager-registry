@@ -1,0 +1,24 @@
+{
+  "name": "diabetes-simulator",
+  "description": "MATLAB/Simulink simulator for glucose-insulin dynamics with CGM identification + biosignal utilities.",
+  "homepage": "https://github.com/MarekWadinger/diabetes_simulator",
+  "license": "MIT",
+  "authors": [
+    "MarekWadinger"
+  ],
+  "versions": {
+    "0.1.0": {
+      "matlab": ">=R2022a",
+      "dependencies": {
+        "rls-identification": ">=1.0"
+      },
+      "platforms": {
+        "all": {
+          "url": "https://github.com/MarekWadinger/diabetes_simulator/releases/download/v0.1.0/diabetes-simulator-all.zip",
+          "sha256": null
+        }
+      },
+      "released": "2026-06-05"
+    }
+  }
+}
