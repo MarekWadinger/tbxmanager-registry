@@ -1,6 +1,6 @@
 {
   "index_version": 1,
-  "generated": "2026-05-21T06:19:12Z",
+  "generated": "2026-06-05T14:07:31Z",
   "packages": {
     "besim": {
       "name": "besim",
@@ -228,6 +228,31 @@
       },
       "authors": [
         "mpt@control.ee.ethz.ch"
+      ]
+    },
+    "diabetes-simulator": {
+      "name": "diabetes-simulator",
+      "description": "MATLAB/Simulink simulator for glucose-insulin dynamics with CGM identification + biosignal utilities.",
+      "latest": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "matlab": ">=R2022a",
+          "dependencies": {
+            "rls-identification": ">=1.0"
+          },
+          "platforms": {
+            "all": {
+              "url": "https://github.com/MarekWadinger/diabetes_simulator/releases/download/v0.1.0/diabetes-simulator-all.zip",
+              "sha256": null
+            }
+          },
+          "released": "2026-06-05"
+        }
+      },
+      "homepage": "https://github.com/MarekWadinger/diabetes_simulator",
+      "license": "MIT",
+      "authors": [
+        "MarekWadinger"
       ]
     },
     "dynopt": {
