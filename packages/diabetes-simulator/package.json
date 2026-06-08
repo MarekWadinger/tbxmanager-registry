@@ -15,7 +15,7 @@
       "platforms": {
         "all": {
           "url": "https://github.com/MarekWadinger/diabetes_simulator/releases/download/v0.1.0/diabetes-simulator-all.zip",
-          "sha256": "45afaba68564a8380077b7969ca1a39eb83f4e5d0771faf78e39714f37d84949"
+          "sha256": "092a18818cd06592b7d12d4decd932c647253bd6b2d7ddaee9f4c8f97e30566a"
         }
       },
       "released": "2026-06-05"
