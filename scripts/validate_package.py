@@ -10,7 +10,14 @@ import urllib.error
 from pathlib import Path
 
 NAME_PATTERN = re.compile(r"^[a-z][a-z0-9_-]*$")
-VERSION_PATTERN = re.compile(r"^[0-9]+\.[0-9]+(\.[0-9]+)?$")
+# Versions the registry supports (build_index.py and the MATLAB client both
+# sort/compare these). Two families:
+#   - semver: "1", "1.2", "1.2.3", optional "v" prefix, optional "(beta)" suffix
+#   - calendar: "20210621" or "R20231117", optional "_fix3"/"-patched" suffix
+VERSION_PATTERNS = (
+    re.compile(r"^v?[0-9]+(\.[0-9]+){0,2}(\([A-Za-z]+\))?$"),
+    re.compile(r"^R?[0-9]{8}([-_][A-Za-z0-9]+)?$"),
+)
 MATLAB_PATTERN = re.compile(r"^(>=|==)R20[0-9]{2}[ab]$")
 SHA256_PATTERN = re.compile(r"^[a-f0-9]{64}$")
 VALID_PLATFORMS = {"win64", "maci64", "maca64", "glnxa64", "all"}
@@ -78,9 +85,10 @@ def validate(filepath, check_urls=False):
         prefix = f"{name}@{ver_str}"
 
         # Version string format
-        if not VERSION_PATTERN.match(ver_str):
+        if not any(p.match(ver_str) for p in VERSION_PATTERNS):
             fail(
-                f"{prefix}: Invalid version string (must be MAJOR.MINOR or MAJOR.MINOR.PATCH)"
+                f"{prefix}: Invalid version string (expected semver e.g. 1.2.3, "
+                f"or calendar e.g. R20231117)"
             )
             continue
 
