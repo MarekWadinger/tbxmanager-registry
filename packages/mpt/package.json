@@ -232,7 +232,7 @@
       "released": "2012-10-02",
       "yanked": "Download URL no longer available"
     },
-    "3,0.8": {
+    "3.0.8": {
       "matlab": ">=R2014a",
       "dependencies": {},
       "platforms": {
