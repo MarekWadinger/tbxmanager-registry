@@ -30,8 +30,11 @@ jobs:
 
       - name: Create pull request
         if: steps.check.outputs.has_updates == 'true'
+        # Use a PAT (not github.token) so the opened PR triggers
+        # validate-pr.yml. PRs created with GITHUB_TOKEN do not trigger
+        # downstream workflows.
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: |
           branch="auto/check-updates-$(date +%Y%m%d)"
 
