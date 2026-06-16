@@ -15,8 +15,8 @@ NAME_PATTERN = re.compile(r"^[a-z][a-z0-9_-]*$")
 #   - semver: "1", "1.2", "1.2.3", optional "v" prefix, optional "(beta)" suffix
 #   - calendar: "20210621" or "R20231117", optional "_fix3"/"-patched" suffix
 VERSION_PATTERNS = (
-    re.compile(r"^v?[0-9]+(\.[0-9]+){0,2}(\([A-Za-z]+\))?$"),
-    re.compile(r"^R?[0-9]{8}([-_][A-Za-z0-9]+)?$"),
+    re.compile(r"^[vV]?[0-9]+(\.[0-9]+){0,2}(\([A-Za-z]+\))?$"),
+    re.compile(r"^[Rr]?[0-9]{8}([-_][A-Za-z0-9]+)?$"),
 )
 MATLAB_PATTERN = re.compile(r"^(>=|==)R20[0-9]{2}[ab]$")
 SHA256_PATTERN = re.compile(r"^[a-f0-9]{64}$")
