@@ -6,6 +6,17 @@
     "miroslav.fikar@stuba.sk"
   ],
   "versions": {
+    "4.3.1": {
+      "platforms": {
+        "all": {
+          "url": "https://github.com/miroslavfikar/dynopt_code/archive/refs/tags/v4.3.1.zip",
+          "sha256": "48566e6b9d97235ed781115af9aa8f38d9beb5f41612446e1377b021052eb700"
+        }
+      },
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "released": "2020-05-07"
+    },
     "5.0.6": {
       "matlab": ">=R2014a",
       "dependencies": {},
