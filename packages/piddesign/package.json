@@ -6,6 +6,17 @@
     "juraj.oravec@stuba.sk"
   ],
   "versions": {
+    "R20200424": {
+      "platforms": {
+        "all": {
+          "url": "https://github.com/oravec-juraj/piddesign/releases/download/R20200424/piddesign.zip",
+          "sha256": "a9f64f2994994e5a95e4763bd5f62fc4a68b84b0b847b2b84f0bb1e433641a2a"
+        }
+      },
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "released": "2020-05-05"
+    },
     "R20251117": {
       "matlab": ">=R2014a",
       "dependencies": {},

@@ -6,6 +6,17 @@
     "juraj.oravec@stuba.sk"
   ],
   "versions": {
+    "R20240422": {
+      "platforms": {
+        "all": {
+          "url": "https://github.com/oravec-juraj/vesna/releases/download/R20240422/vesna_code_R20240322.zip",
+          "sha256": "96b89eb1d6b5076f345835c5e6a0e8acda27d953b73b4ced060634411a4c5ec7"
+        }
+      },
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "released": "2024-04-24"
+    },
     "R20240424": {
       "matlab": ">=R2014a",
       "dependencies": {},
