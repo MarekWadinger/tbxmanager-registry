@@ -1,6 +1,6 @@
 {
   "index_version": 1,
-  "generated": "2026-06-08T07:17:22Z",
+  "generated": "2026-06-16T07:29:36Z",
   "packages": {
     "besim": {
       "name": "besim",
@@ -1100,7 +1100,7 @@
           "released": "2012-10-02",
           "yanked": "Download URL no longer available"
         },
-        "3,0.8": {
+        "3.0.8": {
           "matlab": ">=R2014a",
           "dependencies": {},
           "platforms": {
