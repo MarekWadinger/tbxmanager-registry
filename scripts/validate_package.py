@@ -134,8 +134,13 @@ def validate(filepath, check_urls=False):
             url = plat_data.get("url")
             if not url:
                 fail(f"{plat_prefix}: Missing 'url'")
+            elif url.startswith("http://"):
+                warn(
+                    f"{plat_prefix}: URL uses http, prefer https "
+                    f"(integrity is SHA256-verified): {url}"
+                )
             elif not url.startswith("https://"):
-                fail(f"{plat_prefix}: URL must use HTTPS: {url}")
+                fail(f"{plat_prefix}: URL must use http or https: {url}")
 
             sha256 = plat_data.get("sha256")
             if sha256 is not None and not SHA256_PATTERN.match(str(sha256)):
@@ -144,7 +149,7 @@ def validate(filepath, check_urls=False):
                 )
 
             # Optional URL check
-            if check_urls and url and url.startswith("https://"):
+            if check_urls and url and url.startswith(("http://", "https://")):
                 try:
                     req = urllib.request.Request(url, method="HEAD")
                     resp = urllib.request.urlopen(req, timeout=30)
