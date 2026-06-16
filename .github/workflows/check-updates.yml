@@ -62,4 +62,5 @@ jobs:
           Created by the weekly `check-updates` workflow.
           EOF
           )" \
-            --label "auto-update"
+            --label "auto-update" \
+            --reviewer "MarekWadinger"
