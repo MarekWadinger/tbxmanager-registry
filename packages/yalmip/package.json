@@ -309,168 +309,154 @@
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "http://www.control.isy.liu.se/~johanl/YALMIP.zip",
-          "sha256": null
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/yalmip-R20140221-all.zip",
+          "sha256": "34b4e9604d8b048e2360bcf224e898fbe8523c1aa5a74eb411759613ed7f9911"
         }
       },
-      "released": "2014-02-21",
-      "yanked": "Download URL no longer available"
+      "released": "2014-02-21"
     },
     "R20140217": {
       "matlab": ">=R2014a",
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "http://www.control.isy.liu.se/~johanl/YALMIP.zip",
-          "sha256": null
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/yalmip-R20140217-all.zip",
+          "sha256": "ccb0eda9d37008448c1d9baba35dc1d428ca6095d9d8762668c61ccc63925135"
         }
       },
-      "released": "2014-02-17",
-      "yanked": "Download URL no longer available"
+      "released": "2014-02-17"
     },
     "R20131220": {
       "matlab": ">=R2014a",
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "http://www.control.isy.liu.se/~johanl/YALMIP.zip",
-          "sha256": null
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/yalmip-R20131220-all.zip",
+          "sha256": "61bddc1a913e42b6ceb6961acd477f7f08a06ea1b7a9c4857cab49a4aa1d0ad4"
         }
       },
-      "released": "2013-12-20",
-      "yanked": "Download URL no longer available"
+      "released": "2013-12-20"
     },
     "R20131002": {
       "matlab": ">=R2014a",
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "http://www.control.isy.liu.se/~johanl/YALMIP.zip",
-          "sha256": null
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/yalmip-R20131002-all.zip",
+          "sha256": "1c0670da8691b4064750124d10db25d375262def49e46a907ece629279b99c16"
         }
       },
-      "released": "2013-10-11",
-      "yanked": "Download URL no longer available"
+      "released": "2013-10-11"
     },
     "R20130628": {
       "matlab": ">=R2014a",
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "http://www.control.isy.liu.se/~johanl/YALMIP.zip",
-          "sha256": null
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/yalmip-R20130628-all.zip",
+          "sha256": "a6adbd2a4f768b17ce5a597d018a007a1f84b890aaeec5611cffe670a9db29fb"
         }
       },
-      "released": "2013-06-28",
-      "yanked": "Download URL no longer available"
+      "released": "2013-06-28"
     },
     "R20130405": {
       "matlab": ">=R2014a",
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "http://www.control.isy.liu.se/~johanl/YALMIP.zip",
-          "sha256": null
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/yalmip-R20130405-all.zip",
+          "sha256": "b11a42f79b8761b2ece5bd764fb574418fc03fa0ee98f25ce620be55fb062f82"
         }
       },
-      "released": "2013-04-05",
-      "yanked": "Download URL no longer available"
+      "released": "2013-04-05"
     },
     "R20130213": {
       "matlab": ">=R2014a",
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "http://www.control.isy.liu.se/~johanl/YALMIP.zip",
-          "sha256": null
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/yalmip-R20130213-all.zip",
+          "sha256": "f986cc9fbc8cc797fc2ae3fab8052be807aeeaf78b4fdec1d76aa9c7852f9eff"
         }
       },
-      "released": "2013-02-13",
-      "yanked": "Download URL no longer available"
+      "released": "2013-02-13"
     },
     "R20130201": {
       "matlab": ">=R2014a",
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "http://www.control.isy.liu.se/~johanl/YALMIP.zip",
-          "sha256": null
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/yalmip-R20130201-all.zip",
+          "sha256": "42fd2693f607888491e3e4615b0b3ffbe1cb702def48dab1508fdf7d22ad76f5"
         }
       },
-      "released": "2013-02-01",
-      "yanked": "Download URL no longer available"
+      "released": "2013-02-01"
     },
     "R20130128": {
       "matlab": ">=R2014a",
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "http://www.control.isy.liu.se/~johanl/YALMIP.zip",
-          "sha256": null
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/yalmip-R20130128-all.zip",
+          "sha256": "83c54a9ab6707310bc4b7f2cd05cfd20688d9e7dc70e1abb8df7b7b8fc4ac1b5"
         }
       },
-      "released": "2013-01-28",
-      "yanked": "Download URL no longer available"
+      "released": "2013-01-28"
     },
     "R20130124": {
       "matlab": ">=R2014a",
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "http://www.control.isy.liu.se/~johanl/YALMIP.zip",
-          "sha256": null
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/yalmip-R20130124-all.zip",
+          "sha256": "6f8c02aaf88d7def0cd73d08b3057047c6e46197e9e81b52c0b082d04a439af1"
         }
       },
-      "released": "2013-01-25",
-      "yanked": "Download URL no longer available"
+      "released": "2013-01-25"
     },
     "R20130111": {
       "matlab": ">=R2014a",
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "http://www.control.isy.liu.se/~johanl/YALMIP.zip",
-          "sha256": null
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/yalmip-R20130111-all.zip",
+          "sha256": "9de160e801ac4981486fc5fedb7b93f2e4fa293bddbae45cf488772ff58b7627"
         }
       },
-      "released": "2013-01-15",
-      "yanked": "Download URL no longer available"
+      "released": "2013-01-15"
     },
     "R20121126": {
       "matlab": ">=R2014a",
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "http://www.control.isy.liu.se/~johanl/YALMIP.zip",
-          "sha256": null
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/yalmip-R20121126-all.zip",
+          "sha256": "6e6c8f91915aeae8cc3d48ac835c6c33465b3d947a21e054cab86f92f59c9b4a"
         }
       },
-      "released": "2013-01-03",
-      "yanked": "Download URL no longer available"
+      "released": "2013-01-03"
     },
     "R20120926": {
       "matlab": ">=R2014a",
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "http://www.control.isy.liu.se/~johanl/YALMIP.zip",
-          "sha256": null
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/yalmip-R20120926-all.zip",
+          "sha256": "aa99eedcfb783ce8f2878c57f7bfb8db226406cd9522ba70ecf2b37ac76340c4"
         }
       },
-      "released": "2012-10-02",
-      "yanked": "Download URL no longer available"
+      "released": "2012-10-02"
     },
     "R20120830": {
       "matlab": ">=R2014a",
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "http://www.control.isy.liu.se/~johanl/YALMIP.zip",
-          "sha256": null
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/yalmip-R20120830-all.zip",
+          "sha256": "d759f15d5ef34199f5de161b67e7eb4c09ba6203597eced3fbd1ea9f5c9fabd2"
         }
       },
-      "released": "2012-10-02",
-      "yanked": "Download URL no longer available"
+      "released": "2012-10-02"
     }
   }
 }

@@ -7,6 +7,17 @@
     "David Sturzenegger <stdavid@ethz.ch>"
   ],
   "versions": {
+    "v1.03": {
+      "matlab": ">=R2014a",
+      "dependencies": {},
+      "platforms": {
+        "all": {
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/brcm-v1.03-all.zip",
+          "sha256": "ad51129b4472de4f11ec3d7734426848c580b8c5b9c96b25cdab344223b67df1"
+        }
+      },
+      "released": "2023-10-12"
+    },
     "v0.96(Beta)": {
       "matlab": ">=R2014a",
       "dependencies": {},
