@@ -68,8 +68,9 @@ def build_index(packages_dir):
             errors.append(f"No versions in {pkg_file}")
             continue
 
-        # Determine latest version
-        version_keys = list(versions.keys())
+        # Determine latest version, skipping yanked ones unless all are yanked
+        unyanked = [v for v in versions if not versions[v].get("yanked")]
+        version_keys = unyanked or list(versions)
         version_keys_sorted = sorted(version_keys, key=parse_version)
         latest = version_keys_sorted[-1]
 
