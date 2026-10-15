@@ -26,8 +26,7 @@
           "sha256": "14b29886e19d75ff56241fa6748fd8d56c984c148543d7213eb853a642eaddf9"
         }
       },
-      "released": "2014-04-26",
-      "yanked": "Download URL no longer available"
+      "released": "2014-04-26"
     },
     "1.1": {
       "matlab": ">=R2014a",
@@ -38,8 +37,7 @@
           "sha256": "d289292a93d7bd6c26cd1623c1bb0e3f0c44adf9f47c00978256ebbbba60acbd"
         }
       },
-      "released": "2014-04-26",
-      "yanked": "Download URL no longer available"
+      "released": "2014-04-26"
     },
     "1.0": {
       "matlab": ">=R2014a",
@@ -50,8 +48,7 @@
           "sha256": "97d47e49b449b47de89b54d07bb73df9970684e7d2ffd63d92853a5dff26182b"
         }
       },
-      "released": "2014-04-15",
-      "yanked": "Download URL no longer available"
+      "released": "2014-04-15"
     }
   }
 }

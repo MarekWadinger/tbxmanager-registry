@@ -38,7 +38,7 @@
         }
       },
       "released": "2014-04-26",
-      "yanked": "Download URL no longer available"
+      "yanked": "Original archive lost; the 1.1 file on the server is identical to 1.2. Use 1.2 or later."
     },
     "1.0": {
       "matlab": ">=R2014a",
@@ -49,8 +49,7 @@
           "sha256": "37a7351c59db4f6f2f5afd9bb0759756a1614e372ec78cc45650a8f53b873b7e"
         }
       },
-      "released": "2014-04-15",
-      "yanked": "Download URL no longer available"
+      "released": "2014-04-15"
     }
   }
 }
