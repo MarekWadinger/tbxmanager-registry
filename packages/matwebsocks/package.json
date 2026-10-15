@@ -34,24 +34,23 @@
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "http://www.kirp.chtf.stuba.sk/~kvasnica/tbxpool/matwebsocks/matwebsocks_1_1_all.zip",
-          "sha256": null
+          "url": "https://www.uiam.sk/~kvasnica/tbxpool/matwebsocks/matwebsocks_1_1_all.zip",
+          "sha256": "510603aaee0759a44de46f04a13f5e0dfb7e648d9c209b27e56e68a08aa6f632"
         }
       },
       "released": "2014-04-26",
-      "yanked": "Download URL no longer available"
+      "yanked": "Original archive lost; the 1.1 file on the server is identical to 1.2. Use 1.2 or later."
     },
     "1.0": {
       "matlab": ">=R2014a",
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "http://www.kirp.chtf.stuba.sk/~kvasnica/tbxpool/matwebsocks/matwebsocks_1_0_all.zip",
-          "sha256": null
+          "url": "https://www.uiam.sk/~kvasnica/tbxpool/matwebsocks/matwebsocks_1_0_all.zip",
+          "sha256": "37a7351c59db4f6f2f5afd9bb0759756a1614e372ec78cc45650a8f53b873b7e"
         }
       },
-      "released": "2014-04-15",
-      "yanked": "Download URL no longer available"
+      "released": "2014-04-15"
     }
   }
 }
