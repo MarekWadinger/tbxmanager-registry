@@ -22,8 +22,8 @@
           "sha256": "e2460710d76d421cb0c68d5e594ff443508f3d5f79c6fad2e80834c8965b9594"
         },
         "maca64": {
-          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/lcp-1.0.3-maca64.tgz",
-          "sha256": "84063e28bc98fafd08e1c0352775fbaece8093d142b30632e9f799f0c9f7841c"
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/lcp-1.0.3-maca64-r2.tgz",
+          "sha256": "61075497ff2da9a8b33852023c1bfd1320cb8019df45cc1319085449f432f9c2"
         }
       },
       "released": "2013-08-22"
