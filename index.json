@@ -1,6 +1,6 @@
 {
   "index_version": 1,
-  "generated": "2026-06-16T07:38:42Z",
+  "generated": "2026-10-15T14:36:00Z",
   "packages": {
     "besim": {
       "name": "besim",
@@ -44,6 +44,7 @@
         }
       },
       "homepage": "https://github.com/drgona/BeSim",
+      "license": "GPL-3.0-only",
       "authors": [
         "jan.drgona@kuleuven.be"
       ]
@@ -150,6 +151,7 @@
         }
       },
       "homepage": "https://github.com/oravec-juraj/CarbEval",
+      "license": "MIT",
       "authors": [
         "juraj.oravec@stuba.sk"
       ]
@@ -204,6 +206,7 @@
         }
       },
       "homepage": "http://control.ee.ethz.ch/~hybrid/cdd.php",
+      "license": "GPL-2.0-or-later",
       "authors": [
         "mpt@control.ee.ethz.ch"
       ]
@@ -405,6 +408,7 @@
         }
       },
       "homepage": "https://www.uiam.sk/~fikar/research/dynopt/dynopt.htm",
+      "license": "LicenseRef-dynopt",
       "authors": [
         "miroslav.fikar@stuba.sk"
       ]
@@ -426,6 +430,7 @@
           "released": "2019-10-14"
         }
       },
+      "license": "GPL-3.0-only",
       "authors": [
         "martin.kaluz@stuba.sk"
       ]
@@ -469,6 +474,7 @@
           "released": "2016-11-18"
         }
       },
+      "license": "GPL-3.0-only",
       "authors": [
         "martin.kaluz@stuba.sk"
       ]
@@ -503,6 +509,7 @@
         }
       },
       "homepage": "http://embedded.eecs.berkeley.edu/pubs/downloads/espresso/index.htm",
+      "license": "LicenseRef-UCB-OctTools",
       "authors": [
         "Michal Kvasnica <michal.kvasnica@stuba.sk>"
       ]
@@ -526,6 +533,7 @@
         }
       },
       "homepage": "http://bitbucket.org/kvasnica/eventcollector/",
+      "license": "MIT",
       "authors": [
         "Michal Kvasnica <michal.kvasnica@stuba.sk>"
       ]
@@ -680,6 +688,7 @@
           "released": "2012-10-02"
         }
       },
+      "license": "LGPL-2.1-or-later",
       "authors": [
         "mpt@control.ee.ethz.ch"
       ]
@@ -713,6 +722,7 @@
           "released": "2012-10-02"
         }
       },
+      "license": "GPL-2.0-or-later",
       "authors": [
         "mpt@control.ee.ethz.ch"
       ]
@@ -770,6 +780,7 @@
         }
       },
       "homepage": "http://control.ee.ethz.ch/~hybrid/hysdel/",
+      "license": "GPL-2.0-or-later",
       "authors": [
         "mpt@control.ee.ethz.ch"
       ]
@@ -863,6 +874,7 @@
           "yanked": "Download URL no longer available"
         }
       },
+      "license": "LGPL-2.1-or-later",
       "authors": [
         "mpt@control.ee.ethz.ch"
       ]
@@ -885,6 +897,7 @@
         }
       },
       "homepage": "https://github.com/kvasnica/matlabjson",
+      "license": "BSD-3-Clause",
       "authors": [
         "michal.kvasnica@stuba.sk"
       ]
@@ -942,6 +955,7 @@
         }
       },
       "homepage": "https://bitbucket.org/kvasnica/matwebsocks",
+      "license": "MIT",
       "authors": [
         "michal.kvasnica@stuba.sk"
       ]
@@ -1191,6 +1205,7 @@
         }
       },
       "homepage": "http://control.ee.ethz.ch/~mpt/",
+      "license": "GPL-2.0-or-later",
       "authors": [
         "mpt@control.ee.ethz.ch"
       ]
@@ -1222,6 +1237,7 @@
         }
       },
       "homepage": "http://control.ee.ethz.ch/~mpt/2/",
+      "license": "GPL-2.0-only",
       "authors": [
         "mpt@control.ee.ethz.ch"
       ]
@@ -1353,6 +1369,7 @@
         }
       },
       "homepage": "http://control.ee.ethz.ch/~mpt/redmine/projects/mpt3/wiki",
+      "license": "GPL-2.0-or-later",
       "authors": [
         "mpt@control.ee.ethz.ch"
       ]
@@ -1455,6 +1472,7 @@
         }
       },
       "homepage": "https://github.com/holaza/mptplus/wiki",
+      "license": "MIT",
       "authors": [
         "juraj.oravec@stuba.sk"
       ]
@@ -1622,6 +1640,7 @@
         }
       },
       "homepage": "https://github.com/oravec-juraj/mup/wiki",
+      "license": "MIT",
       "authors": [
         "juraj.oravec@stuba.sk"
       ]
@@ -1745,6 +1764,7 @@
         }
       },
       "homepage": "https://projects.coin-or.org/qpOASES",
+      "license": "LGPL-2.1-only",
       "authors": [
         "mpt@control.ee.ethz.ch"
       ]
@@ -1800,6 +1820,7 @@
         }
       },
       "homepage": "https://github.com/sujunyan/ParExMPC/wiki",
+      "license": "MIT",
       "authors": [
         "yuning.jiang@epfl.ch"
       ]
@@ -1877,6 +1898,7 @@
         }
       },
       "homepage": "https://github.com/oravec-juraj/piddesign/wiki",
+      "license": "MIT",
       "authors": [
         "juraj.oravec@stuba.sk"
       ]
@@ -1954,6 +1976,7 @@
         }
       },
       "homepage": "http://sedumi.ie.lehigh.edu/",
+      "license": "GPL-2.0-or-later",
       "authors": [
         "mpt@control.ee.ethz.ch"
       ]
@@ -2099,6 +2122,7 @@
         }
       },
       "homepage": "https://github.com/kvasnica/wsclient",
+      "license": "MIT",
       "authors": [
         "michal.kvasnica@stuba.sk"
       ]
