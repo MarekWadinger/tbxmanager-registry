@@ -10,16 +10,16 @@
       "dependencies": {},
       "platforms": {
         "glnxa64": {
-          "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/clpmex/1_0/clpmex_1_0_glnxa64.zip",
-          "sha256": "86b33805084eaa8f2257f8db301abdf92196dbdb6a17bac62f0d7d72ff948935"
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/clpmex-1.0-glnxa64.tgz",
+          "sha256": "f007767e97c7901420916f6699cd74bf250ad2e8ceeaee4811ed7508f1391b6b"
         },
         "maci64": {
-          "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/clpmex/1_0/clpmex_1_0_maci64.zip",
-          "sha256": "c4064625e34665025e4a06b8130cb59aa66a304e92a8087332d033da10a52d3f"
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/clpmex-1.0-maci64.tgz",
+          "sha256": "6310876f2ae5ebf1092d2e466f3dde80b39d02e445ba948319e7151d1f0737f2"
         },
         "win64": {
-          "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/clpmex/1_0/clpmex_1_0_pcwin64.zip",
-          "sha256": "b6873ce5f66e33be6efaabbde828f5db60d77e1f6508a49c90a263b59499d98f"
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/clpmex-1.0-win64.tgz",
+          "sha256": "38916d5061779955359de545167cb47b1205cbc4211f8a009e5257fcd69c5fd6"
         },
         "maca64": {
           "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/builds/20260508/clpmex_1_0_MACA64.tgz",
