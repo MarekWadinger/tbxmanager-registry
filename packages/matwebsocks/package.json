@@ -33,8 +33,8 @@
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "http://www.kirp.chtf.stuba.sk/~kvasnica/tbxpool/matwebsocks/matwebsocks_1_1_all.zip",
-          "sha256": null
+          "url": "https://www.uiam.sk/~kvasnica/tbxpool/matwebsocks/matwebsocks_1_1_all.zip",
+          "sha256": "510603aaee0759a44de46f04a13f5e0dfb7e648d9c209b27e56e68a08aa6f632"
         }
       },
       "released": "2014-04-26",
@@ -45,8 +45,8 @@
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "http://www.kirp.chtf.stuba.sk/~kvasnica/tbxpool/matwebsocks/matwebsocks_1_0_all.zip",
-          "sha256": null
+          "url": "https://www.uiam.sk/~kvasnica/tbxpool/matwebsocks/matwebsocks_1_0_all.zip",
+          "sha256": "37a7351c59db4f6f2f5afd9bb0759756a1614e372ec78cc45650a8f53b873b7e"
         }
       },
       "released": "2014-04-15",
