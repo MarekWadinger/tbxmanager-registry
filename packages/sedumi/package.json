@@ -2,6 +2,7 @@
   "name": "sedumi",
   "description": "SeDuMi",
   "homepage": "http://sedumi.ie.lehigh.edu/",
+  "license": "GPL-2.0-or-later",
   "authors": [
     "mpt@control.ee.ethz.ch"
   ],
@@ -31,5 +32,3 @@
     }
   }
 }
-
-

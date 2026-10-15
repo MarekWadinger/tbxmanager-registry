@@ -2,6 +2,7 @@
   "name": "mpt2",
   "description": "MPT2",
   "homepage": "http://control.ee.ethz.ch/~mpt/2/",
+  "license": "GPL-2.0-only",
   "authors": [
     "mpt@control.ee.ethz.ch"
   ],

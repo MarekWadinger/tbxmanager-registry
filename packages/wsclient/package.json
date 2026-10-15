@@ -2,6 +2,7 @@
   "name": "wsclient",
   "description": "Requires the \"matwebsocks\" package",
   "homepage": "https://github.com/kvasnica/wsclient",
+  "license": "MIT",
   "authors": [
     "michal.kvasnica@stuba.sk"
   ],

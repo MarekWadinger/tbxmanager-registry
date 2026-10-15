@@ -2,6 +2,7 @@
   "name": "mptdoc",
   "description": "Multi-Parametric Toolbox documentation",
   "homepage": "http://control.ee.ethz.ch/~mpt/redmine/projects/mpt3/wiki",
+  "license": "GPL-2.0-or-later",
   "authors": [
     "mpt@control.ee.ethz.ch"
   ],

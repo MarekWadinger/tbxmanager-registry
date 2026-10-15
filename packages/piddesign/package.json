@@ -2,6 +2,7 @@
   "name": "piddesign",
   "description": "piddesign",
   "homepage": "https://github.com/oravec-juraj/piddesign/wiki",
+  "license": "MIT",
   "authors": [
     "juraj.oravec@stuba.sk"
   ],
