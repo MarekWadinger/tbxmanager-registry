@@ -10,7 +10,7 @@
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/qpspline/1_0/QPspline.m",
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/ethz-pool/QPspline.m",
           "sha256": "ea0502c52a76787bef85c435fbc7bdf14075e5955a91214f36ccda166a65d72e"
         }
       },
