@@ -10,16 +10,16 @@
       "dependencies": {},
       "platforms": {
         "glnxa64": {
-          "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/glpkmex/1_0/glpkmex_1_0_glnxa64.zip",
-          "sha256": "fcd31f2e8b41ab71da44ce18d613c0384b87e2c4b37afc8014c086c5f3a2f313"
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/glpkmex-1.0-glnxa64.tgz",
+          "sha256": "98ed2dbecee9148f4920db60bfec84519a791c50bc62974e3a34e3a08e38e615"
         },
         "maci64": {
-          "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/glpkmex/1_0/glpkmex_1_0_maci64.zip",
-          "sha256": "a51afea560274b8804f532357377c691bc0edaf0190e0c0c2659da221f264a0a"
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/glpkmex-1.0-maci64.tgz",
+          "sha256": "71c6b5f741211567d356cc1033e946ea067b9e7354c3aff665789a769a22a8d0"
         },
         "win64": {
-          "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/glpkmex/1_0/glpkmex_1_0_pcwin64.zip",
-          "sha256": "a15f14dc1dbbf97c288ee7d8201664041ad4173c45ea555525338579453950d9"
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/glpkmex-1.0-win64.tgz",
+          "sha256": "27fb8665c70a4d2343bfe73df6da55db1e7906feb6cf6b2adbafa89da1d49d95"
         },
         "maca64": {
           "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/glpkmex-1.0-maca64.tgz",
