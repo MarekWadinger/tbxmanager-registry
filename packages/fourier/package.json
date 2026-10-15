@@ -22,8 +22,8 @@
           "sha256": "701e2ce8ec57fa126c1bbaa088eb7d67d20fd1f73abfc27e332cba38f7ceaeb8"
         },
         "maca64": {
-          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/fourier-1.0-maca64.tgz",
-          "sha256": "8a0b820927d8250ee615ce9d651404225714c5464aa85c97397f1475e7672e2c"
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/fourier-1.0-maca64-r2.tgz",
+          "sha256": "762e52eab7126e80f24b113238d63216b299830e0d88f2445ae4aed58d53040d"
         }
       },
       "released": "2012-10-02"

@@ -24,8 +24,8 @@
           "sha256": "97d9d27658c79b94492bbc09b714fa44fc18d860e6f6f943057850fbb8b2a85b"
         },
         "maca64": {
-          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/hysdel-2.0.6-maca64.tgz",
-          "sha256": "08b843f40b3d66819e21d6f358e3c18bb9a9649a9364d1226ed18d056d9f4946"
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/hysdel-2.0.6-maca64-r2.tgz",
+          "sha256": "5cb5132eabbcd73f680e8f633dd10474e3b6bf5b0b9903081325fb9664adfc03"
         }
       },
       "released": "2012-10-02"

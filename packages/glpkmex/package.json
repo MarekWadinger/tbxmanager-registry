@@ -22,8 +22,8 @@
           "sha256": "27fb8665c70a4d2343bfe73df6da55db1e7906feb6cf6b2adbafa89da1d49d95"
         },
         "maca64": {
-          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/glpkmex-1.0-maca64.tgz",
-          "sha256": "d80febffd47ed84d91d04c35e229677ab7c04d80db6416f74d3d9322259a9eae"
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/glpkmex-1.0-maca64-r2.tgz",
+          "sha256": "43eb8ec4f492d1a10454cc83625f0cc15ef5af83987d8e9c682960ca56a58b00"
         }
       },
       "released": "2012-10-02"
