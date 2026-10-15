@@ -1,6 +1,6 @@
 {
   "index_version": 1,
-  "generated": "2026-10-15T14:37:14Z",
+  "generated": "2026-10-15T14:51:12Z",
   "packages": {
     "besim": {
       "name": "besim",
@@ -189,8 +189,8 @@
               "sha256": "c34be745cd48cce687df712ccdff9e401e53889ba09bb36c050ead1b302d5725"
             },
             "maca64": {
-              "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/cddmex-1.0.1-maca64.tgz",
-              "sha256": "49bb33db3b5c75cda062a5c136b2b7a56fb3aa2dbf46e6a0c3af11554709018e"
+              "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/cddmex-1.0.1-maca64-r2.tgz",
+              "sha256": "effc5a9ade57c3ec94548d0d6dfa182b815225dd2dcd0e0e2d8e65517b4276f4"
             }
           },
           "released": "2013-10-02"
@@ -244,8 +244,8 @@
               "sha256": "38916d5061779955359de545167cb47b1205cbc4211f8a009e5257fcd69c5fd6"
             },
             "maca64": {
-              "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/builds/20260508/clpmex_1_0_MACA64.tgz",
-              "sha256": "01b2916bb8092ad2376e2ead03fd3907d12724b941a7f49d54cf15345747000c"
+              "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/clpmex-1.0-maca64.tgz",
+              "sha256": "ec01a529c8af8eadb5548d97d64c409d79908bf15f37fe77f0a2a80b049077a7"
             }
           },
           "released": "2012-10-02"
@@ -512,8 +512,8 @@
               "sha256": "f92972759ec8e1633dd1af7b9fc884fc61c0a747ad691c41a0dc50e794df31cc"
             },
             "maca64": {
-              "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/builds/20260508/espresso_1_0_MACA64.tgz",
-              "sha256": "b4d2046598f0dc093289c522656311b84cad657d02224cffbecce9f87c35074e"
+              "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/espresso-1.0-maca64.tgz",
+              "sha256": "1c1fc2951aab740bf4535340ad02f87923febad6d73a3ce73231fae6072275b0"
             }
           },
           "released": "2013-07-15"
@@ -691,8 +691,8 @@
               "sha256": "701e2ce8ec57fa126c1bbaa088eb7d67d20fd1f73abfc27e332cba38f7ceaeb8"
             },
             "maca64": {
-              "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/fourier-1.0-maca64.tgz",
-              "sha256": "8a0b820927d8250ee615ce9d651404225714c5464aa85c97397f1475e7672e2c"
+              "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/fourier-1.0-maca64-r2.tgz",
+              "sha256": "762e52eab7126e80f24b113238d63216b299830e0d88f2445ae4aed58d53040d"
             }
           },
           "released": "2012-10-02"
@@ -725,8 +725,8 @@
               "sha256": "27fb8665c70a4d2343bfe73df6da55db1e7906feb6cf6b2adbafa89da1d49d95"
             },
             "maca64": {
-              "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/glpkmex-1.0-maca64.tgz",
-              "sha256": "d80febffd47ed84d91d04c35e229677ab7c04d80db6416f74d3d9322259a9eae"
+              "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/glpkmex-1.0-maca64-r2.tgz",
+              "sha256": "43eb8ec4f492d1a10454cc83625f0cc15ef5af83987d8e9c682960ca56a58b00"
             }
           },
           "released": "2012-10-02"
@@ -782,8 +782,8 @@
               "sha256": "97d9d27658c79b94492bbc09b714fa44fc18d860e6f6f943057850fbb8b2a85b"
             },
             "maca64": {
-              "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/hysdel-2.0.6-maca64.tgz",
-              "sha256": "08b843f40b3d66819e21d6f358e3c18bb9a9649a9364d1226ed18d056d9f4946"
+              "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/hysdel-2.0.6-maca64-r2.tgz",
+              "sha256": "5cb5132eabbcd73f680e8f633dd10474e3b6bf5b0b9903081325fb9664adfc03"
             }
           },
           "released": "2012-10-02"
@@ -817,8 +817,8 @@
               "sha256": "e2460710d76d421cb0c68d5e594ff443508f3d5f79c6fad2e80834c8965b9594"
             },
             "maca64": {
-              "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/lcp-1.0.3-maca64.tgz",
-              "sha256": "84063e28bc98fafd08e1c0352775fbaece8093d142b30632e9f799f0c9f7841c"
+              "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/lcp-1.0.3-maca64-r2.tgz",
+              "sha256": "61075497ff2da9a8b33852023c1bfd1320cb8019df45cc1319085449f432f9c2"
             }
           },
           "released": "2013-08-22"
