@@ -34,120 +34,110 @@
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3/3_0_17/mpt3-3_0_17.tgz",
-          "sha256": null
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/mpt-3.0.17-all.tgz",
+          "sha256": "9f22fb8352101c1eaef6a217269009d2ee1c92332c53ea0fe7759153a24b1964"
         }
       },
-      "released": "2014-02-27",
-      "yanked": "Download URL no longer available"
+      "released": "2014-02-27"
     },
     "3.0.16": {
       "matlab": ">=R2014a",
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3/3_0_16/mpt3-3_0_16.tgz",
-          "sha256": null
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/mpt-3.0.16-all.tgz",
+          "sha256": "970c9c42e41637788e8b92369ac56c206ef9eb47911d4f4ca59767b7ecda29ba"
         }
       },
-      "released": "2014-01-28",
-      "yanked": "Download URL no longer available"
+      "released": "2014-01-28"
     },
     "3.0.15": {
       "matlab": ">=R2014a",
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3/3_0_15/mpt3-3_0_15.tgz",
-          "sha256": null
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/mpt-3.0.15-all.tgz",
+          "sha256": "04a3fbc72206e21cbe2ec918467107d931ff6ac9ca9ca6a71aaf276804235c7b"
         }
       },
-      "released": "2014-01-16",
-      "yanked": "Download URL no longer available"
+      "released": "2014-01-16"
     },
     "3.0.14": {
       "matlab": ">=R2014a",
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3/3_0_14/mpt3-3_0_14.tgz",
-          "sha256": null
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/mpt-3.0.14-all.tgz",
+          "sha256": "f7de8bd62a3ff1358f8abec750657f64631d9eebdf059aab3b8da4a703080581"
         }
       },
-      "released": "2013-12-17",
-      "yanked": "Download URL no longer available"
+      "released": "2013-12-17"
     },
     "3.0.13": {
       "matlab": ">=R2014a",
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3/3_0_13/mpt3-3_0_13.tgz",
-          "sha256": null
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/mpt-3.0.13-all.tgz",
+          "sha256": "01325945696c175da85997671fbdcf38d2d6042ed0d7ef7993bea881a56423b7"
         }
       },
-      "released": "2013-10-23",
-      "yanked": "Download URL no longer available"
+      "released": "2013-10-23"
     },
     "3.0.12": {
       "matlab": ">=R2014a",
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3/3_0_12/mpt3-3_0_12.tgz",
-          "sha256": null
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/mpt-3.0.12-all.tgz",
+          "sha256": "257b4fc22104d246a88d4abc8f3d7dfcc0be68f20d8e671025ad4385b498c0df"
         }
       },
-      "released": "2013-09-24",
-      "yanked": "Download URL no longer available"
+      "released": "2013-09-24"
     },
     "3.0.11": {
       "matlab": ">=R2014a",
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3/3_0_11/mpt3-3_0_11.tgz",
-          "sha256": null
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/mpt-3.0.11-all.tgz",
+          "sha256": "12486b57379a52d02fcd775f54360161e2ad59ab59a01e04ea395d1f60a31473"
         }
       },
-      "released": "2013-08-28",
-      "yanked": "Download URL no longer available"
+      "released": "2013-08-28"
     },
     "3.0.10": {
       "matlab": ">=R2014a",
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3/3_0_10/mpt3-3_0_10.tgz",
-          "sha256": null
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/mpt-3.0.10-all.tgz",
+          "sha256": "4502ebb3fa165609bff4aa21a3aff081035e4beb2ab6deb36b73450936275594"
         }
       },
-      "released": "2013-08-23",
-      "yanked": "Download URL no longer available"
+      "released": "2013-08-23"
     },
     "3.0.9": {
       "matlab": ">=R2014a",
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3/3_0_9/mpt3-3_0_9.tgz",
-          "sha256": null
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/mpt-3.0.9-all.tgz",
+          "sha256": "90893591dfbbab328ac848dae7b38aa8c6a32b89344a0742af9501052566d1d1"
         }
       },
-      "released": "2013-08-06",
-      "yanked": "Download URL no longer available"
+      "released": "2013-08-06"
     },
     "3.0.7": {
       "matlab": ">=R2014a",
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3/3_0_7/mpt3-3_0_7.tgz",
-          "sha256": null
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/mpt-3.0.7-all.tgz",
+          "sha256": "bbcd36259997a9a52b1d0cf74d7a149029733d4d784fb24827290e7ee6810cff"
         }
       },
-      "released": "2013-07-02",
-      "yanked": "Download URL no longer available"
+      "released": "2013-07-02"
     },
     "3.0.6": {
       "matlab": ">=R2014a",
@@ -238,12 +228,11 @@
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3/3_0_8/mpt3-3_0_8.tgz",
-          "sha256": null
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/mpt-3.0.8-all.tgz",
+          "sha256": "7880367b3feea12196b470d674582b1082ad5d1cd285c944c38f66ad54299a1d"
         }
       },
-      "released": "2013-07-15",
-      "yanked": "Download URL no longer available"
+      "released": "2013-07-15"
     }
   }
 }

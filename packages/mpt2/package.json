@@ -21,8 +21,8 @@
       },
       "platforms": {
         "all": {
-          "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/mpt2/261/mpt.zip",
-          "sha256": "816a3df7907cc21e4d374845ad201007f2d5b8add8af1ab8de4efc72b45abf49"
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/mpt2-2.6.3-all.zip",
+          "sha256": "a0105ac6fd9647bf35c6c191c43be22754f0d29fc34ec207ebe072c3b5bcf562"
         }
       },
       "released": "2013-07-01"

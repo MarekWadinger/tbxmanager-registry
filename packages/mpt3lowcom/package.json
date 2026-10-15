@@ -18,43 +18,41 @@
           "sha256": "57d2a585de8e71b43958b351c604b968e14c2dba8bfdc6e52063c4a033e968ea"
         }
       },
-      "released": "2014-02-13"
+      "released": "2014-02-13",
+      "yanked": "Archive lost when ETH removed its file pool; no copy found. Use 1.0.2."
     },
     "1.0.2": {
       "matlab": ">=R2014a",
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3lowcom/1_0_2/mpt3lowcom-1_0_2.tgz",
-          "sha256": null
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/mpt3lowcom-1.0.2-all.tgz",
+          "sha256": "8683d0cb5e217bbeec1ebc5ccb1179cd6bf789359c3cdde7cdd497186f8a0570"
         }
       },
-      "released": "2014-02-05",
-      "yanked": "Download URL no longer available"
+      "released": "2014-02-05"
     },
     "1.0.1": {
       "matlab": ">=R2014a",
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3lowcom/1_0_1/mpt3lowcom-1_0_1.tgz",
-          "sha256": null
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/mpt3lowcom-1.0.1-all.tgz",
+          "sha256": "5f4a7d4bf82e46f18615544806f7c921e0cdf1eba0713cf3b31d2f0e2b3d25d7"
         }
       },
-      "released": "2013-12-03",
-      "yanked": "Download URL no longer available"
+      "released": "2013-12-03"
     },
     "1.0": {
       "matlab": ">=R2014a",
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "http://control.ee.ethz.ch/~mpt/tbx/pool/mpt3lowcom/1_0/mpt3lowcom-1_0.tgz",
-          "sha256": null
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/mpt3lowcom-1.0-all.tgz",
+          "sha256": "0e6c0838e241e3d83a323756005e88a2d22dc7ce6285568ed065afb87fc155b6"
         }
       },
-      "released": "2013-10-30",
-      "yanked": "Download URL no longer available"
+      "released": "2013-10-30"
     }
   }
 }
