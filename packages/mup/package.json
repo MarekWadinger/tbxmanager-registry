@@ -2,6 +2,7 @@
   "name": "mup",
   "description": "mup",
   "homepage": "https://github.com/oravec-juraj/mup/wiki",
+  "license": "MIT",
   "authors": [
     "juraj.oravec@stuba.sk"
   ],

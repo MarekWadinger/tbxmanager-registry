@@ -2,6 +2,7 @@
   "name": "mpt",
   "description": "Multi-Parametric Toolbox 3.0",
   "homepage": "http://control.ee.ethz.ch/~mpt/",
+  "license": "GPL-2.0-or-later",
   "authors": [
     "mpt@control.ee.ethz.ch"
   ],

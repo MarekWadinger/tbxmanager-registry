@@ -2,6 +2,7 @@
   "name": "hysdel",
   "description": "Hybrid Systems Description Language",
   "homepage": "http://control.ee.ethz.ch/~hybrid/hysdel/",
+  "license": "GPL-2.0-or-later",
   "authors": [
     "mpt@control.ee.ethz.ch"
   ],

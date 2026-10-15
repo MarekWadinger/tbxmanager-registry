@@ -2,6 +2,7 @@
   "name": "mptplus",
   "description": "mptplus",
   "homepage": "https://github.com/holaza/mptplus/wiki",
+  "license": "MIT",
   "authors": [
     "juraj.oravec@stuba.sk"
   ],

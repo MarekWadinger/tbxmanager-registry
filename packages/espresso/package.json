@@ -2,6 +2,7 @@
   "name": "espresso",
   "description": "Espresso heuristic logic minimizer",
   "homepage": "http://embedded.eecs.berkeley.edu/pubs/downloads/espresso/index.htm",
+  "license": "LicenseRef-UCB-OctTools",
   "authors": [
     "Michal Kvasnica <michal.kvasnica@stuba.sk>"
   ],

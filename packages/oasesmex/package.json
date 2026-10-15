@@ -2,6 +2,7 @@
   "name": "oasesmex",
   "description": "Mex interface to qpOASES",
   "homepage": "https://projects.coin-or.org/qpOASES",
+  "license": "LGPL-2.1-only",
   "authors": [
     "mpt@control.ee.ethz.ch"
   ],

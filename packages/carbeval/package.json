@@ -2,6 +2,7 @@
   "name": "carbeval",
   "description": "carbeval",
   "homepage": "https://github.com/oravec-juraj/CarbEval",
+  "license": "MIT",
   "authors": [
     "juraj.oravec@stuba.sk"
   ],

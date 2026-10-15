@@ -2,6 +2,7 @@
   "name": "matwebsocks",
   "description": "Run \"matws_install\" to put the necessary libraries to the static Java path. Then restart matlab.",
   "homepage": "https://bitbucket.org/kvasnica/matwebsocks",
+  "license": "MIT",
   "authors": [
     "michal.kvasnica@stuba.sk"
   ],

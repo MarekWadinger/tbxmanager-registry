@@ -2,6 +2,7 @@
   "name": "eventcollector",
   "description": "Collects events from a Matlab object",
   "homepage": "http://bitbucket.org/kvasnica/eventcollector/",
+  "license": "MIT",
   "authors": [
     "Michal Kvasnica <michal.kvasnica@stuba.sk>"
   ],

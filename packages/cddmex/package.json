@@ -2,6 +2,7 @@
   "name": "cddmex",
   "description": "Mex interface to CDD",
   "homepage": "http://control.ee.ethz.ch/~hybrid/cdd.php",
+  "license": "GPL-2.0-or-later",
   "authors": [
     "mpt@control.ee.ethz.ch"
   ],

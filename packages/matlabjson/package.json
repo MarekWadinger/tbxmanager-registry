@@ -2,6 +2,7 @@
   "name": "matlabjson",
   "description": "matlabjson",
   "homepage": "https://github.com/kvasnica/matlabjson",
+  "license": "BSD-3-Clause",
   "authors": [
     "michal.kvasnica@stuba.sk"
   ],

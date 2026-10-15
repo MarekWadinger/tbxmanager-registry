@@ -2,6 +2,7 @@
   "name": "parexmpc",
   "description": "parexmpc",
   "homepage": "https://github.com/sujunyan/ParExMPC/wiki",
+  "license": "MIT",
   "authors": [
     "yuning.jiang@epfl.ch"
   ],

@@ -2,6 +2,7 @@
   "name": "dynopt",
   "description": "dynopt",
   "homepage": "https://www.uiam.sk/~fikar/research/dynopt/dynopt.htm",
+  "license": "LicenseRef-dynopt",
   "authors": [
     "miroslav.fikar@stuba.sk"
   ],
