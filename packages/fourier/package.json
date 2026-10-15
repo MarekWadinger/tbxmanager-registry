@@ -10,16 +10,16 @@
       "dependencies": {},
       "platforms": {
         "glnxa64": {
-          "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/fourier/1_0/fourier_1_0_glnxa64.zip",
-          "sha256": "7af2042ba9509ef35678e5a2faca6608f885316a90566189c435c8ea0fe25388"
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/fourier-1.0-glnxa64.tgz",
+          "sha256": "28070752fb13cb917764efe5700f2b49736b21d0f05e4d888e8cc12af68dbc14"
         },
         "maci64": {
-          "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/fourier/1_0/fourier_1_0_maci64.zip",
-          "sha256": "0b88d3792d58e0bc89c28618928bd2b8e665bfb0abe164b22a6287210ea302b9"
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/fourier-1.0-maci64.tgz",
+          "sha256": "2ba83e0f75bec57cbdc4122850b6212652d24208a8ae1be86bd90457dbfbad65"
         },
         "win64": {
-          "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/fourier/1_0/fourier_1_0_pcwin64.zip",
-          "sha256": "dcc700c119e4a1aa39d837f0cbcf81af4d130f4e485f8a253b65af15cabf6752"
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/fourier-1.0-win64.tgz",
+          "sha256": "701e2ce8ec57fa126c1bbaa088eb7d67d20fd1f73abfc27e332cba38f7ceaeb8"
         },
         "maca64": {
           "url": "https://raw.githubusercontent.com/MarekWadinger/tbx-index-maca64/main/binary/darwin-arm64/fourier/1.0.0/fourier_1_0_0_MACA64.tgz",

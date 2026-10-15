@@ -11,16 +11,16 @@
       "dependencies": {},
       "platforms": {
         "glnxa64": {
-          "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/cddmex/1_0_1/cddmex_1_0_1_GLNXA64.tgz",
-          "sha256": "aa936c2203bd1eac6606f93200062a5e1513bcc6a19313b6570f9f5319524315"
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/cddmex-1.0.1-glnxa64.tgz",
+          "sha256": "46ea67d0bfc9e4a36defa983d2b731a045c56a974fd47064db959c2de33c5aeb"
         },
         "maci64": {
-          "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/cddmex/1_0_1/cddmex_1_0_1_MACI64.tgz",
-          "sha256": "0f6cfd4b94435c26a50065d0b5400e1e3fc60397693af2ea434b8ab771607bc8"
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/cddmex-1.0.1-maci64.tgz",
+          "sha256": "3fed0e7a6cf22681b2469682f622702e8b2f1ff75b438a3a1e4544d50f492792"
         },
         "win64": {
-          "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/cddmex/1_0_1/cddmex_1_0_1_PCWIN64.tgz",
-          "sha256": "7d27a21ee6a36f107f58f866792f083eaeefa0a35364a361a86432bc91d3ab0c"
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/cddmex-1.0.1-win64.tgz",
+          "sha256": "c34be745cd48cce687df712ccdff9e401e53889ba09bb36c050ead1b302d5725"
         },
         "maca64": {
           "url": "https://raw.githubusercontent.com/MarekWadinger/tbx-index-maca64/main/binary/darwin-arm64/cddmex/1.0.1/cddmex_1_0_1_MACA64.tgz",

@@ -11,16 +11,16 @@
       "dependencies": {},
       "platforms": {
         "glnxa64": {
-          "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/sedumi/1_3/sedumi_1_3_glnxa64.zip",
-          "sha256": "b55122fd642db62110aa2452d9acfe0c9f96778daf282fe736d2df43145d02b1"
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/sedumi-1.3-glnxa64.tgz",
+          "sha256": "7b34a671065c960506cde37912eb59f389d8e0df4ab06eeb0b33bde7021d3441"
         },
         "maci64": {
-          "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/sedumi/1_3/sedumi_1_3_maci64.zip",
-          "sha256": "b41e5e06522a6e09d5ca2726e7a3aff5c9f92920c4770ac910b82e7fcf9f475f"
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/sedumi-1.3-maci64.tgz",
+          "sha256": "cf8ab872a928707f7c933beef7f8e9cf18799171dcc6474f4ce9a9b3daf0b59d"
         },
         "win64": {
-          "url": "http://people.ee.ethz.ch/~mpt/tbx/pool/sedumi/1_3/sedumi_1_3_pcwin64.zip",
-          "sha256": "0ac0b154d109797faf988a16c774f77af75699543630cfa4fc6bc133548538f7"
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/sedumi-1.3-win64.tgz",
+          "sha256": "d79acab72190f9deee8d9bbda70d1744895a9f5977246938f1441d2b3932d71c"
         },
         "maca64": {
           "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/builds/20260508/sedumi_1_3_MACA64.tgz",
@@ -31,5 +31,3 @@
     }
   }
 }
-
-
