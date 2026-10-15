@@ -10,7 +10,7 @@
     "R20250626_fix2": {
       "platforms": {
         "all": {
-          "url": "https://github.com/yalmip/YALMIP/archive/refs/tags/R20250626_fix2.zip",
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/yalmip-R20250626_fix2-all.zip",
           "sha256": "bd7d6407402279583b4372081cea95b24da00a630e53e60130ac1f7141dfb78a"
         }
       },
@@ -21,7 +21,7 @@
     "R20230622": {
       "platforms": {
         "all": {
-          "url": "https://github.com/yalmip/YALMIP/archive/refs/tags/R20230622.zip",
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/yalmip-R20230622-all.zip",
           "sha256": "be41dba6d7162a2ace1645fdfda8029cdf8ac50cc75e520cb20150dc1989fdee"
         }
       },
@@ -34,7 +34,7 @@
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/yalmip-R20230609-all.zip",
           "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
         }
       },
@@ -45,7 +45,7 @@
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/yalmip-R20210331-all.zip",
           "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
         }
       },
@@ -56,7 +56,7 @@
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/yalmip-R20201001-all.zip",
           "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
         }
       },
@@ -65,7 +65,7 @@
     "R20200930": {
       "platforms": {
         "all": {
-          "url": "https://github.com/yalmip/YALMIP/archive/refs/tags/R20200930.zip",
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/yalmip-R20200930-all.zip",
           "sha256": "5bb39c2c1335588a13102a998c5adcdadd660d86946d0f23b80d02bd03efc594"
         }
       },
@@ -76,7 +76,7 @@
     "R20200116_hotfix": {
       "platforms": {
         "all": {
-          "url": "https://github.com/yalmip/YALMIP/archive/refs/tags/R20200116_hotfix.zip",
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/yalmip-R20200116_hotfix-all.zip",
           "sha256": "920603f2f8d2a104dc27a9fee931d1d020d05a55e747a0e9710d59a8c33419b2"
         }
       },
@@ -89,7 +89,7 @@
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/yalmip-R20200116-all.zip",
           "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
         }
       },
@@ -100,7 +100,7 @@
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/yalmip-R20190425-all.zip",
           "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
         }
       },
@@ -111,7 +111,7 @@
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/yalmip-R20181012-all.zip",
           "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
         }
       },
@@ -120,7 +120,7 @@
     "R20180926_fix3": {
       "platforms": {
         "all": {
-          "url": "https://github.com/yalmip/YALMIP/archive/refs/tags/R20180926_fix3.zip",
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/yalmip-R20180926_fix3-all.zip",
           "sha256": "e30e0a5242e5011ec2c1227be19a640d81fff549bbe62075be12c83b90e210ca"
         }
       },
@@ -133,7 +133,7 @@
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/yalmip-R20180926-all.zip",
           "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
         }
       },
@@ -144,7 +144,7 @@
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/yalmip-R20180817-all.zip",
           "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
         }
       },
@@ -155,7 +155,7 @@
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/yalmip-R20180612-all.zip",
           "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
         }
       },
@@ -166,7 +166,7 @@
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/yalmip-R20180413-all.zip",
           "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
         }
       },
@@ -177,7 +177,7 @@
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/yalmip-R20180209-all.zip",
           "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
         }
       },
@@ -188,7 +188,7 @@
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/yalmip-R20171121-all.zip",
           "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
         }
       },
@@ -199,7 +199,7 @@
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/yalmip-R20171018-all.zip",
           "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
         }
       },
@@ -210,7 +210,7 @@
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/yalmip-R20170921-all.zip",
           "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
         }
       },
@@ -221,7 +221,7 @@
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/yalmip-R20170915-all.zip",
           "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
         }
       },
@@ -232,7 +232,7 @@
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/yalmip-R20170818-all.zip",
           "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
         }
       },
@@ -243,7 +243,7 @@
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/yalmip-R20170626-all.zip",
           "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
         }
       },
@@ -254,7 +254,7 @@
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/yalmip-R20170624-all.zip",
           "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
         }
       },
@@ -265,7 +265,7 @@
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/yalmip-R20170622-all.zip",
           "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
         }
       },
@@ -274,7 +274,7 @@
     "R20160930-patched": {
       "platforms": {
         "all": {
-          "url": "https://github.com/yalmip/YALMIP/archive/refs/tags/R20160930-patched.zip",
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/yalmip-R20160930-patched-all.zip",
           "sha256": "0978f5f8d72b336df90e6f8964bdff9cbd5b2c80c32680d527aef271669341a1"
         }
       },
@@ -287,7 +287,7 @@
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/yalmip-R20160930-all.zip",
           "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
         }
       },
@@ -298,7 +298,7 @@
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "https://github.com/yalmip/YALMIP/archive/master.zip",
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/yalmip-R20160923-all.zip",
           "sha256": "71e3c3bcee75dfc0629ef5b6c3931b351bebc411b8904107f12df36daa556963"
         }
       },

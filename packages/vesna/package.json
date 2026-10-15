@@ -9,7 +9,7 @@
     "R20240422": {
       "platforms": {
         "all": {
-          "url": "https://github.com/oravec-juraj/vesna/releases/download/R20240422/vesna_code_R20240322.zip",
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/vesna-R20240422-all.zip",
           "sha256": "96b89eb1d6b5076f345835c5e6a0e8acda27d953b73b4ced060634411a4c5ec7"
         }
       },
@@ -22,7 +22,7 @@
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "https://github.com/oravec-juraj/vesna/releases/download/R20240424/vesna_code_R20240424.zip",
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/vesna-R20240424-all.zip",
           "sha256": "a21fe2379f4da250e19c486997a17eb51e3f60d8aae5336b58e0ceefbdcd2ce3"
         }
       },
@@ -33,7 +33,7 @@
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "https://github.com/oravec-juraj/vesna/releases/download/R20240322/vesna_code_R20240322.zip",
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/vesna-R20240322-all.zip",
           "sha256": "96b89eb1d6b5076f345835c5e6a0e8acda27d953b73b4ced060634411a4c5ec7"
         }
       },
@@ -44,7 +44,7 @@
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "https://github.com/oravec-juraj/vesna/releases/download/R20231117/vesna_code_R20231117.zip",
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/vesna-R20231117-all.zip",
           "sha256": "e32133cc28edea741d5b553bc1788cb405db309542356b34df9dc4b6650c50a3"
         }
       },

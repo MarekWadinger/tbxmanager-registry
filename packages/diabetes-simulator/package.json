@@ -10,7 +10,7 @@
     "0.5.0": {
       "platforms": {
         "all": {
-          "url": "https://github.com/MarekWadinger/diabetes_simulator/releases/download/v0.5.0/diabetes-simulator-all.zip",
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/diabetes-simulator-0.5.0-all.zip",
           "sha256": "7ddd93e54683f288d9ee04e61b3476cc2bb26568b34e5d6c18f18cb47bdb6d22"
         }
       },
@@ -21,7 +21,7 @@
     "0.4.0": {
       "platforms": {
         "all": {
-          "url": "https://github.com/MarekWadinger/diabetes_simulator/releases/download/v0.4.0/diabetes-simulator-all.zip",
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/diabetes-simulator-0.4.0-all.zip",
           "sha256": "7fcb44aeb52d2aadc5813b64b70b69cdd1ee7ce9ac71066b5a736ef97a427278"
         }
       },
@@ -32,7 +32,7 @@
     "0.3.0": {
       "platforms": {
         "all": {
-          "url": "https://github.com/MarekWadinger/diabetes_simulator/releases/download/v0.3.0/diabetes-simulator-all.zip",
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/diabetes-simulator-0.3.0-all.zip",
           "sha256": "e25a022ff1c22141535a90fe64b36ff5e1437dbb8bfe9b770d427e6ceea9152b"
         }
       },
@@ -43,7 +43,7 @@
     "0.2.0": {
       "platforms": {
         "all": {
-          "url": "https://github.com/MarekWadinger/diabetes_simulator/releases/download/v0.2.0/diabetes-simulator-all.zip",
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/diabetes-simulator-0.2.0-all.zip",
           "sha256": "b202f9bb75ed50a4fdb74d4fa6f7ef68f70a0530443761a1190f355326f51c12"
         }
       },
@@ -54,7 +54,7 @@
     "0.1.1": {
       "platforms": {
         "all": {
-          "url": "https://github.com/MarekWadinger/diabetes_simulator/releases/download/v0.1.1/diabetes-simulator-all.zip",
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/diabetes-simulator-0.1.1-all.zip",
           "sha256": "0d6cf217d9fba1a6a36cf7c1771c2a13df1009b27578d870c1bc6fdb5ade379f"
         }
       },
@@ -69,7 +69,7 @@
       },
       "platforms": {
         "all": {
-          "url": "https://github.com/MarekWadinger/diabetes_simulator/releases/download/v0.1.0/diabetes-simulator-all.zip",
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/diabetes-simulator-0.1.0-all.zip",
           "sha256": "092a18818cd06592b7d12d4decd932c647253bd6b2d7ddaee9f4c8f97e30566a"
         }
       },
