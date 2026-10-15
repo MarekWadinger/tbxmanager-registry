@@ -10,7 +10,7 @@
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "https://www.uiam.sk/~kaluz/Flexy2.zip",
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/flexy2-2.0-all.zip",
           "sha256": "19c840033372fc4b2aec3e38bc0192bacca57a066920f2784fd37da5b0f9a0bf"
         }
       },

@@ -11,7 +11,7 @@
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "http://www.uiam.sk/~kvasnica/tbxpool/wsclient/wsclient_1_6_all.zip",
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/wsclient-1.6-all.zip",
           "sha256": "740f6f3e8c65104c6695ec814bbf1b47b2437bc05759a482bb0cc75f8f35adc3"
         }
       },

@@ -10,7 +10,7 @@
       "dependencies": {},
       "platforms": {
         "all": {
-          "url": "https://github.com/martin-kaluz/elab-matlab/archive/master.zip",
+          "url": "https://github.com/MarekWadinger/tbxmanager-registry/releases/download/mirror/archives/elab_manager-1.0-all.zip",
           "sha256": "49c0bcac5bfd26fa084783804093beb6ec8237bfa1a979bfe9472a3405811a11"
         }
       },
